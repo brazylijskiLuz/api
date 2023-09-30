@@ -7,6 +7,5 @@ public interface IUnitOfWork
 {
     Task<int> SaveChangesAsync(CancellationToken cancellationToken = default);
 
-    IInstitutionRepository<University> University { get; }
     IInstitutionRepository<UniversityData> UniversityData { get; }
 }

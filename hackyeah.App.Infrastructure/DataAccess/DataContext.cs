@@ -9,9 +9,7 @@ namespace hackyeah.App.Infrastructure.DataAccess;
 
 public class DataContext : DbContext, IUnitOfWork
 {
-    private DbSet<University> _university { get; set; }
     private DbSet<UniversityData> _universityData { get; set; }
-    public IInstitutionRepository<University> University => new InstitutionRepository<University>(_university);
     public IInstitutionRepository<UniversityData> UniversityData => new InstitutionRepository<UniversityData>(_universityData);
 
     public DataContext(DbContextOptions<DataContext> options) : base(options)

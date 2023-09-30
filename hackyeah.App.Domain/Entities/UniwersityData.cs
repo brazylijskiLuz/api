@@ -15,4 +15,7 @@ public class UniversityData : Entity
     public string KRS { get; set; }
     public string Website { get; set; }
     public string InstitutionType { get; set; }
+    public int Rate { get; set; }
+    public int RateCount { get; set; }
+    public ICollection<Direction> Directions { get; set; }
 }
