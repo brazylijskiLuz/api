@@ -9,9 +9,7 @@ public class Address : ValueObject
     public string City { get; set; }
     public string PostCode { get; set; }
     public string Street { get; set; }
-    public string StreetProps { get; set; }
     public string BuildingNumber { get; set; }
-    public string FlatNumber { get; set; }
 
     
     protected override IEnumerable<object> GetEqualityComponents()
@@ -22,8 +20,6 @@ public class Address : ValueObject
         yield return City;
         yield return PostCode;
         yield return Street;
-        yield return StreetProps;
         yield return BuildingNumber;
-        yield return FlatNumber;
     }
 }

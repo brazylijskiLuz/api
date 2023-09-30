@@ -2,6 +2,7 @@
 using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 using hackyeah.App.Infrastructure.DataAccess;
@@ -11,9 +12,11 @@ using hackyeah.App.Infrastructure.DataAccess;
 namespace hackyeah.App.Infrastructure.Migrations
 {
     [DbContext(typeof(DataContext))]
-    partial class DataContextModelSnapshot : ModelSnapshot
+    [Migration("20230930133658_universityData")]
+    partial class universityData
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        /// <inheritdoc />
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -364,13 +367,11 @@ namespace hackyeah.App.Infrastructure.Migrations
                             b1.Property<Guid>("UniversityDataId")
                                 .HasColumnType("uuid");
 
-                            b1.Property<string>("X")
-                                .IsRequired()
-                                .HasColumnType("text");
+                            b1.Property<double>("X")
+                                .HasColumnType("double precision");
 
-                            b1.Property<string>("Y")
-                                .IsRequired()
-                                .HasColumnType("text");
+                            b1.Property<double>("Y")
+                                .HasColumnType("double precision");
 
                             b1.HasKey("UniversityDataId");
 

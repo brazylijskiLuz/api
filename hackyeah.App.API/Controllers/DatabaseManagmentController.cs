@@ -7,11 +7,13 @@ namespace hackyeah.App.API.Controllers;
 
 [ApiController]
 [Route("/api")]
-public class BaseController : BaseApiController
+public class DatabaseManagmentController : BaseApiController
 {
-    public BaseController(IMediator mediator) : base(mediator) { }
+    public DatabaseManagmentController(IMediator mediator) : base(mediator) { }
     
     [HttpGet]
     public Task<IActionResult> CreateDatabase() => Endpoint(new CreateDatabase.Command());
+    [HttpGet("maps")]
+    public Task<IActionResult> CreateXY() => Endpoint(new GetMapLocalization.Command());
 }
 

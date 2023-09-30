@@ -10,15 +10,19 @@ namespace hackyeah.App.Infrastructure.DataAccess;
 public class DataContext : DbContext, IUnitOfWork
 {
     private DbSet<University> _university { get; set; }
+    private DbSet<UniversityData> _universityData { get; set; }
     public IInstitutionRepository<University> University => new InstitutionRepository<University>(_university);
+    public IInstitutionRepository<UniversityData> UniversityData => new InstitutionRepository<UniversityData>(_universityData);
 
     public DataContext(DbContextOptions<DataContext> options) : base(options)
     {
+        
     }
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
-        
+        modelBuilder.Entity<UniversityData>().OwnsOne(c => c.Address);
+        modelBuilder.Entity<UniversityData>().OwnsOne(c => c.MapLocalization);
         modelBuilder.ApplyConfigurationsFromAssembly(typeof(DataContext).Assembly);
         base.OnModelCreating(modelBuilder);
     }
