@@ -12,8 +12,8 @@ using hackyeah.App.Infrastructure.DataAccess;
 namespace hackyeah.App.Infrastructure.Migrations
 {
     [DbContext(typeof(DataContext))]
-    [Migration("20230930153958_cities")]
-    partial class cities
+    [Migration("20230930195817_change field name, fix Queries")]
+    partial class changefieldnamefixQueries
     {
         /// <inheritdoc />
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
@@ -52,7 +52,7 @@ namespace hackyeah.App.Infrastructure.Migrations
                     b.ToTable("_cities");
                 });
 
-            modelBuilder.Entity("hackyeah.App.Domain.Entities.Direction", b =>
+            modelBuilder.Entity("hackyeah.App.Domain.Entities.DegreeCourse", b =>
                 {
                     b.Property<Guid>("Id")
                         .ValueGeneratedOnAdd()
@@ -131,10 +131,10 @@ namespace hackyeah.App.Infrastructure.Migrations
                     b.ToTable("_universityData");
                 });
 
-            modelBuilder.Entity("hackyeah.App.Domain.Entities.Direction", b =>
+            modelBuilder.Entity("hackyeah.App.Domain.Entities.DegreeCourse", b =>
                 {
                     b.HasOne("hackyeah.App.Domain.Entities.UniversityData", "University")
-                        .WithMany("Directions")
+                        .WithMany("DegreeCourse")
                         .HasForeignKey("UniversityId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
@@ -211,7 +211,7 @@ namespace hackyeah.App.Infrastructure.Migrations
 
             modelBuilder.Entity("hackyeah.App.Domain.Entities.UniversityData", b =>
                 {
-                    b.Navigation("Directions");
+                    b.Navigation("DegreeCourse");
                 });
 #pragma warning restore 612, 618
         }

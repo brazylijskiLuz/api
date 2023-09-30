@@ -17,5 +17,5 @@ public class UniversityData : Entity
     public string InstitutionType { get; set; }
     public int Rate { get; set; }
     public int RateCount { get; set; }
-    public ICollection<Direction> Directions { get; set; }
+    public ICollection<DegreeCourse> DegreeCourse { get; set; }
 }

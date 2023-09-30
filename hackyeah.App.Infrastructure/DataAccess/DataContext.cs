@@ -12,10 +12,10 @@ public class DataContext : DbContext, IUnitOfWork
 {
     private DbSet<UniversityData> _universityData { get; set; }
     private DbSet<City> _cities { get; set; }
-    private DbSet<Direction> _directions { get; set; }
+    private DbSet<DegreeCourse> _directions { get; set; }
     public IInstitutionRepository<UniversityData> UniversityData => new InstitutionRepository<UniversityData>(_universityData);
     public ICityRepository Cities => new CityRepository(_cities);
-    public IBaseRepository<Direction> Directions => new BaseRepository<Direction>(_directions);
+    public IBaseRepository<DegreeCourse> DegreeCourses => new BaseRepository<DegreeCourse>(_directions);
 
     public DataContext(DbContextOptions<DataContext> options) : base(options)
     {

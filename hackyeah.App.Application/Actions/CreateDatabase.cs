@@ -23,29 +23,32 @@ public static class CreateDatabase
 
         public async Task<Unit> Handle(Command request, CancellationToken cancellationToken)
         {
-            //string path = "db.csv";
-            //int i = 0;
-            //var enumLines = File.ReadLines(path, Encoding.UTF8);
+            var x = await _unitOfWork.Cities.GetAllAsync(cancellationToken);
+            var y = await _unitOfWork.UniversityData.GetAllAsync(cancellationToken);
+            var z = y.GroupBy(c => c.Address.City).Select(c => c.Key).ToList();
 
-            //foreach (var line in enumLines)
-            //{
-            //    var split = line.Split(";", StringSplitOptions.TrimEntries);
+            foreach (var i in z)
+            {
+                if(await _unitOfWork.Cities.GetByNamesAsync(i, cancellationToken) != null)
+                    continue;
+                var d = new Domain.Entities.City
+                {
+                    Id = Guid.NewGuid(),
+                    Name = i,
+                    Voivodeship =
+                        (await _unitOfWork.UniversityData.GetByFilterAsync(c => c.Address.City == i, 0, 1,
+                            cancellationToken)).FirstOrDefault().Address.Province,
+                    X = "0",
+                    Y = "0"
+                    
+                    
+                };
+                await _unitOfWork.Cities.AddAsync(d, cancellationToken);
 
-            //    var x = new City()
-            //    {
-            //        X = 0.ToString(),
-            //        Y = 0.ToString(),
-            //        Name = split[1],
-            //        Voivodeship = split[2]
-            //    };
-            //    await _unitOfWork.Cities.AddAsync(x, cancellationToken);
-            //    Console.WriteLine(i); 
-            //    await _unitOfWork.SaveChangesAsync(cancellationToken);
+                Console.WriteLine(i);
+            }
 
-            //    i++;
-            //}
-
-
+            await _unitOfWork.SaveChangesAsync(cancellationToken);
             return Unit.Value;
         }
 

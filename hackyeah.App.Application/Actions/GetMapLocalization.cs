@@ -24,30 +24,28 @@ public static class GetMapLocalization
 
         public async Task<Unit> Handle(Command request, CancellationToken cancellationToken)
         {
-            //var x = await _unitOfWork.UniversityData.GetByFilterAsync(c => c.MapLocalization.X == 0, 0, 100, cancellationToken);
-//
-            //int i = 0;
-            //foreach (var item in x)
-            //{
-            //    HttpClient client = new HttpClient();
-            //    string addressToMap = item.Address.Province + " " + item.Address.City + " " + item.Address.Street + " " + item.Address.BuildingNumber;
-            //    var res = await client.GetAsync($"https://maps.google.com/maps/api/geocode/json?address={addressToMap}&key=AIzaSyB17h7tVIEnND8kQ14kbDT9JMGgIpSpthk", cancellationToken);
-            //    
-//
-            //    JObject resXY = JsonConvert.DeserializeObject<JObject>(await res.Content.ReadAsStringAsync(cancellationToken));
-            //    var Y = double.Parse(resXY["results"][0]["geometry"]["location"]["lat"].ToString());
-            //    var X = double.Parse(resXY["results"][0]["geometry"]["location"]["lng"].ToString());
-            //    
-            //    item.MapLocalization.X = X;
-            //    item.MapLocalization.Y = Y;
-            //    Console.WriteLine(i); 
-            //    
-            //    Console.WriteLine(i);
-            //    i++;
-            //}
-            //
-            //await _unitOfWork.SaveChangesAsync(cancellationToken);
+            var x = await _unitOfWork.Cities.GetAllAsync(cancellationToken);
 
+            int i = 0;
+            foreach (var item in x)
+            {
+                HttpClient client = new HttpClient();
+                string addressToMap = item.Name + " " + item.Voivodeship;
+                var res = await client.GetAsync($"https://maps.google.com/maps/api/geocode/json?address={addressToMap}&key=AIzaSyB17h7tVIEnND8kQ14kbDT9JMGgIpSpthk", cancellationToken);
+                
+
+                JObject resXY = JsonConvert.DeserializeObject<JObject>(await res.Content.ReadAsStringAsync(cancellationToken));
+                var Y = double.Parse(resXY["results"][0]["geometry"]["location"]["lat"].ToString());
+                var X = double.Parse(resXY["results"][0]["geometry"]["location"]["lng"].ToString());
+                
+                item.X = X.ToString();
+                item.Y = Y.ToString();
+                await _unitOfWork.SaveChangesAsync(cancellationToken);
+
+                
+                Console.WriteLine(i);
+                i++;
+            }
             return Unit.Value;
         }
 

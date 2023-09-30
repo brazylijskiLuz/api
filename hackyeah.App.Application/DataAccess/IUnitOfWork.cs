@@ -11,5 +11,5 @@ public interface IUnitOfWork
     IInstitutionRepository<UniversityData> UniversityData { get; }
     
     ICityRepository Cities { get; }
-    IBaseRepository<Direction> Directions { get; }
+    IBaseRepository<DegreeCourse> DegreeCourses { get; }
 }

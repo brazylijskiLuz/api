@@ -6,4 +6,5 @@ namespace hackyeah.App.Application.Repository;
 public interface ICityRepository : IBaseRepository<City>
 {
     Task<List<City>> GetCityAsync(string query, int page, int pageSize, CancellationToken cancellationToken);
+    Task<City> GetByNamesAsync(string s, CancellationToken cancellationToken);
 }

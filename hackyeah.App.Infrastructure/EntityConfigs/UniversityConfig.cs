@@ -12,7 +12,7 @@ public class UniversityConfig : IEntityTypeConfiguration<UniversityData>
         builder.HasIndex(c => c.Id);
         builder.Property(c => c.Id).ValueGeneratedOnAdd();
 
-        builder.HasMany(c => c.Directions)
+        builder.HasMany(c => c.DegreeCourse)
             .WithOne(c => c.University)
             .HasForeignKey(c => c.UniversityId)
             .OnDelete(DeleteBehavior.Cascade);

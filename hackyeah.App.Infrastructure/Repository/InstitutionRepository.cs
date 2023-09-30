@@ -15,7 +15,7 @@ public class InstitutionRepository<T> : BaseRepository<T>, IInstitutionRepositor
 
     public Task<List<T>> GetByFilterAsync(Expression<Func<T, bool>> ex, int page, int pageSize, CancellationToken cancellationToken) => 
         _entities
-        .Include(c => c.Directions)
+        .Include(c => c.DegreeCourse)
         .Where(ex)
         .Skip(page * pageSize).Take(pageSize).ToListAsync<T>(cancellationToken: cancellationToken);
 
@@ -65,12 +65,12 @@ public class InstitutionRepository<T> : BaseRepository<T>, IInstitutionRepositor
 
         Console.WriteLine(sql);
         return _entities.FromSqlRaw(sql)
-            .Include(c => c.Directions)
+            .Include(c => c.DegreeCourse)
             .ToListAsync<T>(cancellationToken: cancellationToken);
     }
 
     public Task<List<T>> GetByCityAsync(string city, int page, int pageSize, CancellationToken cancellationToken) => 
         _entities
-            .Include(c => c.Directions)
+            .Include(c => c.DegreeCourse)
             .Where(c => c.Address.City == city).ToListAsync<T>(cancellationToken: cancellationToken);
 }

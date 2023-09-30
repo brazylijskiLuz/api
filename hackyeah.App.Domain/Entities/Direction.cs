@@ -2,7 +2,7 @@ using Shared.BaseModels.BaseEntities;
 
 namespace hackyeah.App.Domain.Entities;
 
-public class Direction : Entity
+public class DegreeCourse : Entity
 {
     public string Name { get; set; }
     public string Description { get; set; }
