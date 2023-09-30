@@ -1,3 +1,4 @@
+using hackyeah.App.Domain.Enums;
 using hackyeah.App.Domain.ValueObjects;
 using Microsoft.IdentityModel.Tokens;
 using Shared.BaseModels.BaseEntities;
@@ -14,8 +15,9 @@ public class UniversityData : Entity
     public string NIP { get; set; }
     public string KRS { get; set; }
     public string Website { get; set; }
-    public string InstitutionType { get; set; }
     public int Rate { get; set; }
     public int RateCount { get; set; }
+    public string Description { get; set; }
+    public InstitutionType Type { get; set; }
     public ICollection<DegreeCourse> DegreeCourse { get; set; }
 }
