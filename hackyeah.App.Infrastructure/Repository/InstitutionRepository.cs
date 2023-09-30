@@ -1,6 +1,7 @@
 using System.Linq.Expressions;
 using hackyeah.App.Application.Repository;
 using hackyeah.App.Domain.Entities;
+using hackyeah.App.Domain.Enums;
 using Microsoft.EntityFrameworkCore;
 using Shared.BaseModels.BaseEntities;
 
@@ -19,13 +20,14 @@ public class InstitutionRepository<T> : BaseRepository<T>, IInstitutionRepositor
         .Where(ex)
         .Skip(page * pageSize).Take(pageSize).ToListAsync<T>(cancellationToken: cancellationToken);
 
-    public Task<List<T>> GetByQueryAsync(string query, int page, int pageSize, CancellationToken cancellationToken)
+    public Task<List<T>> GetByQueryAsync(string query, int page, List<InstitutionType> institutionTypes,
+        int pageSize, CancellationToken cancellationToken)
     {
         string sql = "SELECT * FROM \"_universityData\" WHERE ";
         var charList = query.Split(' ').ToList();
         int i = 0;
 
-        sql += "(";
+        sql += "((";
         
         foreach (var c in charList)
         {
@@ -59,6 +61,18 @@ public class InstitutionRepository<T> : BaseRepository<T>, IInstitutionRepositor
             else
                 sql += $" Lower(\"Address_City\") Like Lower('%{c}%')";
             i++;
+        }
+
+        i = 0;
+        sql += ")) AND ";
+
+        foreach (var c in institutionTypes)
+        {
+            if (i != 0)
+                sql += $" OR (\"Type\" = '{(int)c}')";
+            else
+                sql += $" ((\"Type\" = '{(int)c}') ";
+            i++;        
         }
 
         sql += $") OFFSET  {page * pageSize} limit {pageSize}";

@@ -1,7 +1,9 @@
 using hackyeah.App.Application.Actions;
 using hackyeah.App.Application.Actions.Data;
+using hackyeah.App.Domain.Enums;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using Shared.BaseModels.ApiControllerModels;
 
 namespace hackyeah.App.API.Controllers;
@@ -14,7 +16,8 @@ public class UniversityController : BaseApiController
 
     [HttpGet]
     [Route("query")]
-    public Task<IActionResult> Get(string query = "", int page = 0) => Endpoint(new GetByQuery.Command(query, page));
+    public Task<IActionResult> Get(string query = "", int page = 0, [FromQuery]List<InstitutionType> types = null)
+        => Endpoint(new GetByQuery.Command(query, page, types));
     [HttpGet]
     [Route("by-city")]
     public Task<IActionResult> GetByCity(Guid cityId, int page = 0) => Endpoint(new GetByCity.Command(cityId, page));
