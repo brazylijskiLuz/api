@@ -8,3 +8,6 @@ services:
       dockerfile: hackyeah.App.API/Dockerfile
     ports:
         - "5015:80"
+    environment:
+      - ASPNETCORE_ENVIRONMENT=Development
+      - ASPNETCORE_URLS=http://+:80
