@@ -16,8 +16,8 @@ public class UniversityController : BaseApiController
 
     [HttpGet]
     [Route("query")]
-    public Task<IActionResult> Get(string query = "", int page = 0, [FromQuery]List<InstitutionType> types = null, int minPrice = 0, int maxPrice = 0)
-        => Endpoint(new GetByQuery.Command(query, page, types, minPrice, maxPrice));
+    public Task<IActionResult> Get(string query = "", int page = 0, [FromQuery]List<InstitutionType> types = null, int minPrice = 0, int maxPrice = 0, ModeOfStudy mode = ModeOfStudy.All)
+        => Endpoint(new GetByQuery.Command(query, page, types, minPrice, maxPrice, mode));
     [HttpGet]
     [Route("by-city")]
     public Task<IActionResult> GetByCity(Guid cityId, int page = 0) => Endpoint(new GetByCity.Command(cityId, page));
