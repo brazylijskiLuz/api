@@ -19,9 +19,10 @@ public class InstitutionRepository<T> : BaseRepository<T>, IInstitutionRepositor
         .Include(c => c.DegreeCourse)
         .Where(ex)
         .Skip(page * pageSize).Take(pageSize).ToListAsync<T>(cancellationToken: cancellationToken);
-
-    public Task<List<T>> GetByQueryAsync(string query, int page, List<InstitutionType> institutionTypes,
-        int pageSize, CancellationToken cancellationToken)
+    
+    public Task<List<T>> GetByQueryAsync(string query, int page, List<InstitutionType> institutionTypes, int minPrice,
+        int maxPrice, int pageSize, CancellationToken cancellationToken)
+        
     {
         string sql = "SELECT * FROM \"_universityData\" WHERE ";
         var charList = query.Split(' ').ToList();
@@ -79,7 +80,8 @@ public class InstitutionRepository<T> : BaseRepository<T>, IInstitutionRepositor
 
         Console.WriteLine(sql);
         return _entities.FromSqlRaw(sql)
-            .Include(c => c.DegreeCourse)
+            .Include(c => c
+                .DegreeCourse.Where(c => c.Price >= minPrice && c.Price <= maxPrice))
             .ToListAsync<T>(cancellationToken: cancellationToken);
     }
 
