@@ -11,9 +11,9 @@ public class DatabaseManagmentController : BaseApiController
 {
     public DatabaseManagmentController(IMediator mediator) : base(mediator) { }
     
-    //[HttpGet]
-    //public Task<IActionResult> CreateDatabase() => Endpoint(new CreateDatabase.Command());
-    //[HttpGet("maps")]
-    //public Task<IActionResult> CreateXY() => Endpoint(new GetMapLocalization.Command());
+    [HttpGet]
+    public Task<IActionResult> CreateDatabase() => Endpoint(new CreateDatabase.Command());
+    [HttpGet("maps")]
+    public Task<IActionResult> CreateXY() => Endpoint(new GetMapLocalization.Command());
 }
 

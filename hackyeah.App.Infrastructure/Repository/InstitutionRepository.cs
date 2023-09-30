@@ -30,9 +30,9 @@ public class InstitutionRepository<T> : BaseRepository<T>, IInstitutionRepositor
         foreach (var c in charList)
         {
             if (i != 0)
-                sql += $" AND \"InstitutionName\" Like '%{c}%' ";
+                sql += $" AND Lower(\"InstitutionName\") Like Lower('%{c}%') ";
             else
-                sql += $" \"InstitutionName\" Like '%{c}%' ";
+                sql += $" Lower(\"InstitutionName\") Like Lower('%{c}%') ";
             i++;
 
         }
@@ -43,9 +43,9 @@ public class InstitutionRepository<T> : BaseRepository<T>, IInstitutionRepositor
         foreach (var c in charList)
         {
             if (i != 0)
-                sql += $" AND \"Website\" Like '%{c}%' ";
+                sql += $" AND Lower(\"Website\") Like Lower('%{c}%') ";
             else
-                sql += $" \"Website\" Like '%{c}%' ";
+                sql += $" Lower(\"Website\") Like Lower('%{c}%') ";
             i++;
         }
 
@@ -55,7 +55,7 @@ public class InstitutionRepository<T> : BaseRepository<T>, IInstitutionRepositor
         foreach (var c in charList)
         {
             if (i != 0)
-                sql += $" AND \"Address_City\" Like '%{c}%'";
+                sql += $" AND Lower(\"Address_City\") Like Lower('%{c}%')";
             else
                 sql += $" Lower(\"Address_City\") Like Lower('%{c}%')";
             i++;

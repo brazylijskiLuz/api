@@ -13,5 +13,5 @@ public class CityController : BaseApiController
     public CityController(IMediator mediator) : base(mediator) { }
     
     [HttpGet]
-    public Task<IActionResult> Get(string query, int page) => Endpoint(new GetCities.Command(query, page));
+    public Task<IActionResult> Get(string query = "" , int page = 0) => Endpoint(new GetCities.Command(query, page));
 }
