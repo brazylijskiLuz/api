@@ -1,0 +1,8 @@
+version: '3.4'
+
+services:
+  hackyeah.app.api:
+    image: ${DOCKER_REGISTRY-}hackyeahappapi
+    build:
+      context: .
+      dockerfile: hackyeah.App.API/Dockerfile

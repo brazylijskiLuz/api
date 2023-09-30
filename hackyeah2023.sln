@@ -1,16 +1,21 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.4.33205.214
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "App", "App", "{BB574E9E-2475-4A70-9B49-4FB9EF636BC7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "hackyeah.App.Infrastructure", "hackyeah.App.Infrastructure\hackyeah.App.Infrastructure.csproj", "{8BBDE8A0-0D05-4B42-BEDF-46923DE431AB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "hackyeah.App.Infrastructure", "hackyeah.App.Infrastructure\hackyeah.App.Infrastructure.csproj", "{8BBDE8A0-0D05-4B42-BEDF-46923DE431AB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "hackyeah.App.Domain", "hackyeah.App.Domain\hackyeah.App.Domain.csproj", "{2789859A-A5B9-463F-9190-21F16786460C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "hackyeah.App.Domain", "hackyeah.App.Domain\hackyeah.App.Domain.csproj", "{2789859A-A5B9-463F-9190-21F16786460C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "hackyeah.App.Application", "hackyeah.App.Application\hackyeah.App.Application.csproj", "{86E30DD2-7CFA-4B95-BBA3-9A905F4F5C4E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "hackyeah.App.Application", "hackyeah.App.Application\hackyeah.App.Application.csproj", "{86E30DD2-7CFA-4B95-BBA3-9A905F4F5C4E}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "hackyeah.App.API", "hackyeah.App.API\hackyeah.App.API.csproj", "{528F777D-E05B-40F0-86F9-9DE9D1F50BEB}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "hackyeah.App.API", "hackyeah.App.API\hackyeah.App.API.csproj", "{528F777D-E05B-40F0-86F9-9DE9D1F50BEB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shared", "Shared\Shared.csproj", "{ECC8C88D-2BE3-44FC-A3AE-CA6741A0D48B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Shared", "Shared\Shared.csproj", "{ECC8C88D-2BE3-44FC-A3AE-CA6741A0D48B}"
+EndProject
+Project("{E53339B2-1760-4266-BCC7-CA923CBCF16C}") = "docker-compose", "docker-compose.dcproj", "{E2DD3110-82CB-4DDB-8F2D-006A4A6D6B56}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -38,11 +43,21 @@ Global
 		{ECC8C88D-2BE3-44FC-A3AE-CA6741A0D48B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{ECC8C88D-2BE3-44FC-A3AE-CA6741A0D48B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{ECC8C88D-2BE3-44FC-A3AE-CA6741A0D48B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E2DD3110-82CB-4DDB-8F2D-006A4A6D6B56}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E2DD3110-82CB-4DDB-8F2D-006A4A6D6B56}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E2DD3110-82CB-4DDB-8F2D-006A4A6D6B56}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E2DD3110-82CB-4DDB-8F2D-006A4A6D6B56}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{8BBDE8A0-0D05-4B42-BEDF-46923DE431AB} = {BB574E9E-2475-4A70-9B49-4FB9EF636BC7}
 		{2789859A-A5B9-463F-9190-21F16786460C} = {BB574E9E-2475-4A70-9B49-4FB9EF636BC7}
 		{86E30DD2-7CFA-4B95-BBA3-9A905F4F5C4E} = {BB574E9E-2475-4A70-9B49-4FB9EF636BC7}
 		{528F777D-E05B-40F0-86F9-9DE9D1F50BEB} = {BB574E9E-2475-4A70-9B49-4FB9EF636BC7}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CA495105-B99A-409B-8582-06B6B3EA2C3D}
 	EndGlobalSection
 EndGlobal

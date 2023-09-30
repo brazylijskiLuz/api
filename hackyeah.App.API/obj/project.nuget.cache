@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "VzQL9XGRwJRgOBLSSguEZ5PZGfI9xLw+f64hsIWxr7h82GJ/mnrbz7Es5UhC2mnvsaTOxwAA1fDtvxzusUcuvg==",
+  "dgSpecHash": "5RIAxWrXdMX0ZzPAYpK5hVS14g9ZX1hOz+sIW0+LbifoWTCDRk8m3RdugB+5fV9JFKTSOXVpCwu92bloPymENQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\rzeja\\Desktop\\hackyeah2023\\hackyeah.App.API\\hackyeah.App.API.csproj",
   "expectedPackageFiles": [
@@ -45,6 +45,7 @@
     "C:\\Users\\rzeja\\.nuget\\packages\\microsoft.netcore.platforms\\5.0.0\\microsoft.netcore.platforms.5.0.0.nupkg.sha512",
     "C:\\Users\\rzeja\\.nuget\\packages\\microsoft.netcore.targets\\1.1.0\\microsoft.netcore.targets.1.1.0.nupkg.sha512",
     "C:\\Users\\rzeja\\.nuget\\packages\\microsoft.openapi\\1.4.3\\microsoft.openapi.1.4.3.nupkg.sha512",
+    "C:\\Users\\rzeja\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.17.0\\microsoft.visualstudio.azure.containers.tools.targets.1.17.0.nupkg.sha512",
     "C:\\Users\\rzeja\\.nuget\\packages\\microsoft.win32.primitives\\4.3.0\\microsoft.win32.primitives.4.3.0.nupkg.sha512",
     "C:\\Users\\rzeja\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",
     "C:\\Users\\rzeja\\.nuget\\packages\\microsoft.win32.systemevents\\4.7.0\\microsoft.win32.systemevents.4.7.0.nupkg.sha512",
