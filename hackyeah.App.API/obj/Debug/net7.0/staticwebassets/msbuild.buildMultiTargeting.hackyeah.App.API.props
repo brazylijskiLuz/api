@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\hackyeah.App.API.props" />
+</Project>

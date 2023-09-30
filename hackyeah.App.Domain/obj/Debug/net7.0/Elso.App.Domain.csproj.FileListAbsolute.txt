@@ -1,0 +1,17 @@
+C:\Users\rzeja\elso\backend\Elso.App.Domain\bin\Debug\net7.0\Elso.App.Domain.deps.json
+C:\Users\rzeja\elso\backend\Elso.App.Domain\bin\Debug\net7.0\Elso.App.Domain.runtimeconfig.json
+C:\Users\rzeja\elso\backend\Elso.App.Domain\bin\Debug\net7.0\Elso.App.Domain.dll
+C:\Users\rzeja\elso\backend\Elso.App.Domain\bin\Debug\net7.0\Elso.App.Domain.pdb
+C:\Users\rzeja\elso\backend\Elso.App.Domain\bin\Debug\net7.0\Shared.dll
+C:\Users\rzeja\elso\backend\Elso.App.Domain\bin\Debug\net7.0\Shared.pdb
+C:\Users\rzeja\elso\backend\Elso.App.Domain\obj\Debug\net7.0\Elso.App.Domain.csproj.AssemblyReference.cache
+C:\Users\rzeja\elso\backend\Elso.App.Domain\obj\Debug\net7.0\Elso.App.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rzeja\elso\backend\Elso.App.Domain\obj\Debug\net7.0\Elso.App.Domain.AssemblyInfoInputs.cache
+C:\Users\rzeja\elso\backend\Elso.App.Domain\obj\Debug\net7.0\Elso.App.Domain.AssemblyInfo.cs
+C:\Users\rzeja\elso\backend\Elso.App.Domain\obj\Debug\net7.0\Elso.App.Domain.csproj.CoreCompileInputs.cache
+C:\Users\rzeja\elso\backend\Elso.App.Domain\obj\Debug\net7.0\Elso.App.Domain.csproj.CopyComplete
+C:\Users\rzeja\elso\backend\Elso.App.Domain\obj\Debug\net7.0\Elso.App.Domain.dll
+C:\Users\rzeja\elso\backend\Elso.App.Domain\obj\Debug\net7.0\refint\Elso.App.Domain.dll
+C:\Users\rzeja\elso\backend\Elso.App.Domain\obj\Debug\net7.0\Elso.App.Domain.pdb
+C:\Users\rzeja\elso\backend\Elso.App.Domain\obj\Debug\net7.0\Elso.App.Domain.genruntimeconfig.cache
+C:\Users\rzeja\elso\backend\Elso.App.Domain\obj\Debug\net7.0\ref\Elso.App.Domain.dll

@@ -1,0 +1,19 @@
+using Microsoft.Extensions.Configuration;
+using Shared.PublicEnums;
+
+namespace Shared.Service.Implementations.FileManagerExtensions.PathManager;
+
+public class FilePathMinPathManager : IFilePathManager
+{
+    private readonly string _imageExtension;
+    private readonly string _imagePath;
+    private const string MinifiedImageName = "-min";
+    public FilePathMinPathManager(IConfiguration configuration)
+    {
+        _imagePath = configuration["PathToImages"]!;
+        _imageExtension = configuration["ImageExtension"]!;
+    }
+    public string FactoryOutPutPath(string fileName, ImageType imageType) => $"{DictionaryNames.Dictionary[imageType]}{fileName.Split(DictionaryNames.Dictionary[imageType])[1]}";
+    public string FactoryFilePath(ImageType imageType, Guid imageId) => $"{_imagePath}/{DictionaryNames.Dictionary[imageType]}/{imageId}{MinifiedImageName}.{_imageExtension}";
+    public string FactoryLocalFilePath(ImageType imageType, Guid imageId) => $"{DictionaryNames.Dictionary[imageType]}-{imageId}{MinifiedImageName}.{_imageExtension}";
+}

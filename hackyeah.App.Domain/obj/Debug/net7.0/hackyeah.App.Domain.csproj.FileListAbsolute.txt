@@ -1,0 +1,17 @@
+C:\Users\rzeja\Desktop\hackyeah2023\hackyeah.App.Domain\bin\Debug\net7.0\hackyeah.App.Domain.deps.json
+C:\Users\rzeja\Desktop\hackyeah2023\hackyeah.App.Domain\bin\Debug\net7.0\hackyeah.App.Domain.runtimeconfig.json
+C:\Users\rzeja\Desktop\hackyeah2023\hackyeah.App.Domain\bin\Debug\net7.0\hackyeah.App.Domain.dll
+C:\Users\rzeja\Desktop\hackyeah2023\hackyeah.App.Domain\bin\Debug\net7.0\hackyeah.App.Domain.pdb
+C:\Users\rzeja\Desktop\hackyeah2023\hackyeah.App.Domain\bin\Debug\net7.0\Shared.dll
+C:\Users\rzeja\Desktop\hackyeah2023\hackyeah.App.Domain\bin\Debug\net7.0\Shared.pdb
+C:\Users\rzeja\Desktop\hackyeah2023\hackyeah.App.Domain\obj\Debug\net7.0\hackyeah.App.Domain.csproj.AssemblyReference.cache
+C:\Users\rzeja\Desktop\hackyeah2023\hackyeah.App.Domain\obj\Debug\net7.0\hackyeah.App.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\rzeja\Desktop\hackyeah2023\hackyeah.App.Domain\obj\Debug\net7.0\hackyeah.App.Domain.AssemblyInfoInputs.cache
+C:\Users\rzeja\Desktop\hackyeah2023\hackyeah.App.Domain\obj\Debug\net7.0\hackyeah.App.Domain.AssemblyInfo.cs
+C:\Users\rzeja\Desktop\hackyeah2023\hackyeah.App.Domain\obj\Debug\net7.0\hackyeah.App.Domain.csproj.CoreCompileInputs.cache
+C:\Users\rzeja\Desktop\hackyeah2023\hackyeah.App.Domain\obj\Debug\net7.0\hackyeah.App.Domain.csproj.CopyComplete
+C:\Users\rzeja\Desktop\hackyeah2023\hackyeah.App.Domain\obj\Debug\net7.0\hackyeah.App.Domain.dll
+C:\Users\rzeja\Desktop\hackyeah2023\hackyeah.App.Domain\obj\Debug\net7.0\refint\hackyeah.App.Domain.dll
+C:\Users\rzeja\Desktop\hackyeah2023\hackyeah.App.Domain\obj\Debug\net7.0\hackyeah.App.Domain.pdb
+C:\Users\rzeja\Desktop\hackyeah2023\hackyeah.App.Domain\obj\Debug\net7.0\hackyeah.App.Domain.genruntimeconfig.cache
+C:\Users\rzeja\Desktop\hackyeah2023\hackyeah.App.Domain\obj\Debug\net7.0\ref\hackyeah.App.Domain.dll

@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Elso.App.API.props" />
+</Project>
