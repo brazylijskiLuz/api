@@ -19,14 +19,19 @@ public class InstitutionRepository<T> : BaseRepository<T>, IInstitutionRepositor
         .Include(c => c.DegreeCourse)
         .Where(ex)
         .Skip(page * pageSize).Take(pageSize).ToListAsync<T>(cancellationToken: cancellationToken);
-    
-    public Task<List<T>> GetByQueryAsync(string query, int page, List<InstitutionType> institutionTypes, int minPrice,
-        int maxPrice, int pageSize, CancellationToken cancellationToken)
-        
+
+
+
+    public Task<List<T>> GetByQueryAsync(string query, int page, List<InstitutionType> institutionTypes, 
+        int minPrice, int maxPrice, int pageSize,ModeOfStudy mode, CancellationToken cancellationToken)
     {
-        string sql = "SELECT * FROM \"_universityData\" WHERE ";
+        if (maxPrice == 0)
+        {
+            maxPrice = 999999;
+        }
+        var sql = "SELECT * FROM \"_universityData\" WHERE ";
         var charList = query.Split(' ').ToList();
-        int i = 0;
+        var i = 0;
 
         sql += "((";
         
@@ -65,7 +70,15 @@ public class InstitutionRepository<T> : BaseRepository<T>, IInstitutionRepositor
         }
 
         i = 0;
-        sql += ")) AND ";
+        if (institutionTypes.Count == 0 || institutionTypes is null)
+        {
+            sql += ")";
+        }
+        else
+        {
+            sql += ")) AND ";
+        }
+        
 
         foreach (var c in institutionTypes)
         {
@@ -81,12 +94,19 @@ public class InstitutionRepository<T> : BaseRepository<T>, IInstitutionRepositor
         Console.WriteLine(sql);
         return _entities.FromSqlRaw(sql)
             .Include(c => c
-                .DegreeCourse.Where(c => c.Price >= minPrice && c.Price <= maxPrice))
+                .DegreeCourse
+                .Where(c => 
+                    (c.Price >= minPrice && c.Price <= maxPrice) &&
+                    (c.ModeOfStudy == ModeOfStudy.All ? 
+                        c.ModeOfStudy == ModeOfStudy.Remote || c.ModeOfStudy == ModeOfStudy.Stationary :
+                            (c.ModeOfStudy == mode)
+                        )
+                ))
             .ToListAsync<T>(cancellationToken: cancellationToken);
     }
 
     public Task<List<T>> GetByCityAsync(string city, int page, int pageSize, CancellationToken cancellationToken) => 
         _entities
             .Include(c => c.DegreeCourse)
-            .Where(c => c.Address.City.ToLower() == city.ToLower()).ToListAsync<T>(cancellationToken: cancellationToken);
+            .Where(c => string.Equals(c.Address.City, city, StringComparison.CurrentCultureIgnoreCase)).ToListAsync<T>(cancellationToken: cancellationToken);
 }

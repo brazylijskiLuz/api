@@ -8,7 +8,7 @@ namespace hackyeah.App.Application.Actions.Data;
 
 public static class GetByQuery
 {
-    public sealed record Command(string query, int page, List<InstitutionType> institutionTypes, int minPrice, int maxPrice) : IRequest<List<UniversityData>>;
+    public sealed record Command(string query, int page, List<InstitutionType> institutionTypes, int minPrice, int maxPrice, ModeOfStudy mode) : IRequest<List<UniversityData>>;
 
     public class Handler : IRequestHandler<Command, List<UniversityData>>
     {
@@ -19,11 +19,9 @@ public static class GetByQuery
             _unitOfWork = unitOfWork;
         }
 
-        public Task<List<UniversityData>> Handle(Command request, CancellationToken cancellationToken)
-        {
-            return _unitOfWork.UniversityData.GetByQueryAsync(request.query, request.page, request.institutionTypes, request.minPrice, request.maxPrice, _pageSize,
-                cancellationToken);
-        }
+        public Task<List<UniversityData>> Handle(Command request, CancellationToken cancellationToken) =>
+            _unitOfWork.UniversityData.GetByQueryAsync(request.query, request.page, request.institutionTypes, request.minPrice, 
+                request.maxPrice, _pageSize, request.mode, cancellationToken);
 
         public sealed class Validator : AbstractValidator<Command>
         {

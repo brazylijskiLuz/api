@@ -1,6 +1,8 @@
 namespace hackyeah.App.Domain.Enums;
 
-public class ModeOfStudy
+public enum ModeOfStudy
 {
-    
+    All,
+    Stationary,
+    Remote
 }

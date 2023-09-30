@@ -1,3 +1,4 @@
+using hackyeah.App.Domain.Enums;
 using Shared.BaseModels.BaseEntities;
 
 namespace hackyeah.App.Domain.Entities;
@@ -9,6 +10,7 @@ public class DegreeCourse : Entity
     public int Rate { get; set; }
     public int RateCount { get; set; }
     public int Price { get; set; }
+    public ModeOfStudy ModeOfStudy { get; set; }
     public Guid UniversityId { get; set; }
     public UniversityData University { get; set; }
 }
