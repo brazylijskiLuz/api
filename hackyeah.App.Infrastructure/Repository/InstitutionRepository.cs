@@ -72,5 +72,5 @@ public class InstitutionRepository<T> : BaseRepository<T>, IInstitutionRepositor
     public Task<List<T>> GetByCityAsync(string city, int page, int pageSize, CancellationToken cancellationToken) => 
         _entities
             .Include(c => c.DegreeCourse)
-            .Where(c => c.Address.City == city).ToListAsync<T>(cancellationToken: cancellationToken);
+            .Where(c => c.Address.City.ToLower() == city.ToLower()).ToListAsync<T>(cancellationToken: cancellationToken);
 }
