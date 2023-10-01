@@ -20,12 +20,9 @@ public class InstitutionRepository<T> : BaseRepository<T>, IInstitutionRepositor
         .Include(c => c.DegreeCourse)
         .Where(ex)
         .Skip(page * pageSize).Take(pageSize).ToListAsync<T>(cancellationToken: cancellationToken);
-
-
-
+    
     public Task<List<T>> GetByQueryAsync(string query, int page, List<InstitutionType> institutionTypes,
         int minPrice, int maxPrice, int pageSize, ModeOfStudy mode, string city,
-        List<Guid> requestDegreeCourses,
         CancellationToken cancellationToken)
     {
         if (maxPrice == 0)
@@ -92,7 +89,7 @@ public class InstitutionRepository<T> : BaseRepository<T>, IInstitutionRepositor
             i++;        
         }
 
-        sql += $") AND Lower(\"Address_City\") LIKE '%{city.ToLower()}%' order by \"Rate\" ASC OFFSET  {page * pageSize} limit {pageSize} ";
+        sql += $") AND Lower(\"Address_City\") LIKE '%{city.ToLower()}%' order by \"Rate\" DESC OFFSET  {page * pageSize} limit {pageSize} ";
 
         Console.WriteLine(sql);
         return _entities.FromSqlRaw(sql)
@@ -100,6 +97,7 @@ public class InstitutionRepository<T> : BaseRepository<T>, IInstitutionRepositor
                 .DegreeCourse
                 .Where(c => 
                     (c.Price >= minPrice && c.Price <= maxPrice) && c.ModeOfStudy == mode || mode == ModeOfStudy.All))
+            
         .ToListAsync<T>(cancellationToken: cancellationToken);
     }
 
@@ -107,15 +105,4 @@ public class InstitutionRepository<T> : BaseRepository<T>, IInstitutionRepositor
         _entities
             .Include(c => c.DegreeCourse)
             .Where(c => string.Equals(c.Address.City, city, StringComparison.CurrentCultureIgnoreCase)).ToListAsync<T>(cancellationToken: cancellationToken);
-
-    private static bool CheckModeOfStudy(ModeOfStudy mode, DegreeCourse c)
-    {
-        return mode switch
-        {
-            ModeOfStudy.All => true,
-            ModeOfStudy.Stationary => c.ModeOfStudy == ModeOfStudy.Stationary,
-            ModeOfStudy.Remote => c.ModeOfStudy == ModeOfStudy.Remote,
-            _ => false
-        };
-    }
 }
