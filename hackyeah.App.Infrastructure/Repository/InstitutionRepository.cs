@@ -25,6 +25,7 @@ public class InstitutionRepository<T> : BaseRepository<T>, IInstitutionRepositor
 
     public Task<List<T>> GetByQueryAsync(string query, int page, List<InstitutionType> institutionTypes,
         int minPrice, int maxPrice, int pageSize, ModeOfStudy mode, string city,
+        List<Guid> requestDegreeCourses,
         CancellationToken cancellationToken)
     {
         if (maxPrice == 0)
@@ -91,7 +92,7 @@ public class InstitutionRepository<T> : BaseRepository<T>, IInstitutionRepositor
             i++;        
         }
 
-        sql += $") AND Lower(\"Address_City\") LIKE '%{city.ToLower()}%' order by \"Rate\" DESC OFFSET  {page * pageSize} limit {pageSize} ";
+        sql += $") AND Lower(\"Address_City\") LIKE '%{city.ToLower()}%' order by \"Rate\" ASC OFFSET  {page * pageSize} limit {pageSize} ";
 
         Console.WriteLine(sql);
         return _entities.FromSqlRaw(sql)
@@ -99,6 +100,7 @@ public class InstitutionRepository<T> : BaseRepository<T>, IInstitutionRepositor
                 .DegreeCourse
                 .Where(c => 
                     (c.Price >= minPrice && c.Price <= maxPrice) && c.ModeOfStudy == mode || mode == ModeOfStudy.All))
+            .Where(c => c.DegreeCourse.Any(x => requestDegreeCourses.Contains(x.Id)))
         .ToListAsync<T>(cancellationToken: cancellationToken);
     }
 

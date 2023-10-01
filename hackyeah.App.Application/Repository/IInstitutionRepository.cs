@@ -11,6 +11,7 @@ public interface IInstitutionRepository<T> : IBaseRepository<T> where T : Entity
     Task<List<T>> GetByQueryAsync(string query, int page, List<InstitutionType> institutionTypes, int requestMinPrice,
         int requestMaxPrice, int pageSize, ModeOfStudy mode,
         string requestCity,
+        List<Guid> requestDegreeCourses,
         CancellationToken cancellationToken);
     Task<List<T>> GetByCityAsync(string city, int page, int pageSize, CancellationToken cancellationToken);
 }
