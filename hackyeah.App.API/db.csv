@@ -1,63 +1,3654 @@
-37c14d16-92ea-4774-97aa-326eda9fe33a,Informatyka,Zawiera zagadnienia związane z programowaniem,45,100,37c14d16-92ea-4774-97aa-326eda9fe33a,1,1500
-c53d3238-3fe7-42a7-ad09-b2b0957e3245,Inżynieria Morska,Specjalizacja w dziedzinie budowy statków,42,95,c53d3238-3fe7-42a7-ad09-b2b0957e3245,0,1600
-80feb5de-f2c7-47cc-a925-3fca14afd616,Zarządzanie Informatyką,Kursy z zakresu zarządzania projektami IT,47,120,80feb5de-f2c7-47cc-a925-3fca14afd616,1,1700
-930ee6b8-9ee6-4db4-9b87-f969162d8cca,Zarządzanie Biznesem,Studia z zarządzania biznesem,48,110,930ee6b8-9ee6-4db4-9b87-f969162d8cca,1,1800
-9ac7859b-6553-43c3-9608-4b5c996f3977,Handel Międzynarodowy,Specjalizacja w handlu z krajami Azji,44,105,9ac7859b-6553-43c3-9608-4b5c996f3977,0,1550
-e6360391-613d-43f1-9d5e-35cf7b8d5992,Górnictwo i Hutnictwo,Zajęcia obejmujące projektowanie kopalń,46,98,e6360391-613d-43f1-9d5e-35cf7b8d5992,1,1650
-0f409379-309d-4caf-a40f-e3090dd39400,Inżynieria Elektroniczna,Kierunek z nauką o układach elektronicznych,43,115,0f409379-309d-4caf-a40f-e3090dd39400,1,1750
-7e7f29b8-0bb0-42dc-a3c4-952a05d4f205,Psychologia,Podstawy psychoterapii i psychologii klinicznej,49,125,7e7f29b8-0bb0-42dc-a3c4-952a05d4f205,1,1900
-f666ac2d-e473-4d99-baab-6f22637cd473,Inżynieria Chemiczna,Praktyczne ćwiczenia z chemii analitycznej,42,102,f666ac2d-e473-4d99-baab-6f22637cd473,0,1620
-bcab1d0f-9d27-48a3-9290-55a48c9aa81e,Informatyka Stosowana,Zaawansowane programowanie w językach C++ i Java,47,112,bcab1d0f-9d27-48a3-9290-55a48c9aa81e,1,1680
-c53d3238-3fe7-42a7-ad09-b2b0957e3245,Chemia,Chemia organiczna i nieorganiczna,46,105,c53d3238-3fe7-42a7-ad09-b2b0957e3245,1,1700
-80feb5de-f2c7-47cc-a925-3fca14afd616,Zoologia,Biologia i anatomia zwierząt,44,110,80feb5de-f2c7-47cc-a925-3fca14afd616,1,1800
-930ee6b8-9ee6-4db4-9b87-f969162d8cca,Fizyka,Elektromagnetyzm i teoria względności,47,112,930ee6b8-9ee6-4db4-9b87-f969162d8cca,0,1550
-9ac7859b-6553-43c3-9608-4b5c996f3977,Inżynieria Lądowa,Projektowanie dróg i mostów,43,100,9ac7859b-6553-43c3-9608-4b5c996f3977,1,1650
-e6360391-613d-43f1-9d5e-35cf7b8d5992,Informatyka Medyczna,Systemy informatyczne w medycynie,48,115,e6360391-613d-43f1-9d5e-35cf7b8d5992,1,1750
-0f409379-309d-4caf-a40f-e3090dd39400,Piekarstwo i Cukiernictwo,Technologie produkcji pieczywa i słodyczy,45,98,0f409379-309d-4caf-a40f-e3090dd39400,0,1620
-f666ac2d-e473-4d99-baab-6f22637cd473,Architektura,Koncepcje i projekty architektoniczne,47,112,f666ac2d-e473-4d99-baab-6f22637cd473,0,1630
-bcab1d0f-9d27-48a3-9290-55a48c9aa81e,Zarządzanie Zasobami Ludzkimi,Techniki rekrutacji i zarządzania personelem,45,100,bcab1d0f-9d27-48a3-9290-55a48c9aa81e,1,1770
-e89207e7-0633-4cc9-8a53-82ad74b01e96,Prawo Międzynarodowe,Prawo międzynarodowe publiczne i prywatne,46,105,e89207e7-0633-4cc9-8a53-82ad74b01e96,1,1830
-37c14d16-92ea-4774-97aa-326eda9fe33a,Kosmetologia,Techniki masażu i pielęgnacji skóry,44,110,37c14d16-92ea-4774-97aa-326eda9fe33a,0,1550
-c53d3238-3fe7-42a7-ad09-b2b0957e3245,Medycyna Weterynaryjna,Anatomia zwierząt i leczenie chorób,48,115,c53d3238-3fe7-42a7-ad09-b2b0957e3245,1,1650
-80feb5de-f2c7-47cc-a925-3fca14afd616,Psychologia Kliniczna i Zdrowia,Diagnoza i terapia zaburzeń psychicznych,43,100,80feb5de-f2c7-47cc-a925-3fca14afd616,1,1750
-930ee6b8-9ee6-4db4-9b87-f969162d8cca,Pieśniarstwo,Techniki wokalne i interpretacja tekstów,45,98,930ee6b8-9ee6-4db4-9b87-f969162d8cca,0,1620
-9ac7859b-6553-43c3-9608-4b5c996f3977,Międzynarodowe Stosunki Gospodarcze,Handel międzynarodowy i prawo handlowe,47,112,9ac7859b-6553-43c3-9608-4b5c996f3977,1,1680
-0f409379-309d-4caf-a40f-e3090dd39400,Fizyka Teoretyczna,Mechanika kwantowa i teoria względności,48,115,0f409379-309d-4caf-a40f-e3090dd39400,1,1800
-7e7f29b8-0bb0-42dc-a3c4-952a05d4f205,Informatyka Medyczna,Systemy informatyczne w medycynie,45,100,7e7f29b8-0bb0-42dc-a3c4-952a05d4f205,1,1850
-f666ac2d-e473-4d99-baab-6f22637cd473,Inżynieria Dźwięku,Technologie nagrywania i produkcji dźwięku,42,102,f666ac2d-e473-4d99-baab-6f22637cd473,0,1630
-bcab1d0f-9d27-48a3-9290-55a48c9aa81e,Inżynieria Biomedyczna,Urządzenia medyczne i technologie rehabilitacyjne,46,108,bcab1d0f-9d27-48a3-9290-55a48c9aa81e,1,1700
-e89207e7-0633-4cc9-8a53-82ad74b01e96,Studia Wielokierunkowe,Interdyscyplinarne zajęcia z różnych dziedzin,44,107,e89207e7-0633-4cc9-8a53-82ad74b01e96,1,1750
-37c14d16-92ea-4774-97aa-326eda9fe33a,Zootechnika,Hodowla zwierząt gospodarskich,41,98,37c14d16-92ea-4774-97aa-326eda9fe33a,0,1600
-c53d3238-3fe7-42a7-ad09-b2b0957e3245,Inżynieria Ruchu Drogowego,Projektowanie układów drogowych,46,105,c53d3238-3fe7-42a7-ad09-b2b0957e3245,1,1770
-80feb5de-f2c7-47cc-a925-3fca14afd616,Inżynieria Telekomunikacyjna,Systemy komunikacji i sieci teleinformatyczne,44,110,80feb5de-f2c7-47cc-a925-3fca14afd616,1,1800
-9ac7859b-6553-43c3-9608-4b5c996f3977,Inżynieria Materiałowa,Projektowanie nowych materiałów i technologii produkcji,43,100,9ac7859b-6553-43c3-9608-4b5c996f3977,1,1750
-e6360391-613d-43f1-9d5e-35cf7b8d5992,Inżynieria Środowiska,Projektowanie systemów ochrony środowiska,48,115,e6360391-613d-43f1-9d5e-35cf7b8d5992,1,1850
-0f409379-309d-4caf-a40f-e3090dd39400,Inżynieria Wodna,Projektowanie systemów zaopatrzenia w wodę i kanalizacji,45,98,0f409379-309d-4caf-a40f-e3090dd39400,0,1620
-7e7f29b8-0bb0-42dc-a3c4-952a05d4f205,Inżynieria Rolnictwa,Innowacyjne metody uprawy roślin i hodowli zwierząt,46,105,7e7f29b8-0bb0-42dc-a3c4-952a05d4f205,1,1770
-f666ac2d-e473-4d99-baab-6f22637cd473,Inżynieria Lotnicza,Projektowanie i konstrukcja statków powietrznych,42,102,f666ac2d-e473-4d99-baab-6f22637cd473,0,1630
-bcab1d0f-9d27-48a3-9290-55a48c9aa81e,Inżynieria Biotechnologiczna,Technologie produkcji i przetwarzania substancji biologicznych,46,108,bcab1d0f-9d27-48a3-9290-55a48c9aa81e,1,1700
-e89207e7-0633-4cc9-8a53-82ad74b01e96,Inżynieria Jądrowa,Technologie produkcji energii jądrowej,44,107,e89207e7-0633-4cc9-8a53-82ad74b01e96,1,1750
-37c14d16-92ea-4774-97aa-326eda9fe33a,Farmacja,Przygotowanie i analiza leków,41,98,37c14d16-92ea-4774-97aa-326eda9fe33a,0,1600
-c53d3238-3fe7-42a7-ad09-b2b0957e3245,Kosmetologia,Techniki masażu i pielęgnacji skóry,46,105,c53d3238-3fe7-42a7-ad09-b2b0957e3245,1,1770
-80feb5de-f2c7-47cc-a925-3fca14afd616,Inżynieria Materiałowa,Technologie produkcji i przetwarzania materiałów,44,110,80feb5de-f2c7-47cc-a925-3fca14afd616,1,1800
-930ee6b8-9ee6-4db4-9b87-f969162d8cca,Inżynieria Produkcji,Planowanie i zarządzanie procesami produkcyjnymi,47,112,930ee6b8-9ee6-4db4-9b87-f969162d8cca,0,1550
-9ac7859b-6553-43c3-9608-4b5c996f3977,Informatyka Medyczna,Technologie informatyczne w medycynie,43,100,9ac7859b-6553-43c3-9608-4b5c996f3977,1,1650
-e6360391-613d-43f1-9d5e-35cf7b8d5992,Inżynieria Transportu,Projektowanie i zarządzanie systemami transportowymi,48,115,e6360391-613d-43f1-9d5e-35cf7b8d5992,1,1750
-f666ac2d-e473-4d99-baab-6f22637cd473,Inżynieria Lotnicza,Projektowanie i konstrukcja statków powietrznych,42,102,f666ac2d-e473-4d99-baab-6f22637cd473,0,1630
-e89207e7-0633-4cc9-8a53-82ad74b01e96,Farmacja,Przygotowanie i analiza leków,41,98,e89207e7-0633-4cc9-8a53-82ad74b01e96,0,1600
-37c14d16-92ea-4774-97aa-326eda9fe33a,Kosmetologia,Techniki masażu i pielęgnacji skóry,46,105,37c14d16-92ea-4774-97aa-326eda9fe33a,1,1770
-c53d3238-3fe7-42a7-ad09-b2b0957e3245,Zootechnika,Hodowla zwierząt gospodarskich,44,110,c53d3238-3fe7-42a7-ad09-b2b0957e3245,1,1800
-80feb5de-f2c7-47cc-a925-3fca14afd616,Inżynieria Materiałowa,Technologie produkcji i przetwarzania materiałów,42,102,80feb5de-f2c7-47cc-a925-3fca14afd616,1,1850
-930ee6b8-9ee6-4db4-9b87-f969162d8cca,Inżynieria Produkcji,Planowanie i zarządzanie procesami produkcyjnymi,47,112,930ee6b8-9ee6-4db4-9b87-f969162d8cca,0,1550
-9ac7859b-6553-43c3-9608-4b5c996f3977,Informatyka Medyczna,Technologie informatyczne w medycynie,43,100,9ac7859b-6553-43c3-9608-4b5c996f3977,1,1650
-e6360391-613d-43f1-9d5e-35cf7b8d5992,Inżynieria Transportu,Projektowanie i zarządzanie systemami transportowymi,48,115,e6360391-613d-43f1-9d5e-35cf7b8d5992,1,1750
-0f409379-309d-4caf-a40f-e3090dd39400,Inżynieria Środowiska,Projektowanie systemów ochrony środowiska,45,98,0f409379-309d-4caf-a40f-e3090dd39400,0,1620
-7e7f29b8-0bb0-42dc-a3c4-952a05d4f205,Inżynieria Rolnictwa,Innowacyjne metody uprawy roślin i hodowli zwierząt,46,105,7e7f29b8-0bb0-42dc-a3c4-952a05d4f205,1,1770
-f666ac2d-e473-4d99-baab-6f22637cd473,Inżynieria Lotnicza,Projektowanie i konstrukcja statków powietrznych,42,102,f666ac2d-e473-4d99-baab-6f22637cd473,0,1630
-bcab1d0f-9d27-48a3-9290-55a48c9aa81e,Inżynieria Biotechnologiczna,Technologie produkcji i przetwarzania substancji biologicznych,46,108,bcab1d0f-9d27-48a3-9290-55a48c9aa81e,1,1700
-e89207e7-0633-4cc9-8a53-82ad74b01e96,Inżynieria Jądrowa,Technologie produkcji energii jądrowej,44,107,e89207e7-0633-4cc9-8a53-82ad74b01e96,1,1750
-37c14d16-92ea-4774-97aa-326eda9fe33a,Farmacja,Przygotowanie i analiza leków,41,98,37c14d16-92ea-4774-97aa-326eda9fe33a,0,1600
-c53d3238-3fe7-42a7-ad09-b2b0957e3245,Kosmetologia,Techniki masażu i pielęgnacji skóry,46,105,c53d3238-3fe7-42a7-ad09-b2b0957e3245,1,1770
-80feb5de-f2c7-47cc-a925-3fca14afd616,Inżynieria Materiałowa,Technologie produkcji i przetwarzania materiałów,44,110,80feb5de-f2c7-47cc-a925-3fca14afd616,1,1800
-930ee6b8-9ee6-4db4-9b87-f969162d8cca,Inżynieria Produkcji,Planowanie i zarządzanie procesami produkcyjnymi,47,112,930ee6b8-9ee6-4db4-9b87-f969162d8cca,0,1550
-9ac7859b-6553-43c3-9608-4b5c996f3977,Informatyka Medyczna,Technologie informatyczne w medycynie,43,100,9ac7859b-6553-43c3-9608-4b5c996f3977,1,1650
+{
+    "list": [
+        {
+            "universityName": "Akademia Ateneum w Gdańsku",
+            "id": "9df5f47b-8e7f-4055-b23b-a776deb2eb40",
+            "coursesOfStudy": 9,
+            "postgraduate": 0,
+            "level": "I Stopnia, Jednolite magisterskie",
+            "type": "Niestacjonarne, Stacjonarne",
+            "city": "Gdańsk",
+            "courses": null
+        },
+        {
+            "universityName": "Akademia Bialska im. Jana Pawła II",
+            "id": "e00984ad-9132-466e-bf83-83672b170fe6",
+            "coursesOfStudy": 28,
+            "postgraduate": 0,
+            "level": "I Stopnia, Jednolite magisterskie",
+            "type": "Niestacjonarne, Stacjonarne",
+            "city": "Biała Podlaska",
+            "courses": null
+        },
+        {
+            "universityName": "Akademia Ekonomiczno-Humanistyczna w Warszawie",
+            "id": "e1097367-29b7-4d04-9637-026720d2f09a",
+            "coursesOfStudy": 34,
+            "postgraduate": 0,
+            "level": "I Stopnia, Jednolite magisterskie",
+            "type": "Niestacjonarne, Stacjonarne",
+            "city": "Warszawa",
+            "courses": null
+        },
+        {
+            "universityName": "Akademia Finansów i Biznesu Vistula",
+            "id": "8f073cfe-e8b7-489f-ae4d-4467907f97b9",
+            "coursesOfStudy": 34,
+            "postgraduate": 0,
+            "level": "I Stopnia, Jednolite magisterskie",
+            "type": "Niestacjonarne, Stacjonarne",
+            "city": "Warszawa",
+            "courses": null
+        },
+        {
+            "universityName": "Akademia Górniczo-Hutnicza im. Stanisława Staszica w Krakowie",
+            "id": "6f6d264f-3407-4244-a944-3f10d1adcfea",
+            "coursesOfStudy": 95,
+            "postgraduate": 0,
+            "level": "I Stopnia",
+            "type": "Niestacjonarne, Stacjonarne",
+            "city": "Kraków",
+            "courses": null
+        },
+        {
+            "universityName": "Akademia Górnośląska im. Wojciecha Korfantego w Katowicach",
+            "id": "e7086a5a-33b8-4ba7-a79f-f1d920217ec7",
+            "coursesOfStudy": 23,
+            "postgraduate": 0,
+            "level": "I Stopnia, Jednolite magisterskie",
+            "type": "Niestacjonarne, Stacjonarne",
+            "city": "Katowice",
+            "courses": null
+        },
+        {
+            "universityName": "Akademia Handlowa Nauk Stosowanych w Radomiu",
+            "id": "2809fa46-9712-49e6-bcf9-692adeb6ae1e",
+            "coursesOfStudy": 17,
+            "postgraduate": 0,
+            "level": "I Stopnia, Jednolite magisterskie",
+            "type": "Niestacjonarne, Stacjonarne",
+            "city": "Radom",
+            "courses": null
+        },
+        {
+            "universityName": "Akademia Humanistyczno-Ekonomiczna w Łodzi",
+            "id": "b901bb1e-694e-47ea-81a8-1e021604f3c3",
+            "coursesOfStudy": 46,
+            "postgraduate": 0,
+            "level": null,
+            "type": "Niestacjonarne, Stacjonarne",
+            "city": "Łódź",
+            "courses": null
+        },
+        {
+            "universityName": "Akademia Humanitas",
+            "id": "f42372d8-5606-4020-a40a-54d7e98cd1b0",
+            "coursesOfStudy": 16,
+            "postgraduate": 0,
+            "level": null,
+            "type": "Niestacjonarne, Stacjonarne",
+            "city": "Sosnowiec",
+            "courses": null
+        },
+        {
+            "universityName": "Akademia Ignatianum w Krakowie",
+            "id": "63526c4a-28c5-4cfd-9a26-c03edc162281",
+            "coursesOfStudy": 24,
+            "postgraduate": 0,
+            "level": "I Stopnia, Jednolite magisterskie",
+            "type": "Niestacjonarne, Stacjonarne",
+            "city": "Kraków",
+            "courses": null
+        },
+        {
+            "universityName": "Akademia im. Jakuba z Paradyża",
+            "id": "933338ec-75f9-41e7-9d2d-ffe8d5184ced",
+            "coursesOfStudy": 57,
+            "postgraduate": 0,
+            "level": "I Stopnia, Jednolite magisterskie",
+            "type": "Niestacjonarne, Stacjonarne",
+            "city": "Gorzów Wielkopolski",
+            "courses": null
+        },
+        {
+            "universityName": "Akademia Jagiellońska w Toruniu",
+            "id": "29e61bbc-f3e5-4be3-abc8-f29986fdb39d",
+            "coursesOfStudy": 4,
+            "postgraduate": 0,
+            "level": null,
+            "type": "Niestacjonarne",
+            "city": "Toruń",
+            "courses": null
+        },
+        {
+            "universityName": "Akademia Kaliska im. Prezydenta Stanisława Wojciechowskiego",
+            "id": "9948a4c5-6e16-46af-a997-fba278073f89",
+            "coursesOfStudy": 49,
+            "postgraduate": 0,
+            "level": "I Stopnia, Jednolite magisterskie",
+            "type": "Niestacjonarne, Stacjonarne",
+            "city": "Kalisz",
+            "courses": null
+        },
+        {
+            "universityName": "Akademia Katolicka w Warszawie",
+            "id": "d3c05465-3b8b-4035-970b-d2f6849108a2",
+            "coursesOfStudy": 6,
+            "postgraduate": 0,
+            "level": "I Stopnia, Jednolite magisterskie",
+            "type": "Niestacjonarne, Stacjonarne",
+            "city": "Warszawa",
+            "courses": null
+        },
+        {
+            "universityName": "Akademia Kujawsko-Pomorska",
+            "id": "e3fcebbc-1776-45b4-8f1b-612904645b5c",
+            "coursesOfStudy": 31,
+            "postgraduate": 0,
+            "level": "I Stopnia, Jednolite magisterskie",
+            "type": "Niestacjonarne, Stacjonarne",
+            "city": "Bydgoszcz",
+            "courses": null
+        },
+        {
+            "universityName": "Akademia Kultury Społecznej i Medialnej w Toruniu - Akademia Nauk Stosowanych",
+            "id": "1bdb96f1-8adb-4d5c-a528-58a9477ee99d",
+            "coursesOfStudy": 5,
+            "postgraduate": 0,
+            "level": "I Stopnia, Jednolite magisterskie",
+            "type": "Stacjonarne",
+            "city": "Toruń",
+            "courses": null
+        },
+        {
+            "universityName": "Akademia Leona Koźmińskiego w Warszawie",
+            "id": "de35ce1a-a271-44a0-85dc-f5a6ef65aced",
+            "coursesOfStudy": 26,
+            "postgraduate": 0,
+            "level": "I Stopnia, Jednolite magisterskie",
+            "type": "Niestacjonarne, Stacjonarne",
+            "city": "Warszawa",
+            "courses": null
+        },
+        {
+            "universityName": "Akademia Łomżyńska",
+            "id": "ee50f9cb-34ec-4f7a-a739-c0e92a1a6abc",
+            "coursesOfStudy": 36,
+            "postgraduate": 0,
+            "level": "I Stopnia, Jednolite magisterskie",
+            "type": "Niestacjonarne, Stacjonarne",
+            "city": "Łomża",
+            "courses": null
+        },
+        {
+            "universityName": "Akademia Marynarki Wojennej im. Bohaterów Westerplatte",
+            "id": "606c1392-918a-4d76-b820-49cd0fef3d9e",
+            "coursesOfStudy": 39,
+            "postgraduate": 0,
+            "level": "I Stopnia, Jednolite magisterskie",
+            "type": "Niestacjonarne, Stacjonarne",
+            "city": "Gdynia",
+            "courses": null
+        },
+        {
+            "universityName": "Akademia Mazowiecka w Płocku",
+            "id": "e5d4401b-62dc-42ba-9e07-06ae1ce91566",
+            "coursesOfStudy": 18,
+            "postgraduate": 0,
+            "level": "I Stopnia, Jednolite magisterskie",
+            "type": "Stacjonarne",
+            "city": "Płock",
+            "courses": null
+        },
+        {
+            "universityName": "Akademia Medycznych i Społecznych Nauk Stosowanych",
+            "id": "04efbb5d-8f31-4101-858a-305b6cd6de6c",
+            "coursesOfStudy": 12,
+            "postgraduate": 0,
+            "level": "I Stopnia, Jednolite magisterskie",
+            "type": "Niestacjonarne, Stacjonarne",
+            "city": "Elbląg",
+            "courses": null
+        },
+        {
+            "universityName": "Akademia Muzyczna im. Feliksa Nowowiejskiego w Bydgoszczy",
+            "id": "ab4784d4-4bc4-4fd7-a45e-6ef2e93c20d2",
+            "coursesOfStudy": 14,
+            "postgraduate": 0,
+            "level": "I Stopnia",
+            "type": "Stacjonarne",
+            "city": "Bydgoszcz",
+            "courses": null
+        },
+        {
+            "universityName": "Akademia Muzyczna im. Grażyny i Kiejstuta Bacewiczów w Łodzi",
+            "id": "5e0736ec-e3e8-4b08-b7e0-8f69c357047d",
+            "coursesOfStudy": 20,
+            "postgraduate": 0,
+            "level": "I Stopnia",
+            "type": "Niestacjonarne, Stacjonarne",
+            "city": "Łódź",
+            "courses": null
+        },
+        {
+            "universityName": "Akademia Muzyczna im. Ignacego Jana Paderewskiego w Poznaniu",
+            "id": "0da873ab-5adc-47ba-b785-6f7f35dd916a",
+            "coursesOfStudy": 14,
+            "postgraduate": 0,
+            "level": "I Stopnia",
+            "type": "Stacjonarne",
+            "city": "Poznań",
+            "courses": null
+        },
+        {
+            "universityName": "Akademia Muzyczna im. Karola Lipińskiego we Wrocławiu",
+            "id": "f60b3ca5-6391-415f-b354-80ab0850e8c3",
+            "coursesOfStudy": 0,
+            "postgraduate": 0,
+            "level": "I Stopnia",
+            "type": null,
+            "city": "Wrocław",
+            "courses": null
+        },
+        {
+            "universityName": "Akademia Muzyczna im. Karola Szymanowskiego w Katowicach",
+            "id": "fa1d6826-0bd8-4aca-ab25-cb3c2d30f4ba",
+            "coursesOfStudy": 16,
+            "postgraduate": 0,
+            "level": "I Stopnia",
+            "type": "Niestacjonarne, Stacjonarne",
+            "city": "Katowice",
+            "courses": null
+        },
+        {
+            "universityName": "Akademia Muzyczna im. Krzysztofa Pendereckiego w Krakowie",
+            "id": "a2e66fab-dbd7-4173-9028-676eba7ed09b",
+            "coursesOfStudy": 14,
+            "postgraduate": 0,
+            "level": "I Stopnia",
+            "type": "Stacjonarne",
+            "city": "Kraków",
+            "courses": null
+        },
+        {
+            "universityName": "Akademia Muzyczna im. Stanisława Moniuszki w Gdańsku",
+            "id": "433fc5d3-4967-42e7-bc10-d1ac51c0acdf",
+            "coursesOfStudy": 0,
+            "postgraduate": 0,
+            "level": "I Stopnia",
+            "type": null,
+            "city": "Gdańsk",
+            "courses": null
+        },
+        {
+            "universityName": "Akademia Nauk Społecznych i Medycznych w Lublinie - Akademia Nauk Stosowanych",
+            "id": "19874cd5-e99b-491f-98f5-16469bfe76ed",
+            "coursesOfStudy": 15,
+            "postgraduate": 0,
+            "level": "I Stopnia, Jednolite magisterskie",
+            "type": "Niestacjonarne, Stacjonarne",
+            "city": "Lublin",
+            "courses": null
+        },
+        {
+            "universityName": "Akademia Nauk Stosowanych Angelusa Silesiusa",
+            "id": "327f082d-edf1-428e-a1b2-b0b16461f50a",
+            "coursesOfStudy": 15,
+            "postgraduate": 0,
+            "level": "I Stopnia, Jednolite magisterskie",
+            "type": "Niestacjonarne, Stacjonarne",
+            "city": "Wałbrzych",
+            "courses": null
+        },
+        {
+            "universityName": "Akademia Nauk Stosowanych Gospodarki Krajowej w Kutnie",
+            "id": "74cb0a8c-71b1-4a0e-87ea-ce2552962efa",
+            "coursesOfStudy": 13,
+            "postgraduate": 0,
+            "level": null,
+            "type": "Niestacjonarne, Stacjonarne",
+            "city": "Kutno",
+            "courses": null
+        },
+        {
+            "universityName": "Akademia Nauk Stosowanych im. Hipolita Cegielskiego w Gnieźnie Uczelnia Państwowa",
+            "id": "ed5140f5-264b-4bca-bb2f-8b03c6a0b354",
+            "coursesOfStudy": 9,
+            "postgraduate": 0,
+            "level": "I Stopnia, Jednolite magisterskie",
+            "type": "Niestacjonarne, Stacjonarne",
+            "city": "Gniezno",
+            "courses": null
+        },
+        {
+            "universityName": "Akademia Nauk Stosowanych im. Jana Amosa Komeńskiego w Lesznie",
+            "id": "055755b9-d8a7-4744-b753-c6144b2f4664",
+            "coursesOfStudy": 16,
+            "postgraduate": 0,
+            "level": null,
+            "type": "Niestacjonarne, Stacjonarne",
+            "city": "Leszno",
+            "courses": null
+        },
+        {
+            "universityName": "Akademia Nauk Stosowanych im. Józefa Gołuchowskiego",
+            "id": "b434c938-dd25-431e-a1ce-2dbcf2eecb21",
+            "coursesOfStudy": 8,
+            "postgraduate": 0,
+            "level": "I Stopnia, Jednolite magisterskie",
+            "type": "Niestacjonarne, Stacjonarne",
+            "city": "Ostrowiec Świętokrzyski",
+            "courses": null
+        },
+        {
+            "universityName": "Akademia Nauk Stosowanych im. Księcia Mieszka I w Poznaniu",
+            "id": "fdeeacb5-f8b9-4ce8-9191-8e39d825ca9e",
+            "coursesOfStudy": 22,
+            "postgraduate": 0,
+            "level": null,
+            "type": "Niestacjonarne, Stacjonarne",
+            "city": "Poznań",
+            "courses": null
+        },
+        {
+            "universityName": "Akademia Nauk Stosowanych im. prof. Edwarda Lipińskiego w Kielcach",
+            "id": "88343fa9-834d-44ff-9fd7-f492bbb9b950",
+            "coursesOfStudy": 13,
+            "postgraduate": 0,
+            "level": "I Stopnia, Jednolite magisterskie",
+            "type": "Niestacjonarne, Stacjonarne",
+            "city": "Kielce",
+            "courses": null
+        },
+        {
+            "universityName": "Akademia Nauk Stosowanych im. Stanisława Staszica w Pile",
+            "id": "b78886dd-41dc-4ad9-ac86-0909d22479f5",
+            "coursesOfStudy": 16,
+            "postgraduate": 0,
+            "level": "I Stopnia, Jednolite magisterskie",
+            "type": "Niestacjonarne, Stacjonarne",
+            "city": "Piła",
+            "courses": null
+        },
+        {
+            "universityName": "Akademia Nauk Stosowanych Mazovia",
+            "id": "6872e134-edfe-423e-acfd-87c7b7ccf622",
+            "coursesOfStudy": 9,
+            "postgraduate": 0,
+            "level": "I Stopnia, Jednolite magisterskie",
+            "type": "Niestacjonarne, Stacjonarne",
+            "city": "Siedlce",
+            "courses": null
+        },
+        {
+            "universityName": "Akademia Nauk Stosowanych Stefana Batorego",
+            "id": "b06bec69-6851-4f6c-9ab8-5d34af6fc464",
+            "coursesOfStudy": 27,
+            "postgraduate": 0,
+            "level": "I Stopnia, Jednolite magisterskie",
+            "type": "Niestacjonarne, Stacjonarne",
+            "city": "Skierniewice",
+            "courses": null
+        },
+        {
+            "universityName": "Akademia Nauk Stosowanych Towarzystwa Wiedzy Powszechnej w Szczecinie",
+            "id": "532df8e8-edde-47d2-9220-5fddd5eaccfc",
+            "coursesOfStudy": 7,
+            "postgraduate": 0,
+            "level": "I Stopnia, Jednolite magisterskie",
+            "type": "Niestacjonarne, Stacjonarne",
+            "city": "Szczecin",
+            "courses": null
+        },
+        {
+            "universityName": "Akademia Nauk Stosowanych w Elblągu",
+            "id": "a423679a-fbec-4102-8778-8e428c62f591",
+            "coursesOfStudy": 18,
+            "postgraduate": 0,
+            "level": "I Stopnia, Jednolite magisterskie",
+            "type": "Niestacjonarne, Stacjonarne",
+            "city": "Elbląg",
+            "courses": null
+        },
+        {
+            "universityName": "Akademia Nauk Stosowanych we Wrocławiu",
+            "id": "77caa60d-9d45-4953-8dd1-8c2a5d3c2657",
+            "coursesOfStudy": 6,
+            "postgraduate": 0,
+            "level": "I Stopnia, Jednolite magisterskie",
+            "type": "Niestacjonarne, Stacjonarne",
+            "city": "Wrocław",
+            "courses": null
+        },
+        {
+            "universityName": "Akademia Nauk Stosowanych Wincentego Pola w Lublinie",
+            "id": "b55e9bb1-f4d6-43eb-9df9-b8122838f494",
+            "coursesOfStudy": 15,
+            "postgraduate": 0,
+            "level": "I Stopnia, Jednolite magisterskie",
+            "type": "Niestacjonarne, Stacjonarne",
+            "city": "Lublin",
+            "courses": null
+        },
+        {
+            "universityName": "Akademia Nauk Stosowanych w Koninie",
+            "id": "da5435b4-64fe-4832-9d92-17d94307a713",
+            "coursesOfStudy": 28,
+            "postgraduate": 0,
+            "level": "I Stopnia",
+            "type": "Niestacjonarne, Stacjonarne",
+            "city": "Konin",
+            "courses": null
+        },
+        {
+            "universityName": "Akademia Nauk Stosowanych w Nowym Sączu",
+            "id": "fde3e38c-3668-4cda-be4c-780a9e834b9d",
+            "coursesOfStudy": 43,
+            "postgraduate": 0,
+            "level": null,
+            "type": "Niestacjonarne, Stacjonarne",
+            "city": "Nowy Sącz",
+            "courses": null
+        },
+        {
+            "universityName": "Akademia Nauk Stosowanych w Raciborzu",
+            "id": "fab7ca49-de3d-4983-8085-90d86781b6bb",
+            "coursesOfStudy": 14,
+            "postgraduate": 0,
+            "level": "I Stopnia, Jednolite magisterskie",
+            "type": "Stacjonarne",
+            "city": "Racibórz",
+            "courses": null
+        },
+        {
+            "universityName": "Akademia Nauk Stosowanych w Wałczu",
+            "id": "6958f4b6-7970-4fcd-87f0-71bc4c1e06a9",
+            "coursesOfStudy": 16,
+            "postgraduate": 0,
+            "level": "I Stopnia, Jednolite magisterskie",
+            "type": "Niestacjonarne, Stacjonarne",
+            "city": "Wałcz",
+            "courses": null
+        },
+        {
+            "universityName": "Akademia Nauk Stosowanych - Wyższa Szkoła Zarządzania i Administracji w Opolu",
+            "id": "c5981b93-e1cc-4aaa-a193-e633c47d1cc1",
+            "coursesOfStudy": 9,
+            "postgraduate": 0,
+            "level": "I Stopnia, Jednolite magisterskie",
+            "type": "Niestacjonarne, Stacjonarne",
+            "city": "Opole",
+            "courses": null
+        },
+        {
+            "universityName": "Akademia Pedagogiki Specjalnej im. Marii Grzegorzewskiej w Warszawie",
+            "id": "15b7fa26-da1d-4fc1-b3a8-88baa8d07878",
+            "coursesOfStudy": 23,
+            "postgraduate": 0,
+            "level": "I Stopnia, Jednolite magisterskie",
+            "type": "Niestacjonarne, Stacjonarne",
+            "city": "Warszawa",
+            "courses": null
+        },
+        {
+            "universityName": "Akademia Piotrkowska",
+            "id": "0a42faf6-fef4-4ff6-814f-6d1209697b88",
+            "coursesOfStudy": 0,
+            "postgraduate": 0,
+            "level": null,
+            "type": null,
+            "city": "Piotrków Trybunalski",
+            "courses": null
+        },
+        {
+            "universityName": "Akademia Policji w Szczytnie",
+            "id": "6b51f490-2cda-48a2-af1c-0cc00d6bccc9",
+            "coursesOfStudy": 9,
+            "postgraduate": 0,
+            "level": "I Stopnia",
+            "type": "Niestacjonarne, Stacjonarne",
+            "city": "Szczytno",
+            "courses": null
+        },
+        {
+            "universityName": "Akademia Polonijna w Częstochowie",
+            "id": "3defc9e5-ae66-45db-8fed-01b7acf6c013",
+            "coursesOfStudy": 14,
+            "postgraduate": 0,
+            "level": null,
+            "type": "Niestacjonarne, Stacjonarne",
+            "city": "Częstochowa",
+            "courses": null
+        },
+        {
+            "universityName": "Akademia Pożarnicza",
+            "id": "7b58215b-3c2d-482a-8d94-6a696ee01308",
+            "coursesOfStudy": 8,
+            "postgraduate": 0,
+            "level": "I Stopnia, Jednolite magisterskie",
+            "type": "Niestacjonarne, Stacjonarne",
+            "city": "Warszawa",
+            "courses": null
+        },
+        {
+            "universityName": "Akademia Śląska",
+            "id": "de04cfc1-f0cb-42b6-9942-3b50b6bc6688",
+            "coursesOfStudy": 22,
+            "postgraduate": 0,
+            "level": "I Stopnia, Jednolite magisterskie",
+            "type": "Niestacjonarne, Stacjonarne",
+            "city": "Katowice",
+            "courses": null
+        },
+        {
+            "universityName": "Akademia Sztuki Wojennej",
+            "id": "4cf4e1df-86e0-4966-8e50-e91f8f36dcff",
+            "coursesOfStudy": 33,
+            "postgraduate": 0,
+            "level": "I Stopnia, Jednolite magisterskie",
+            "type": "Niestacjonarne, Stacjonarne",
+            "city": "Warszawa",
+            "courses": null
+        },
+        {
+            "universityName": "Akademia Sztuki w Szczecinie",
+            "id": "48d6ce3a-0748-48d0-9521-5d1967273151",
+            "coursesOfStudy": 17,
+            "postgraduate": 0,
+            "level": "I Stopnia",
+            "type": "Stacjonarne",
+            "city": "Szczecin",
+            "courses": null
+        },
+        {
+            "universityName": "Akademia Sztuk Pięknych im. Eugeniusza Gepperta we Wrocławiu",
+            "id": "6dcd4d54-42fc-42b8-ade0-8f4d95c247b7",
+            "coursesOfStudy": 27,
+            "postgraduate": 0,
+            "level": "I Stopnia, Jednolite magisterskie",
+            "type": "Niestacjonarne, Stacjonarne",
+            "city": "Wrocław",
+            "courses": null
+        },
+        {
+            "universityName": "Akademia Sztuk Pięknych im. Jana Matejki w Krakowie",
+            "id": "c8285ee2-0587-44ef-9f99-7d35585034ea",
+            "coursesOfStudy": 15,
+            "postgraduate": 0,
+            "level": "I Stopnia, Jednolite magisterskie",
+            "type": "Niestacjonarne, Stacjonarne",
+            "city": "Kraków",
+            "courses": null
+        },
+        {
+            "universityName": "Akademia Sztuk Pięknych im. Władysława Strzemińskiego w Łodzi",
+            "id": "a8e1375e-e52d-4f50-a2f1-af09c217142f",
+            "coursesOfStudy": 22,
+            "postgraduate": 0,
+            "level": "I Stopnia, Jednolite magisterskie",
+            "type": "Stacjonarne",
+            "city": "Łódź",
+            "courses": null
+        },
+        {
+            "universityName": "Akademia Sztuk Pięknych w Gdańsku",
+            "id": "a84c385a-33b9-4768-b3ed-55866b9bb2bc",
+            "coursesOfStudy": 15,
+            "postgraduate": 0,
+            "level": "I Stopnia, Jednolite magisterskie",
+            "type": "Niestacjonarne, Stacjonarne",
+            "city": "Gdańsk",
+            "courses": null
+        },
+        {
+            "universityName": "Akademia Sztuk Pięknych w Katowicach",
+            "id": "74cd55fd-2958-4387-974d-1e7e3ab6abc9",
+            "coursesOfStudy": 6,
+            "postgraduate": 0,
+            "level": "I Stopnia, Jednolite magisterskie",
+            "type": "Stacjonarne",
+            "city": "Katowice",
+            "courses": null
+        },
+        {
+            "universityName": "Akademia Sztuk Pięknych w Warszawie",
+            "id": "23d91121-551e-41cd-adc0-e987e086ce71",
+            "coursesOfStudy": 20,
+            "postgraduate": 0,
+            "level": "I Stopnia, Jednolite magisterskie",
+            "type": "Niestacjonarne, Stacjonarne",
+            "city": "Warszawa",
+            "courses": null
+        },
+        {
+            "universityName": "Akademia Sztuk Teatralnych im. Stanisława Wyspiańskiego w Krakowie",
+            "id": "1cf2a5af-bd56-4294-8e65-a76297ccd2c2",
+            "coursesOfStudy": 3,
+            "postgraduate": 0,
+            "level": null,
+            "type": "Stacjonarne",
+            "city": "Kraków",
+            "courses": null
+        },
+        {
+            "universityName": "Akademia Tarnowska",
+            "id": "378bf3fa-b8b8-4bfc-8b99-34a1db4eb6d1",
+            "coursesOfStudy": 45,
+            "postgraduate": 0,
+            "level": "I Stopnia, Jednolite magisterskie",
+            "type": "Niestacjonarne, Stacjonarne",
+            "city": "Tarnów",
+            "courses": null
+        },
+        {
+            "universityName": "Akademia Teatralna im. Aleksandra Zelwerowicza w Warszawie",
+            "id": "9b784462-5438-48f1-8293-6190d205dd08",
+            "coursesOfStudy": 5,
+            "postgraduate": 0,
+            "level": "I Stopnia, Jednolite magisterskie",
+            "type": "Stacjonarne",
+            "city": "Warszawa",
+            "courses": null
+        },
+        {
+            "universityName": "Akademia Wojsk Lądowych imienia generała Tadeusza Kościuszki",
+            "id": "2f58a7eb-a113-4f7a-967f-b132f8822542",
+            "coursesOfStudy": 9,
+            "postgraduate": 0,
+            "level": "I Stopnia, Jednolite magisterskie",
+            "type": "Stacjonarne",
+            "city": "Wrocław",
+            "courses": null
+        },
+        {
+            "universityName": "Akademia WSB",
+            "id": "1e297b31-e2e3-443f-9d6b-59f578a57139",
+            "coursesOfStudy": 53,
+            "postgraduate": 0,
+            "level": "I Stopnia, Jednolite magisterskie",
+            "type": "Niestacjonarne, Stacjonarne",
+            "city": "Dąbrowa Górnicza",
+            "courses": null
+        },
+        {
+            "universityName": "Akademia Wychowania Fizycznego im. Bronisława Czecha w Krakowie",
+            "id": "2f297e86-680f-4b1a-843b-b29a230919a4",
+            "coursesOfStudy": 18,
+            "postgraduate": 0,
+            "level": "I Stopnia, Jednolite magisterskie",
+            "type": "Niestacjonarne, Stacjonarne",
+            "city": "Kraków",
+            "courses": null
+        },
+        {
+            "universityName": "Akademia Wychowania Fizycznego im. Eugeniusza Piaseckiego w Poznaniu",
+            "id": "cf6825d1-fa6e-454b-a316-6ece6573fafb",
+            "coursesOfStudy": 11,
+            "postgraduate": 0,
+            "level": "I Stopnia, Jednolite magisterskie",
+            "type": "Stacjonarne",
+            "city": "Poznań",
+            "courses": null
+        },
+        {
+            "universityName": "Akademia Wychowania Fizycznego im. Jerzego Kukuczki w Katowicach",
+            "id": "55c024f0-c7ef-4444-9f92-44d5aa36a8a4",
+            "coursesOfStudy": 11,
+            "postgraduate": 0,
+            "level": "I Stopnia, Jednolite magisterskie",
+            "type": "Stacjonarne",
+            "city": "Katowice",
+            "courses": null
+        },
+        {
+            "universityName": "Akademia Wychowania Fizycznego im. Polskich Olimpijczyków we Wrocławiu",
+            "id": "967edca2-6301-426d-90d4-74ff8f737387",
+            "coursesOfStudy": 20,
+            "postgraduate": 0,
+            "level": "I Stopnia, Jednolite magisterskie",
+            "type": "Niestacjonarne, Stacjonarne",
+            "city": "Wrocław",
+            "courses": null
+        },
+        {
+            "universityName": "Akademia Wychowania Fizycznego i Sportu im. Jędrzeja Śniadeckiego w Gdańsku",
+            "id": "dd5905aa-7f8d-473c-85f8-ab10604dcfc5",
+            "coursesOfStudy": 14,
+            "postgraduate": 0,
+            "level": "I Stopnia, Jednolite magisterskie",
+            "type": "Niestacjonarne, Stacjonarne",
+            "city": "Gdańsk",
+            "courses": null
+        },
+        {
+            "universityName": "Akademia Wychowania Fizycznego Józefa Piłsudskiego w Warszawie",
+            "id": "39d8a574-bb33-4591-9cdc-fa2a31dedf31",
+            "coursesOfStudy": 15,
+            "postgraduate": 0,
+            "level": "I Stopnia, Jednolite magisterskie",
+            "type": "Niestacjonarne, Stacjonarne",
+            "city": "Warszawa",
+            "courses": null
+        },
+        {
+            "universityName": "Akademia Wymiaru Sprawiedliwości",
+            "id": "dadda683-ed37-4527-af22-26bb3e2786a6",
+            "coursesOfStudy": 7,
+            "postgraduate": 0,
+            "level": "I Stopnia, Jednolite magisterskie",
+            "type": "Niestacjonarne, Stacjonarne",
+            "city": "Warszawa",
+            "courses": null
+        },
+        {
+            "universityName": "Akademia Zamojska",
+            "id": "a941c2b3-18a1-49e0-8eb5-17f80570df51",
+            "coursesOfStudy": 20,
+            "postgraduate": 0,
+            "level": "I Stopnia, Jednolite magisterskie",
+            "type": "Niestacjonarne, Stacjonarne",
+            "city": "Zamość",
+            "courses": null
+        },
+        {
+            "universityName": "Bielska Wyższa Szkoła im. Józefa Tyszkiewicza w Bielsku-Białej",
+            "id": "b30f1a52-0958-4cee-8e7f-4226f48f7051",
+            "coursesOfStudy": 3,
+            "postgraduate": 0,
+            "level": null,
+            "type": "Niestacjonarne",
+            "city": "Bielsko-Biała",
+            "courses": null
+        },
+        {
+            "universityName": "Bydgoska Szkoła Wyższa w Bydgoszczy",
+            "id": "7588488f-6f75-499d-a53f-557c0b10ac7d",
+            "coursesOfStudy": 22,
+            "postgraduate": 0,
+            "level": "I Stopnia, Jednolite magisterskie",
+            "type": "Niestacjonarne, Stacjonarne",
+            "city": "Bydgoszcz",
+            "courses": null
+        },
+        {
+            "universityName": "Centrum Medyczne Kształcenia Podyplomowego w Warszawie",
+            "id": "d42bc24d-986b-4665-84a6-26d821aa2074",
+            "coursesOfStudy": 0,
+            "postgraduate": 0,
+            "level": null,
+            "type": null,
+            "city": "Warszawa",
+            "courses": null
+        },
+        {
+            "universityName": "Chrześcijańska Akademia Teologiczna w Warszawie",
+            "id": "a49a8b74-f8a3-419b-a680-688aaab718cb",
+            "coursesOfStudy": 5,
+            "postgraduate": 0,
+            "level": "I Stopnia, Jednolite magisterskie",
+            "type": "Stacjonarne",
+            "city": "Warszawa",
+            "courses": null
+        },
+        {
+            "universityName": "Collegium Balticum - Akademia Nauk Stosowanych z siedzibą w Szczecinie",
+            "id": "565b5c32-595a-4978-b157-36b4d314e6c8",
+            "coursesOfStudy": 8,
+            "postgraduate": 0,
+            "level": "I Stopnia, Jednolite magisterskie",
+            "type": "Niestacjonarne, Stacjonarne",
+            "city": "Szczecin",
+            "courses": null
+        },
+        {
+            "universityName": "Collegium Civitas w Warszawie",
+            "id": "65d51a01-b4eb-4048-b55b-5934089b3b71",
+            "coursesOfStudy": 14,
+            "postgraduate": 0,
+            "level": "I Stopnia",
+            "type": "Niestacjonarne, Stacjonarne",
+            "city": "Warszawa",
+            "courses": null
+        },
+        {
+            "universityName": "Collegium Da Vinci z siedzibą w Poznaniu",
+            "id": "103012b5-5d2b-4f8e-b8aa-e3776571ac91",
+            "coursesOfStudy": 19,
+            "postgraduate": 0,
+            "level": "I Stopnia",
+            "type": "Niestacjonarne, Stacjonarne",
+            "city": "Poznań",
+            "courses": null
+        },
+        {
+            "universityName": "Collegium Humanum - Szkoła Główna Menedżerska",
+            "id": "1cf94355-ba60-4e70-a22d-35320a984b81",
+            "coursesOfStudy": 13,
+            "postgraduate": 0,
+            "level": "I Stopnia, Jednolite magisterskie",
+            "type": "Niestacjonarne, Stacjonarne",
+            "city": "Warszawa",
+            "courses": null
+        },
+        {
+            "universityName": "Collegium Masoviense - Wyższa Szkoła Nauk o Zdrowiu w Żyrardowie",
+            "id": "a6f1472b-5656-4d65-a85d-c4414e55be8b",
+            "coursesOfStudy": 0,
+            "postgraduate": 0,
+            "level": null,
+            "type": null,
+            "city": "Żyrardów",
+            "courses": null
+        },
+        {
+            "universityName": "Collegium Verum",
+            "id": "20e751d4-9897-4c01-b5e9-7f13fbc47755",
+            "coursesOfStudy": 2,
+            "postgraduate": 0,
+            "level": null,
+            "type": "Niestacjonarne",
+            "city": "Warszawa",
+            "courses": null
+        },
+        {
+            "universityName": "Collegium Witelona Uczelnia Państwowa",
+            "id": "6dbd6b8e-a9d9-4647-994c-c8cee4a113ca",
+            "coursesOfStudy": 33,
+            "postgraduate": 0,
+            "level": "I Stopnia, Jednolite magisterskie",
+            "type": "Niestacjonarne, Stacjonarne",
+            "city": "Legnica",
+            "courses": null
+        },
+        {
+            "universityName": "Europejska Uczelnia Społeczno-Techniczna im. Sługi Bożego Roberta Schumana",
+            "id": "416f1db7-5148-4cf1-abcd-c44593dc8fcd",
+            "coursesOfStudy": 4,
+            "postgraduate": 0,
+            "level": null,
+            "type": "Niestacjonarne",
+            "city": "Radom",
+            "courses": null
+        },
+        {
+            "universityName": "Europejska Uczelnia w Warszawie",
+            "id": "80ec3ecc-26eb-45d3-881f-4d7e868701d6",
+            "coursesOfStudy": 13,
+            "postgraduate": 0,
+            "level": null,
+            "type": "Niestacjonarne, Stacjonarne",
+            "city": "Warszawa",
+            "courses": null
+        },
+        {
+            "universityName": "Europejska Wyższa Szkoła Prawa i Administracji w Warszawie",
+            "id": "57b6f81b-70b2-4149-8843-b879c374ae39",
+            "coursesOfStudy": 2,
+            "postgraduate": 0,
+            "level": null,
+            "type": "Niestacjonarne",
+            "city": "Warszawa",
+            "courses": null
+        },
+        {
+            "universityName": "Ewangelikalna Wyższa Szkoła Teologiczna",
+            "id": "43404389-4c85-4d26-9c23-efac62ae23b0",
+            "coursesOfStudy": 0,
+            "postgraduate": 0,
+            "level": null,
+            "type": null,
+            "city": "Wrocław",
+            "courses": null
+        },
+        {
+            "universityName": "Gdańska Szkoła Wyższa z siedzibą w Gdańsku",
+            "id": "532b25b8-8fcc-46ab-a93f-1ca781f31151",
+            "coursesOfStudy": 7,
+            "postgraduate": 0,
+            "level": "I Stopnia",
+            "type": "Niestacjonarne, Stacjonarne",
+            "city": "Gdańsk",
+            "courses": null
+        },
+        {
+            "universityName": "Gdańska Wyższa Szkoła Humanistyczna",
+            "id": "4941c6ed-6646-4ca8-a845-5fe29cca2100",
+            "coursesOfStudy": 4,
+            "postgraduate": 0,
+            "level": "I Stopnia, Jednolite magisterskie",
+            "type": "Niestacjonarne",
+            "city": "Gdańsk",
+            "courses": null
+        },
+        {
+            "universityName": "Gdański Uniwersytet Medyczny",
+            "id": "d9259bdd-3787-43fd-ae51-e27899630f3e",
+            "coursesOfStudy": 26,
+            "postgraduate": 0,
+            "level": "I Stopnia, Jednolite magisterskie",
+            "type": "Niestacjonarne, Stacjonarne",
+            "city": "Gdańsk",
+            "courses": null
+        },
+        {
+            "universityName": "Gnieźnieńska Szkoła Wyższa Milenium z siedzibą w Gnieźnie",
+            "id": "473e03e5-1e5f-4a26-9d5d-a1e21be6f192",
+            "coursesOfStudy": 5,
+            "postgraduate": 0,
+            "level": "I Stopnia, Jednolite magisterskie",
+            "type": "Niestacjonarne",
+            "city": "Gniezno",
+            "courses": null
+        },
+        {
+            "universityName": "Górnośląska Wyższa Szkoła Przedsiębiorczości im. Karola Goduli w Chorzowie",
+            "id": "84792369-45e9-49c0-b95f-6c9f6dfb6021",
+            "coursesOfStudy": 3,
+            "postgraduate": 0,
+            "level": "I Stopnia",
+            "type": "Niestacjonarne",
+            "city": "Chorzów",
+            "courses": null
+        },
+        {
+            "universityName": "Instytut Teologiczny im. bł. Wincentego Kadłubka w Sandomierzu",
+            "id": "dfa26335-5621-4a94-9189-3fcff1691975",
+            "coursesOfStudy": 0,
+            "postgraduate": 0,
+            "level": null,
+            "type": null,
+            "city": "Sandomierz",
+            "courses": null
+        },
+        {
+            "universityName": "Instytut Teologiczny im. św. Jana Kantego w Bielsku-Białej",
+            "id": "c24d4e2b-3188-4504-afa0-376822bd2477",
+            "coursesOfStudy": 0,
+            "postgraduate": 0,
+            "level": null,
+            "type": null,
+            "city": "Bielsko-Biała",
+            "courses": null
+        },
+        {
+            "universityName": "Karkonoska Akademia Nauk Stosowanych w Jeleniej Górze",
+            "id": "3dd38d1a-644a-49f8-8555-6a6844460dd6",
+            "coursesOfStudy": 11,
+            "postgraduate": 0,
+            "level": "I Stopnia, Jednolite magisterskie",
+            "type": "Stacjonarne",
+            "city": "Jelenia Góra",
+            "courses": null
+        },
+        {
+            "universityName": "Kaszubsko-Pomorska Szkoła Wyższa w Wejherowie",
+            "id": "0a82ef6d-4c59-4626-ac15-b22194a5a28d",
+            "coursesOfStudy": 4,
+            "postgraduate": 0,
+            "level": "I Stopnia",
+            "type": "Niestacjonarne, Stacjonarne",
+            "city": "Wejherowo",
+            "courses": null
+        },
+        {
+            "universityName": "Katolicki Uniwersytet Lubelski Jana Pawła II w Lublinie",
+            "id": "cf4ab844-ac8b-4789-b873-00dfd3051273",
+            "coursesOfStudy": 84,
+            "postgraduate": 0,
+            "level": "I Stopnia, Jednolite magisterskie",
+            "type": "Niestacjonarne, Stacjonarne",
+            "city": "Lublin",
+            "courses": null
+        },
+        {
+            "universityName": "Koszalińska Wyższa Szkoła Nauk Humanistycznych w Koszalinie",
+            "id": "c26c4b76-8eae-400a-8722-b7a028f252ad",
+            "coursesOfStudy": 2,
+            "postgraduate": 0,
+            "level": null,
+            "type": "Niestacjonarne",
+            "city": "Koszalin",
+            "courses": null
+        },
+        {
+            "universityName": "Krakowska Akademia im. Andrzeja Frycza Modrzewskiego w Krakowie",
+            "id": "6ec85937-58fb-4b29-8713-c10215525cc2",
+            "coursesOfStudy": 52,
+            "postgraduate": 0,
+            "level": "I Stopnia, Jednolite magisterskie",
+            "type": "Niestacjonarne, Stacjonarne",
+            "city": "Kraków",
+            "courses": null
+        },
+        {
+            "universityName": "Krakowska Wyższa Szkoła Promocji Zdrowia w Krakowie",
+            "id": "68d8b41e-c30a-46c1-a5b7-f85c92a04990",
+            "coursesOfStudy": 7,
+            "postgraduate": 0,
+            "level": "I Stopnia, Jednolite magisterskie",
+            "type": "Niestacjonarne, Stacjonarne",
+            "city": "Kraków",
+            "courses": null
+        },
+        {
+            "universityName": "Kujawska Szkoła Wyższa we Włocławku",
+            "id": "2506defb-66cb-4b1d-83e8-4d3ea304df3d",
+            "coursesOfStudy": 0,
+            "postgraduate": 0,
+            "level": "I Stopnia, Jednolite magisterskie",
+            "type": null,
+            "city": "Włocławek",
+            "courses": null
+        },
+        {
+            "universityName": "Lingwistyczna Szkoła Wyższa w Warszawie",
+            "id": "154f84aa-c7a2-450a-afeb-36cce54c8c41",
+            "coursesOfStudy": 0,
+            "postgraduate": 0,
+            "level": null,
+            "type": null,
+            "city": "Warszawa",
+            "courses": null
+        },
+        {
+            "universityName": "Lotnicza Akademia Wojskowa",
+            "id": "e04b82f2-52b1-47b9-9bb7-1f3c1508ed6a",
+            "coursesOfStudy": 11,
+            "postgraduate": 0,
+            "level": "I Stopnia, Jednolite magisterskie",
+            "type": "Niestacjonarne, Stacjonarne",
+            "city": "Dęblin",
+            "courses": null
+        },
+        {
+            "universityName": "Lubelska Akademia WSEI",
+            "id": "d536148c-d600-4350-9d14-553238116177",
+            "coursesOfStudy": 45,
+            "postgraduate": 0,
+            "level": "I Stopnia, Jednolite magisterskie",
+            "type": "Niestacjonarne, Stacjonarne",
+            "city": "Lublin",
+            "courses": null
+        },
+        {
+            "universityName": "Lubelska Szkoła Wyższa w Rykach",
+            "id": "edfa6462-bf4f-493c-b1ff-e7ccf43a3ae8",
+            "coursesOfStudy": 0,
+            "postgraduate": 0,
+            "level": null,
+            "type": null,
+            "city": "Ryki",
+            "courses": null
+        },
+        {
+            "universityName": "Łużycka Szkoła Wyższa im. Jana Benedykta Solfy z siedzibą w Żarach",
+            "id": "4ad99b8f-9a90-4c6d-bc89-09527305bff6",
+            "coursesOfStudy": 10,
+            "postgraduate": 0,
+            "level": null,
+            "type": "Niestacjonarne",
+            "city": "Żary",
+            "courses": null
+        },
+        {
+            "universityName": "Małopolska Uczelnia Państwowa im. rotmistrza Witolda Pileckiego w Oświęcimiu",
+            "id": "29c2eed5-2ebb-4aef-979f-2d3a37af4583",
+            "coursesOfStudy": 20,
+            "postgraduate": 0,
+            "level": "I Stopnia, Jednolite magisterskie",
+            "type": "Niestacjonarne, Stacjonarne",
+            "city": "Oświęcim",
+            "courses": null
+        },
+        {
+            "universityName": "Małopolska Wyższa Szkoła Ekonomiczna z siedzibą w Tarnowie",
+            "id": "98f1f424-49b1-40c2-974e-4d01defe9ca5",
+            "coursesOfStudy": 5,
+            "postgraduate": 0,
+            "level": "I Stopnia",
+            "type": "Niestacjonarne",
+            "city": "Tarnów",
+            "courses": null
+        },
+        {
+            "universityName": "Menedżerska Akademia Nauk Stosowanych w Warszawie",
+            "id": "be03f84b-142d-4a8f-95d1-0be3a0241a29",
+            "coursesOfStudy": 27,
+            "postgraduate": 0,
+            "level": null,
+            "type": "Niestacjonarne, Stacjonarne",
+            "city": "Warszawa",
+            "courses": null
+        },
+        {
+            "universityName": "Międzynarodowa Akademia Nauk Stosowanych w Łomży",
+            "id": "d377420c-d2c8-457b-b6bb-dce160785ea4",
+            "coursesOfStudy": 15,
+            "postgraduate": 0,
+            "level": "I Stopnia",
+            "type": "Niestacjonarne, Stacjonarne",
+            "city": "Łomża",
+            "courses": null
+        },
+        {
+            "universityName": "Międzynarodowa Wyższa Szkoła Logistyki i Transportu we Wrocławiu",
+            "id": "d53694e4-5b7e-4c2f-b1a9-037d85331c26",
+            "coursesOfStudy": 9,
+            "postgraduate": 0,
+            "level": "I Stopnia",
+            "type": "Niestacjonarne, Stacjonarne",
+            "city": "Wrocław",
+            "courses": null
+        },
+        {
+            "universityName": "Nadbużańska Szkoła Wyższa im. Marka J. Karpia w Siemiatyczach",
+            "id": "33768f83-4dd3-4de8-a636-2ef762b56bd5",
+            "coursesOfStudy": 1,
+            "postgraduate": 0,
+            "level": "I Stopnia",
+            "type": "Niestacjonarne",
+            "city": "Siemiatycze",
+            "courses": null
+        },
+        {
+            "universityName": "Niepaństwowa Wyższa Szkoła Pedagogiczna w Białymstoku",
+            "id": "9a2c0a05-031f-4689-9ce2-b8b532f577c3",
+            "coursesOfStudy": 7,
+            "postgraduate": 0,
+            "level": "I Stopnia, Jednolite magisterskie",
+            "type": "Niestacjonarne, Stacjonarne",
+            "city": "Białystok",
+            "courses": null
+        },
+        {
+            "universityName": "Niepubliczna Wyższa Szkoła Medyczna we Wrocławiu",
+            "id": "3ca001f0-ab45-42f0-a8ec-c4b8457a43f1",
+            "coursesOfStudy": 8,
+            "postgraduate": 0,
+            "level": "I Stopnia",
+            "type": "Niestacjonarne, Stacjonarne",
+            "city": "Wrocław",
+            "courses": null
+        },
+        {
+            "universityName": "Olsztyńska Szkoła Wyższa",
+            "id": "e671df8d-5f2d-4085-89a9-3fd63764b1f0",
+            "coursesOfStudy": 16,
+            "postgraduate": 0,
+            "level": "I Stopnia, Jednolite magisterskie",
+            "type": "Niestacjonarne, Stacjonarne",
+            "city": "Olsztyn",
+            "courses": null
+        },
+        {
+            "universityName": "Państwowa Akademia Nauk Stosowanych w Chełmie",
+            "id": "a6bcd298-70c7-45a5-9c2c-c61cd1f873ed",
+            "coursesOfStudy": 16,
+            "postgraduate": 0,
+            "level": "I Stopnia, Jednolite magisterskie",
+            "type": "Stacjonarne",
+            "city": "Chełm",
+            "courses": null
+        },
+        {
+            "universityName": "Państwowa Akademia Nauk Stosowanych we Włocławku",
+            "id": "e4e98a1c-d460-4bcc-b474-9dfd299cba7f",
+            "coursesOfStudy": 16,
+            "postgraduate": 0,
+            "level": "I Stopnia, Jednolite magisterskie",
+            "type": "Stacjonarne",
+            "city": "Włocławek",
+            "courses": null
+        },
+        {
+            "universityName": "Państwowa Akademia Nauk Stosowanych w Krośnie",
+            "id": "9bfd3bce-76e4-4eb5-ac7f-983d7aff3b73",
+            "coursesOfStudy": 31,
+            "postgraduate": 0,
+            "level": "I Stopnia, Jednolite magisterskie",
+            "type": "Niestacjonarne, Stacjonarne",
+            "city": "Krosno",
+            "courses": null
+        },
+        {
+            "universityName": "Państwowa Akademia Nauk Stosowanych w Nysie",
+            "id": "c3486dcf-bce7-40f9-9efb-2ab1646af39a",
+            "coursesOfStudy": 26,
+            "postgraduate": 0,
+            "level": "I Stopnia",
+            "type": "Niestacjonarne, Stacjonarne",
+            "city": "Nysa",
+            "courses": null
+        },
+        {
+            "universityName": "Państwowa Akademia Nauk Stosowanych w Przemyślu",
+            "id": "355c656e-3b3b-4407-abbb-4827191f7672",
+            "coursesOfStudy": 17,
+            "postgraduate": 0,
+            "level": "I Stopnia",
+            "type": "Niestacjonarne, Stacjonarne",
+            "city": "Przemyśl",
+            "courses": null
+        },
+        {
+            "universityName": "Państwowa Uczelnia Zawodowa im. Ignacego Mościckiego w Ciechanowie",
+            "id": "2b08e25e-a687-4f7e-abff-64d1f5cc882e",
+            "coursesOfStudy": 18,
+            "postgraduate": 0,
+            "level": "I Stopnia, Jednolite magisterskie",
+            "type": "Niestacjonarne, Stacjonarne",
+            "city": "Ciechanów",
+            "courses": null
+        },
+        {
+            "universityName": "Państwowa Uczelnia Zawodowa im. prof. Edwarda F. Szczepanika w Suwałkach",
+            "id": "d4f0388f-e532-412d-9338-d8c69d2ee2bc",
+            "coursesOfStudy": 18,
+            "postgraduate": 0,
+            "level": "I Stopnia, Jednolite magisterskie",
+            "type": "Stacjonarne",
+            "city": "Suwałki",
+            "courses": null
+        },
+        {
+            "universityName": "Państwowa Uczelnia Zawodowa im. prof. Stanisława Tarnowskiego w Tarnobrzegu",
+            "id": "135ed473-73f1-4430-aab3-2570db147bc3",
+            "coursesOfStudy": 9,
+            "postgraduate": 0,
+            "level": null,
+            "type": "Stacjonarne",
+            "city": "Tarnobrzeg",
+            "courses": null
+        },
+        {
+            "universityName": "Państwowa Wyższa Szkoła Filmowa, Telewizyjna i Teatralna im. Leona Schillera w Łodzi",
+            "id": "ccd0a881-65d6-477c-8b77-cbee8988562b",
+            "coursesOfStudy": 10,
+            "postgraduate": 0,
+            "level": null,
+            "type": "Niestacjonarne, Stacjonarne",
+            "city": "Łódź",
+            "courses": null
+        },
+        {
+            "universityName": "Państwowa Wyższa Szkoła Techniczno-Ekonomiczna im. ks. Bronisława Markiewicza w Jarosławiu",
+            "id": "8401c6e3-44bd-432a-9f66-0137bf6b7552",
+            "coursesOfStudy": 24,
+            "postgraduate": 0,
+            "level": "I Stopnia, Jednolite magisterskie",
+            "type": "Niestacjonarne, Stacjonarne",
+            "city": "Jarosław",
+            "courses": null
+        },
+        {
+            "universityName": "Państwowa Wyższa Szkoła Zawodowa w Głogowie",
+            "id": "730c301e-c411-4240-bf83-2b96163d4a59",
+            "coursesOfStudy": 11,
+            "postgraduate": 0,
+            "level": "I Stopnia, Jednolite magisterskie",
+            "type": "Niestacjonarne, Stacjonarne",
+            "city": "Głogów",
+            "courses": null
+        },
+        {
+            "universityName": "Państwowa Wyższa Szkoła Zawodowa w Koszalinie",
+            "id": "df893c7b-795e-4588-bdd1-381ffda0afb2",
+            "coursesOfStudy": 20,
+            "postgraduate": 0,
+            "level": "I Stopnia, Jednolite magisterskie",
+            "type": "Niestacjonarne, Stacjonarne",
+            "city": "Koszalin",
+            "courses": null
+        },
+        {
+            "universityName": "Papieski Wydział Teologiczny we Wrocławiu",
+            "id": "d9955030-0599-434b-adbf-43af9bf63c87",
+            "coursesOfStudy": 4,
+            "postgraduate": 0,
+            "level": "I Stopnia, Jednolite magisterskie",
+            "type": "Niestacjonarne, Stacjonarne",
+            "city": "Wrocław",
+            "courses": null
+        },
+        {
+            "universityName": "Pedagogium Wyższa Szkoła Nauk Społecznych w Warszawie",
+            "id": "21de5771-a36e-4a25-bdaf-a976fead5395",
+            "coursesOfStudy": 3,
+            "postgraduate": 0,
+            "level": null,
+            "type": "Niestacjonarne, Stacjonarne",
+            "city": "Warszawa",
+            "courses": null
+        },
+        {
+            "universityName": "Podhalańska Państwowa Uczelnia Zawodowa w Nowym Targu",
+            "id": "b0975574-2e19-408c-9d6b-bf3015f6da6b",
+            "coursesOfStudy": 19,
+            "postgraduate": 0,
+            "level": "I Stopnia, Jednolite magisterskie",
+            "type": "Niestacjonarne, Stacjonarne",
+            "city": "Nowy Targ",
+            "courses": null
+        },
+        {
+            "universityName": "Podkarpacka Szkoła Wyższa im. bł. ks. Władysława Findysza w Jaśle",
+            "id": "7bc32f1a-01f4-4cc7-ad29-b25341eb6178",
+            "coursesOfStudy": 4,
+            "postgraduate": 0,
+            "level": null,
+            "type": "Niestacjonarne",
+            "city": "Jasło",
+            "courses": null
+        },
+        {
+            "universityName": "Politechnika Białostocka",
+            "id": "ba7036d3-3bc2-4e5d-bbc9-90846b31fa3a",
+            "coursesOfStudy": 41,
+            "postgraduate": 0,
+            "level": "I Stopnia",
+            "type": "Niestacjonarne, Stacjonarne",
+            "city": "Białystok",
+            "courses": null
+        },
+        {
+            "universityName": "Politechnika Bydgoska im. Jana i Jędrzeja Śniadeckich",
+            "id": "48106176-3dff-4132-9a1a-e1f99508c2a7",
+            "coursesOfStudy": 50,
+            "postgraduate": 0,
+            "level": "I Stopnia",
+            "type": "Niestacjonarne, Stacjonarne",
+            "city": "Bydgoszcz",
+            "courses": null
+        },
+        {
+            "universityName": "Politechnika Częstochowska",
+            "id": "557dd0fa-3201-4802-a51e-d8f8744f7eea",
+            "coursesOfStudy": 73,
+            "postgraduate": 0,
+            "level": "I Stopnia",
+            "type": "Niestacjonarne, Stacjonarne",
+            "city": "Częstochowa",
+            "courses": null
+        },
+        {
+            "universityName": "Politechnika Gdańska",
+            "id": "9e75a9ef-51d0-4667-9e15-77452e852cfe",
+            "coursesOfStudy": 77,
+            "postgraduate": 0,
+            "level": "I Stopnia",
+            "type": "Niestacjonarne, Stacjonarne",
+            "city": "Gdańsk",
+            "courses": null
+        },
+        {
+            "universityName": "Politechnika Koszalińska",
+            "id": "0e025030-a683-4c7d-8cda-8748c317efb2",
+            "coursesOfStudy": 75,
+            "postgraduate": 0,
+            "level": "I Stopnia",
+            "type": "Niestacjonarne, Stacjonarne",
+            "city": "Koszalin",
+            "courses": null
+        },
+        {
+            "universityName": "Politechnika Krakowska im. Tadeusza Kościuszki",
+            "id": "333d8a7e-72b3-4a80-8b81-280ff9d1cc7f",
+            "coursesOfStudy": 59,
+            "postgraduate": 0,
+            "level": "I Stopnia",
+            "type": "Niestacjonarne, Stacjonarne",
+            "city": "Kraków",
+            "courses": null
+        },
+        {
+            "universityName": "Politechnika Łódzka",
+            "id": "6aad81fa-8f25-45ec-89e0-4af419cbccb1",
+            "coursesOfStudy": 91,
+            "postgraduate": 0,
+            "level": "I Stopnia",
+            "type": "Niestacjonarne, Stacjonarne",
+            "city": "Łódź",
+            "courses": null
+        },
+        {
+            "universityName": "Politechnika Lubelska",
+            "id": "c4261fe2-ed87-4517-9d1c-6a5d7e861f18",
+            "coursesOfStudy": 52,
+            "postgraduate": 0,
+            "level": "I Stopnia",
+            "type": "Niestacjonarne, Stacjonarne",
+            "city": "Lublin",
+            "courses": null
+        },
+        {
+            "universityName": "Politechnika Morska w Szczecinie",
+            "id": "bb1b5a1d-37db-4c60-b332-66fd17a604b3",
+            "coursesOfStudy": 32,
+            "postgraduate": 0,
+            "level": "I Stopnia",
+            "type": "Niestacjonarne, Stacjonarne",
+            "city": "Szczecin",
+            "courses": null
+        },
+        {
+            "universityName": "Politechnika Opolska",
+            "id": "5ca28eee-f848-4c2b-b5fb-9b55e114299a",
+            "coursesOfStudy": 53,
+            "postgraduate": 0,
+            "level": "I Stopnia, Jednolite magisterskie",
+            "type": "Niestacjonarne, Stacjonarne",
+            "city": "Opole",
+            "courses": null
+        },
+        {
+            "universityName": "Politechnika Poznańska",
+            "id": "ab908a87-0728-4f4f-9e30-f54043383c9e",
+            "coursesOfStudy": 95,
+            "postgraduate": 0,
+            "level": "I Stopnia",
+            "type": "Niestacjonarne, Stacjonarne",
+            "city": "Poznań",
+            "courses": null
+        },
+        {
+            "universityName": "Politechnika Rzeszowska im. Ignacego Łukasiewicza",
+            "id": "9699116c-e647-4c81-9c9c-61266c7d9166",
+            "coursesOfStudy": 54,
+            "postgraduate": 0,
+            "level": "I Stopnia",
+            "type": "Niestacjonarne, Stacjonarne",
+            "city": "Rzeszów",
+            "courses": null
+        },
+        {
+            "universityName": "Politechnika Śląska",
+            "id": "c3382738-02af-4729-b8fa-b562d15afa43",
+            "coursesOfStudy": 81,
+            "postgraduate": 0,
+            "level": "I Stopnia, Jednolite magisterskie",
+            "type": "Niestacjonarne, Stacjonarne",
+            "city": "Gliwice",
+            "courses": null
+        },
+        {
+            "universityName": "Politechnika Świętokrzyska",
+            "id": "438ce3b0-2621-4ee8-a46c-c39ff7910e90",
+            "coursesOfStudy": 48,
+            "postgraduate": 0,
+            "level": "I Stopnia",
+            "type": "Niestacjonarne, Stacjonarne",
+            "city": "Kielce",
+            "courses": null
+        },
+        {
+            "universityName": "Politechnika Warszawska",
+            "id": "ab93c9ad-64b1-4718-a05a-27045888cdde",
+            "coursesOfStudy": 133,
+            "postgraduate": 0,
+            "level": "I Stopnia, Jednolite magisterskie",
+            "type": "Niestacjonarne, Stacjonarne",
+            "city": "Warszawa",
+            "courses": null
+        },
+        {
+            "universityName": "Politechnika Wrocławska",
+            "id": "db9559dd-c51b-4303-8269-8a6946f74283",
+            "coursesOfStudy": 80,
+            "postgraduate": 0,
+            "level": "I Stopnia",
+            "type": "Niestacjonarne, Stacjonarne",
+            "city": "Wrocław",
+            "courses": null
+        },
+        {
+            "universityName": "Polsko-Japońska Akademia Technik Komputerowych",
+            "id": "090d00e6-c34b-4bab-9217-c4e76c338f13",
+            "coursesOfStudy": 15,
+            "postgraduate": 0,
+            "level": "I Stopnia, Jednolite magisterskie",
+            "type": "Niestacjonarne, Stacjonarne",
+            "city": "Warszawa",
+            "courses": null
+        },
+        {
+            "universityName": "Pomorska Szkoła Wyższa w Starogardzie Gdańskim",
+            "id": "db5fe64a-cbd3-4e8d-bf43-44f1c352d67d",
+            "coursesOfStudy": 4,
+            "postgraduate": 0,
+            "level": "I Stopnia",
+            "type": "Niestacjonarne",
+            "city": "Starogard Gdański",
+            "courses": null
+        },
+        {
+            "universityName": "Pomorska Wyższa Szkoła Nauk Stosowanych w Gdyni",
+            "id": "50b2c19c-f9f6-40fa-9a25-a52b8176dec1",
+            "coursesOfStudy": 0,
+            "postgraduate": 0,
+            "level": null,
+            "type": null,
+            "city": "Gdynia",
+            "courses": null
+        },
+        {
+            "universityName": "Pomorski Uniwersytet Medyczny w Szczecinie",
+            "id": "9b4abb5e-23da-4587-a932-cdc14b598677",
+            "coursesOfStudy": 24,
+            "postgraduate": 0,
+            "level": "I Stopnia, Jednolite magisterskie",
+            "type": "Niestacjonarne, Stacjonarne",
+            "city": "Szczecin",
+            "courses": null
+        },
+        {
+            "universityName": "Powiślańska Szkoła Wyższa",
+            "id": "0ee6c0a7-c104-4053-bb5f-d828b3c8baf1",
+            "coursesOfStudy": 9,
+            "postgraduate": 0,
+            "level": null,
+            "type": "Niestacjonarne, Stacjonarne",
+            "city": "Kwidzyn",
+            "courses": null
+        },
+        {
+            "universityName": "Powszechna Wyższa Szkoła Humanistyczna \"Pomerania\" w Chojnicach",
+            "id": "949677fc-155f-4e5e-9923-27f9ffe290e0",
+            "coursesOfStudy": 6,
+            "postgraduate": 0,
+            "level": null,
+            "type": "Niestacjonarne",
+            "city": "Chojnice",
+            "courses": null
+        },
+        {
+            "universityName": "Prawosławne Seminarium Duchowne w Warszawie",
+            "id": "c136cf16-2be8-47cd-943f-5bf0c3871182",
+            "coursesOfStudy": 1,
+            "postgraduate": 0,
+            "level": "I Stopnia",
+            "type": "Stacjonarne",
+            "city": "Warszawa",
+            "courses": null
+        },
+        {
+            "universityName": "Prywatna Wyższa Szkoła Ochrony Środowiska w Radomiu",
+            "id": "2ed45054-81c6-40ee-afc1-ceeaf80d3884",
+            "coursesOfStudy": 0,
+            "postgraduate": 0,
+            "level": null,
+            "type": null,
+            "city": "Radom",
+            "courses": null
+        },
+        {
+            "universityName": "Radomska Szkoła Wyższa",
+            "id": "20f775e0-477e-49e7-9e72-fe2d1d23b2c7",
+            "coursesOfStudy": 2,
+            "postgraduate": 0,
+            "level": "I Stopnia",
+            "type": "Niestacjonarne, Stacjonarne",
+            "city": "Radom",
+            "courses": null
+        },
+        {
+            "universityName": "Śląska Wyższa Szkoła Medyczna w Katowicach",
+            "id": "f865093f-a748-4d3d-bb7f-aaa970c30a7d",
+            "coursesOfStudy": 6,
+            "postgraduate": 0,
+            "level": "I Stopnia",
+            "type": "Niestacjonarne, Stacjonarne",
+            "city": "Katowice",
+            "courses": null
+        },
+        {
+            "universityName": "Śląski Uniwersytet Medyczny w Katowicach",
+            "id": "d215bfd2-e764-423e-9026-2177e0d9c55a",
+            "coursesOfStudy": 37,
+            "postgraduate": 0,
+            "level": "I Stopnia, Jednolite magisterskie",
+            "type": "Niestacjonarne, Stacjonarne",
+            "city": "Katowice",
+            "courses": null
+        },
+        {
+            "universityName": "Sopocka Akademia Nauk Stosowanych",
+            "id": "e7fd39f4-238f-44f2-a4e2-db9521ee5438",
+            "coursesOfStudy": 20,
+            "postgraduate": 0,
+            "level": null,
+            "type": "Niestacjonarne, Stacjonarne",
+            "city": "Sopot",
+            "courses": null
+        },
+        {
+            "universityName": "Społeczna Akademia Nauk z siedzibą w Łodzi",
+            "id": "2a80e2fa-cdbc-49e8-b393-279ef058cc39",
+            "coursesOfStudy": 45,
+            "postgraduate": 0,
+            "level": "I Stopnia, Jednolite magisterskie",
+            "type": "Niestacjonarne, Stacjonarne",
+            "city": "Łódź",
+            "courses": null
+        },
+        {
+            "universityName": "Staropolska Akademia Nauk Stosowanych w Kielcach",
+            "id": "6aacc70b-6071-4a4b-99a5-0e4eb31667ab",
+            "coursesOfStudy": 0,
+            "postgraduate": 0,
+            "level": "I Stopnia, Jednolite magisterskie",
+            "type": null,
+            "city": "Kielce",
+            "courses": null
+        },
+        {
+            "universityName": "Świętokrzyska Szkoła Wyższa w Kielcach",
+            "id": "95036e77-140e-4450-9edb-0493605ed879",
+            "coursesOfStudy": 2,
+            "postgraduate": 0,
+            "level": null,
+            "type": "Niestacjonarne",
+            "city": "Kielce",
+            "courses": null
+        },
+        {
+            "universityName": "SWPS Uniwersytet Humanistycznospołeczny z siedzibą w Warszawie",
+            "id": "853ef414-7729-40ad-bc95-7015f6f4a70e",
+            "coursesOfStudy": 36,
+            "postgraduate": 0,
+            "level": "I Stopnia, Jednolite magisterskie",
+            "type": "Niestacjonarne, Stacjonarne",
+            "city": "Warszawa",
+            "courses": null
+        },
+        {
+            "universityName": "Szkoła Główna Gospodarstwa Wiejskiego w Warszawie",
+            "id": "1e832319-c71d-4fe6-8dd2-bd989193cd1e",
+            "coursesOfStudy": 86,
+            "postgraduate": 0,
+            "level": "I Stopnia, Jednolite magisterskie",
+            "type": "Niestacjonarne, Stacjonarne",
+            "city": "Warszawa",
+            "courses": null
+        },
+        {
+            "universityName": "Szkoła Główna Handlowa w Warszawie",
+            "id": "bfb4fcf9-7222-464a-a33b-17289f51e37c",
+            "coursesOfStudy": 28,
+            "postgraduate": 0,
+            "level": "I Stopnia",
+            "type": "Niestacjonarne, Stacjonarne",
+            "city": "Warszawa",
+            "courses": null
+        },
+        {
+            "universityName": "Szkoła Główna Krajowa z siedzibą w Warszawie",
+            "id": "7a35f4fc-b5ec-4f5e-8f3c-e04ab4059805",
+            "coursesOfStudy": 3,
+            "postgraduate": 0,
+            "level": null,
+            "type": "Niestacjonarne",
+            "city": "Warszawa",
+            "courses": null
+        },
+        {
+            "universityName": "Szkoła Główna Mikołaja Kopernika",
+            "id": "f435bfa9-ff33-47e1-b11e-f8556036b8cd",
+            "coursesOfStudy": 0,
+            "postgraduate": 0,
+            "level": null,
+            "type": null,
+            "city": "Warszawa",
+            "courses": null
+        },
+        {
+            "universityName": "Szkoła Główna Turystyki i Hotelarstwa Vistula",
+            "id": "7ba08992-14a1-496b-8352-f8b8a424f5ec",
+            "coursesOfStudy": 6,
+            "postgraduate": 0,
+            "level": "I Stopnia",
+            "type": "Niestacjonarne, Stacjonarne",
+            "city": "Warszawa",
+            "courses": null
+        },
+        {
+            "universityName": "Szkoła Wyższa Ekonomii i Zarządzania w Łodzi",
+            "id": "87924a15-be46-4339-90bb-2e0100b39555",
+            "coursesOfStudy": 1,
+            "postgraduate": 0,
+            "level": "I Stopnia",
+            "type": "Niestacjonarne",
+            "city": "Łódź",
+            "courses": null
+        },
+        {
+            "universityName": "Szkoła Wyższa im. Bogdana Jańskiego w Warszawie",
+            "id": "12c39eb8-0b7b-4988-b847-cbb5d50c2bc5",
+            "coursesOfStudy": 3,
+            "postgraduate": 0,
+            "level": null,
+            "type": "Niestacjonarne, Stacjonarne",
+            "city": "Warszawa",
+            "courses": null
+        },
+        {
+            "universityName": "Szkoła Wyższa im. Pawła Włodkowica w Płocku",
+            "id": "766fdb16-93d4-42fd-b862-c006a69078bc",
+            "coursesOfStudy": 8,
+            "postgraduate": 0,
+            "level": "I Stopnia, Jednolite magisterskie",
+            "type": "Niestacjonarne",
+            "city": "Płock",
+            "courses": null
+        },
+        {
+            "universityName": "Szkoła Wyższa Rzemiosł Artystycznych i Zarządzania we Wrocławiu",
+            "id": "1658ba8e-12f7-49f9-94d2-61c485fecbbf",
+            "coursesOfStudy": 2,
+            "postgraduate": 0,
+            "level": null,
+            "type": "Niestacjonarne, Stacjonarne",
+            "city": "Wrocław",
+            "courses": null
+        },
+        {
+            "universityName": "Tarnowska Szkoła Wyższa Akademia Nauk Stosowanych",
+            "id": "fffc50fe-49b8-4124-b81f-9dcc0d89a19e",
+            "coursesOfStudy": 6,
+            "postgraduate": 0,
+            "level": null,
+            "type": "Niestacjonarne",
+            "city": "Tarnów",
+            "courses": null
+        },
+        {
+            "universityName": "Uczelnia ASBIRO",
+            "id": "a95f5f22-44ec-4491-8832-dc4232073579",
+            "coursesOfStudy": 1,
+            "postgraduate": 0,
+            "level": "I Stopnia",
+            "type": "Niestacjonarne",
+            "city": "Łódź",
+            "courses": null
+        },
+        {
+            "universityName": "Uczelnia Collegium Intermarium",
+            "id": "610820ba-0495-4d54-8cca-accad3058bf7",
+            "coursesOfStudy": 1,
+            "postgraduate": 0,
+            "level": "Jednolite magisterskie",
+            "type": "Stacjonarne",
+            "city": "Warszawa",
+            "courses": null
+        },
+        {
+            "universityName": "Uczelnia Jana Wyżykowskiego",
+            "id": "c7e48fa5-5c42-488d-8407-6c930e3e3f27",
+            "coursesOfStudy": 10,
+            "postgraduate": 0,
+            "level": null,
+            "type": "Niestacjonarne",
+            "city": "Polkowice",
+            "courses": null
+        },
+        {
+            "universityName": "Uczelnia Jańskiego z siedzibą w Łomży",
+            "id": "4a94e5da-7809-4b26-89ea-0bbf49ecca5e",
+            "coursesOfStudy": 3,
+            "postgraduate": 0,
+            "level": null,
+            "type": "Stacjonarne",
+            "city": "Łomża",
+            "courses": null
+        },
+        {
+            "universityName": "Uczelnia Korczaka - Akademia Nauk Stosowanych",
+            "id": "3f5e163b-f08b-4284-a8b9-d6e62550e935",
+            "coursesOfStudy": 9,
+            "postgraduate": 0,
+            "level": "I Stopnia, Jednolite magisterskie",
+            "type": "Niestacjonarne, Stacjonarne",
+            "city": "Warszawa",
+            "courses": null
+        },
+        {
+            "universityName": "Uczelnia Łazarskiego w Warszawie",
+            "id": "51746b28-1ce9-4c1a-b936-484692f280de",
+            "coursesOfStudy": 20,
+            "postgraduate": 0,
+            "level": "I Stopnia, Jednolite magisterskie",
+            "type": "Niestacjonarne, Stacjonarne",
+            "city": "Warszawa",
+            "courses": null
+        },
+        {
+            "universityName": "Uczelnia Lingwistyczno-Techniczna w Przasnyszu",
+            "id": "b1901858-04d3-4350-922c-a55f94ab9a3a",
+            "coursesOfStudy": 0,
+            "postgraduate": 0,
+            "level": null,
+            "type": null,
+            "city": "Przasnysz",
+            "courses": null
+        },
+        {
+            "universityName": "Uczelnia Łukaszewski ",
+            "id": "60121f94-b16e-4e95-b3c7-63c1346f6384",
+            "coursesOfStudy": 0,
+            "postgraduate": 0,
+            "level": "I Stopnia",
+            "type": null,
+            "city": "Warszawa",
+            "courses": null
+        },
+        {
+            "universityName": "Uczelnia Medyczna im. Marii Skłodowskiej - Curie w Warszawie",
+            "id": "a3517e9b-20b2-4589-b95b-c8be49b828d4",
+            "coursesOfStudy": 4,
+            "postgraduate": 0,
+            "level": "I Stopnia, Jednolite magisterskie",
+            "type": "Niestacjonarne, Stacjonarne",
+            "city": "Warszawa",
+            "courses": null
+        },
+        {
+            "universityName": "Uczelnia Metropolitalna",
+            "id": "666be900-52c4-4d0b-82ef-9fc949317dd4",
+            "coursesOfStudy": 0,
+            "postgraduate": 0,
+            "level": null,
+            "type": null,
+            "city": "Katowice",
+            "courses": null
+        },
+        {
+            "universityName": "Uczelnia Nauk Społecznych",
+            "id": "be1a951e-e189-4c59-9e5f-5353551e939d",
+            "coursesOfStudy": 8,
+            "postgraduate": 0,
+            "level": null,
+            "type": "Niestacjonarne",
+            "city": "Łódź",
+            "courses": null
+        },
+        {
+            "universityName": "Uczelnia Państwowa im. Jana Grodka w Sanoku",
+            "id": "e0b1798e-9c50-4dee-b956-d50165a7e48b",
+            "coursesOfStudy": 27,
+            "postgraduate": 0,
+            "level": "I Stopnia, Jednolite magisterskie",
+            "type": "Niestacjonarne, Stacjonarne",
+            "city": "Sanok",
+            "courses": null
+        },
+        {
+            "universityName": "Uczelnia Społeczno-Medyczna w Warszawie",
+            "id": "7e1c9e2f-e824-428c-8d13-7a2c7606362b",
+            "coursesOfStudy": 6,
+            "postgraduate": 0,
+            "level": null,
+            "type": "Niestacjonarne, Stacjonarne",
+            "city": "Warszawa",
+            "courses": null
+        },
+        {
+            "universityName": "Uczelnia Techniczno-Handlowa im. Heleny Chodkowskiej",
+            "id": "6ac394a3-16aa-461d-980b-ff76ad9d1350",
+            "coursesOfStudy": 19,
+            "postgraduate": 0,
+            "level": "I Stopnia",
+            "type": "Niestacjonarne, Stacjonarne",
+            "city": "Warszawa",
+            "courses": null
+        },
+        {
+            "universityName": "Uczelnia WSB Merito w Warszawie",
+            "id": "55974513-48c7-4861-81b6-6dbe7aa554db",
+            "coursesOfStudy": 30,
+            "postgraduate": 0,
+            "level": null,
+            "type": "Niestacjonarne, Stacjonarne",
+            "city": "Warszawa",
+            "courses": null
+        },
+        {
+            "universityName": "Uniwersytet Artystyczny im. Magdaleny Abakanowicz w Poznaniu",
+            "id": "f72324e3-2714-4735-a609-43001885972f",
+            "coursesOfStudy": 27,
+            "postgraduate": 0,
+            "level": null,
+            "type": "Niestacjonarne, Stacjonarne",
+            "city": "Poznań",
+            "courses": null
+        },
+        {
+            "universityName": "Uniwersytet Bielsko-Bialski",
+            "id": "6132c7a5-2400-4a8d-b907-92324419dd2c",
+            "coursesOfStudy": 52,
+            "postgraduate": 0,
+            "level": "I Stopnia, Jednolite magisterskie",
+            "type": "Niestacjonarne, Stacjonarne",
+            "city": "Bielsko-Biała",
+            "courses": null
+        },
+        {
+            "universityName": "Uniwersytet Dolnośląski DSW we Wrocławiu",
+            "id": "a8ecf152-62c2-4aee-a79c-d9fd64b906b7",
+            "coursesOfStudy": 38,
+            "postgraduate": 0,
+            "level": null,
+            "type": "Niestacjonarne, Stacjonarne",
+            "city": "Wrocław",
+            "courses": null
+        },
+        {
+            "universityName": "Uniwersytet Ekonomiczny we Wrocławiu",
+            "id": "e0bf30e3-b83f-4151-a390-52fb127b0fce",
+            "coursesOfStudy": 54,
+            "postgraduate": 0,
+            "level": "I Stopnia",
+            "type": "Niestacjonarne, Stacjonarne",
+            "city": "Wrocław",
+            "courses": null
+        },
+        {
+            "universityName": "Uniwersytet Ekonomiczny w Katowicach",
+            "id": "aaf037df-5636-4cda-b33e-1fd7a2484b4d",
+            "coursesOfStudy": 64,
+            "postgraduate": 0,
+            "level": "I Stopnia",
+            "type": "Niestacjonarne, Stacjonarne",
+            "city": "Katowice",
+            "courses": null
+        },
+        {
+            "universityName": "Uniwersytet Ekonomiczny w Krakowie",
+            "id": "9e70af1c-f14d-47aa-9599-0f352d486805",
+            "coursesOfStudy": 93,
+            "postgraduate": 0,
+            "level": "I Stopnia, Jednolite magisterskie",
+            "type": "Niestacjonarne, Stacjonarne",
+            "city": "Kraków",
+            "courses": null
+        },
+        {
+            "universityName": "Uniwersytet Ekonomiczny w Poznaniu",
+            "id": "5de26dd9-419b-40b9-ac01-4f4842443ee3",
+            "coursesOfStudy": 42,
+            "postgraduate": 0,
+            "level": "I Stopnia",
+            "type": "Niestacjonarne, Stacjonarne",
+            "city": "Poznań",
+            "courses": null
+        },
+        {
+            "universityName": "Uniwersytet Gdański",
+            "id": "c7139cde-b38e-49c0-97b8-1093a0ed3974",
+            "coursesOfStudy": 158,
+            "postgraduate": 0,
+            "level": "I Stopnia, Jednolite magisterskie",
+            "type": "Niestacjonarne, Stacjonarne",
+            "city": "Gdańsk",
+            "courses": null
+        },
+        {
+            "universityName": "Uniwersytet im. Adama Mickiewicza w Poznaniu",
+            "id": "ff18a6d6-a663-417e-acdf-0055461a54ae",
+            "coursesOfStudy": 240,
+            "postgraduate": 0,
+            "level": "I Stopnia, Jednolite magisterskie",
+            "type": "Niestacjonarne, Stacjonarne",
+            "city": "Poznań",
+            "courses": null
+        },
+        {
+            "universityName": "Uniwersytet Jagielloński w Krakowie",
+            "id": "8ec35ec6-e2c0-41dc-8796-c91a2564e67c",
+            "coursesOfStudy": 256,
+            "postgraduate": 0,
+            "level": "I Stopnia, Jednolite magisterskie",
+            "type": "Niestacjonarne, Stacjonarne",
+            "city": "Kraków",
+            "courses": null
+        },
+        {
+            "universityName": "Uniwersytet Jana Długosza w Częstochowie",
+            "id": "aa7a35d8-960c-4953-8ad4-665be1f7727c",
+            "coursesOfStudy": 86,
+            "postgraduate": 0,
+            "level": "I Stopnia, Jednolite magisterskie",
+            "type": "Niestacjonarne, Stacjonarne",
+            "city": "Częstochowa",
+            "courses": null
+        },
+        {
+            "universityName": "Uniwersytet Jana Kochanowskiego w Kielcach",
+            "id": "c157152d-b606-4778-8712-8079d092e5b7",
+            "coursesOfStudy": 112,
+            "postgraduate": 0,
+            "level": "I Stopnia, Jednolite magisterskie",
+            "type": "Niestacjonarne, Stacjonarne",
+            "city": "Kielce",
+            "courses": null
+        },
+        {
+            "universityName": "Uniwersytet Kardynała Stefana Wyszyńskiego w Warszawie",
+            "id": "a3da16a9-c1d2-4e8e-ac06-a8d32851ac90",
+            "coursesOfStudy": 93,
+            "postgraduate": 0,
+            "level": "I Stopnia, Jednolite magisterskie",
+            "type": "Niestacjonarne, Stacjonarne",
+            "city": "Warszawa",
+            "courses": null
+        },
+        {
+            "universityName": "Uniwersytet Kazimierza Wielkiego w Bydgoszczy",
+            "id": "48ea4d08-3dfd-4aa3-9e47-8b740bb91fec",
+            "coursesOfStudy": 118,
+            "postgraduate": 0,
+            "level": "I Stopnia, Jednolite magisterskie",
+            "type": "Niestacjonarne, Stacjonarne",
+            "city": "Bydgoszcz",
+            "courses": null
+        },
+        {
+            "universityName": "Uniwersytet Łódzki",
+            "id": "c89b9e94-22ae-41e8-8386-1b5a0f1e4453",
+            "coursesOfStudy": 183,
+            "postgraduate": 0,
+            "level": "I Stopnia, Jednolite magisterskie",
+            "type": "Niestacjonarne, Stacjonarne",
+            "city": "Łódź",
+            "courses": null
+        },
+        {
+            "universityName": "Uniwersytet Marii Curie-Skłodowskiej w Lublinie",
+            "id": "b4d641bd-178e-4cde-92ab-5c96957f2ff3",
+            "coursesOfStudy": 155,
+            "postgraduate": 0,
+            "level": "I Stopnia, Jednolite magisterskie",
+            "type": "Niestacjonarne, Stacjonarne",
+            "city": "Lublin",
+            "courses": null
+        },
+        {
+            "universityName": "Uniwersytet Medyczny im. Karola Marcinkowskiego w Poznaniu",
+            "id": "74802b0c-c3b3-4643-9a6f-7a1480ff24b0",
+            "coursesOfStudy": 33,
+            "postgraduate": 0,
+            "level": "I Stopnia, Jednolite magisterskie",
+            "type": "Niestacjonarne, Stacjonarne",
+            "city": "Poznań",
+            "courses": null
+        },
+        {
+            "universityName": "Uniwersytet Medyczny im. Piastów Śląskich we Wrocławiu",
+            "id": "cf3aea9f-ffd1-44ab-bac5-3e231bf8588e",
+            "coursesOfStudy": 18,
+            "postgraduate": 0,
+            "level": null,
+            "type": "Niestacjonarne, Stacjonarne",
+            "city": "Wrocław",
+            "courses": null
+        },
+        {
+            "universityName": "Uniwersytet Medyczny w Białymstoku",
+            "id": "cead29a1-20aa-4ce8-a35a-d4ce533410fb",
+            "coursesOfStudy": 27,
+            "postgraduate": 0,
+            "level": "I Stopnia, Jednolite magisterskie",
+            "type": "Niestacjonarne, Stacjonarne",
+            "city": "Białystok",
+            "courses": null
+        },
+        {
+            "universityName": "Uniwersytet Medyczny w Łodzi",
+            "id": "a508414f-69b2-493b-ba7a-2475d22dd9bf",
+            "coursesOfStudy": 25,
+            "postgraduate": 0,
+            "level": null,
+            "type": "Niestacjonarne, Stacjonarne",
+            "city": "Łódź",
+            "courses": null
+        },
+        {
+            "universityName": "Uniwersytet Medyczny w Lublinie",
+            "id": "d41dfa16-d87e-4c4c-be00-d33912afe121",
+            "coursesOfStudy": 28,
+            "postgraduate": 0,
+            "level": "I Stopnia, Jednolite magisterskie",
+            "type": "Niestacjonarne, Stacjonarne",
+            "city": "Lublin",
+            "courses": null
+        },
+        {
+            "universityName": "Uniwersytet Mikołaja Kopernika w Toruniu",
+            "id": "c472e1ae-11a0-4fa9-a9a0-1837d45fd78b",
+            "coursesOfStudy": 162,
+            "postgraduate": 0,
+            "level": "I Stopnia, Jednolite magisterskie",
+            "type": "Niestacjonarne, Stacjonarne",
+            "city": "Toruń",
+            "courses": null
+        },
+        {
+            "universityName": "Uniwersytet Morski w Gdyni",
+            "id": "dfd17269-f57d-4c7e-a168-03f135463d8e",
+            "coursesOfStudy": 25,
+            "postgraduate": 0,
+            "level": "I Stopnia",
+            "type": "Niestacjonarne, Stacjonarne",
+            "city": "Gdynia",
+            "courses": null
+        },
+        {
+            "universityName": "Uniwersytet Muzyczny Fryderyka Chopina w Warszawie",
+            "id": "198854ee-7c1d-45b3-a64e-0962b1e248a0",
+            "coursesOfStudy": 22,
+            "postgraduate": 0,
+            "level": "I Stopnia",
+            "type": "Niestacjonarne, Stacjonarne",
+            "city": "Warszawa",
+            "courses": null
+        },
+        {
+            "universityName": "Uniwersytet Opolski",
+            "id": "6678151f-b248-4ef5-91ef-2c4b14ee543d",
+            "coursesOfStudy": 113,
+            "postgraduate": 0,
+            "level": "I Stopnia, Jednolite magisterskie",
+            "type": "Niestacjonarne, Stacjonarne",
+            "city": "Opole",
+            "courses": null
+        },
+        {
+            "universityName": "Uniwersytet Papieski Jana Pawła II w Krakowie",
+            "id": "aff67fca-e621-40da-af59-3cdefb1ce3d1",
+            "coursesOfStudy": 25,
+            "postgraduate": 0,
+            "level": null,
+            "type": "Niestacjonarne, Stacjonarne",
+            "city": "Kraków",
+            "courses": null
+        },
+        {
+            "universityName": "Uniwersytet Pedagogiczny im. Komisji Edukacji Narodowej w Krakowie",
+            "id": "ffff187e-f623-412a-b2cf-287f1b3ecede",
+            "coursesOfStudy": 156,
+            "postgraduate": 0,
+            "level": null,
+            "type": "Niestacjonarne, Stacjonarne",
+            "city": "Kraków",
+            "courses": null
+        },
+        {
+            "universityName": "Uniwersytet Pomorski w Słupsku",
+            "id": "5702f365-36b7-4bdf-9af1-ade7c55c65c3",
+            "coursesOfStudy": 52,
+            "postgraduate": 0,
+            "level": "I Stopnia, Jednolite magisterskie",
+            "type": "Niestacjonarne, Stacjonarne",
+            "city": "Słupsk",
+            "courses": null
+        },
+        {
+            "universityName": "Uniwersytet Przyrodniczo-Humanistyczny w Siedlcach",
+            "id": "a2ac64a6-dc48-40d1-961f-f1cf00307164",
+            "coursesOfStudy": 67,
+            "postgraduate": 0,
+            "level": "I Stopnia, Jednolite magisterskie",
+            "type": "Niestacjonarne, Stacjonarne",
+            "city": "Siedlce",
+            "courses": null
+        },
+        {
+            "universityName": "Uniwersytet Przyrodniczy we Wrocławiu",
+            "id": "d778e2c4-879d-4833-93b0-814f3bac9d8c",
+            "coursesOfStudy": 54,
+            "postgraduate": 0,
+            "level": "I Stopnia, Jednolite magisterskie",
+            "type": "Niestacjonarne, Stacjonarne",
+            "city": "Wrocław",
+            "courses": null
+        },
+        {
+            "universityName": "Uniwersytet Przyrodniczy w Lublinie",
+            "id": "34458486-d9e9-4c20-8ca8-4c7a56c4b2f1",
+            "coursesOfStudy": 99,
+            "postgraduate": 0,
+            "level": "I Stopnia, Jednolite magisterskie",
+            "type": "Niestacjonarne, Stacjonarne",
+            "city": "Lublin",
+            "courses": null
+        },
+        {
+            "universityName": "Uniwersytet Przyrodniczy w Poznaniu",
+            "id": "3804d89d-6c75-4351-bd88-d48fc77e555c",
+            "coursesOfStudy": 63,
+            "postgraduate": 0,
+            "level": "I Stopnia, Jednolite magisterskie",
+            "type": "Niestacjonarne, Stacjonarne",
+            "city": "Poznań",
+            "courses": null
+        },
+        {
+            "universityName": "Uniwersytet Radomski im. Kazimierza Pułaskiego",
+            "id": "fa2b8260-5a66-458d-94cb-0eb4b5226df0",
+            "coursesOfStudy": 92,
+            "postgraduate": 0,
+            "level": null,
+            "type": "Niestacjonarne, Stacjonarne",
+            "city": "Radom",
+            "courses": null
+        },
+        {
+            "universityName": "Uniwersytet Rolniczy im. Hugona Kołłątaja w Krakowie",
+            "id": "ab66b734-191c-4e9e-80f7-de3ae1c0d9bb",
+            "coursesOfStudy": 53,
+            "postgraduate": 0,
+            "level": "I Stopnia, Jednolite magisterskie",
+            "type": "Niestacjonarne, Stacjonarne",
+            "city": "Kraków",
+            "courses": null
+        },
+        {
+            "universityName": "Uniwersytet Rzeszowski",
+            "id": "42199c97-35c0-44ac-8ad8-b3e1c82813da",
+            "coursesOfStudy": 119,
+            "postgraduate": 0,
+            "level": "I Stopnia, Jednolite magisterskie",
+            "type": "Niestacjonarne, Stacjonarne",
+            "city": "Rzeszów",
+            "courses": null
+        },
+        {
+            "universityName": "Uniwersytet Śląski w Katowicach",
+            "id": "c0b8e6f2-c67d-43b1-8236-af2833698e60",
+            "coursesOfStudy": 158,
+            "postgraduate": 0,
+            "level": null,
+            "type": "Niestacjonarne, Stacjonarne",
+            "city": "Katowice",
+            "courses": null
+        },
+        {
+            "universityName": "Uniwersytet Szczeciński",
+            "id": "7435084a-7367-4ed5-aca2-8df71867de57",
+            "coursesOfStudy": 164,
+            "postgraduate": 0,
+            "level": "I Stopnia, Jednolite magisterskie",
+            "type": "Niestacjonarne, Stacjonarne",
+            "city": "Szczecin",
+            "courses": null
+        },
+        {
+            "universityName": "Uniwersytet Warmińsko-Mazurski w Olsztynie",
+            "id": "e017a679-db74-4980-95b6-02022714ef10",
+            "coursesOfStudy": 142,
+            "postgraduate": 0,
+            "level": "I Stopnia, Jednolite magisterskie",
+            "type": "Niestacjonarne, Stacjonarne",
+            "city": "Olsztyn",
+            "courses": null
+        },
+        {
+            "universityName": "Uniwersytet Warszawski",
+            "id": "9f22c14a-2d1a-42f5-bbc5-6e2f95f83df3",
+            "coursesOfStudy": 272,
+            "postgraduate": 0,
+            "level": "I Stopnia, Jednolite magisterskie",
+            "type": "Niestacjonarne, Stacjonarne",
+            "city": "Warszawa",
+            "courses": null
+        },
+        {
+            "universityName": "Uniwersytet w Białymstoku",
+            "id": "588dc1af-7d7b-4899-84ed-5554cc79b7ee",
+            "coursesOfStudy": 77,
+            "postgraduate": 0,
+            "level": "I Stopnia, Jednolite magisterskie",
+            "type": "Niestacjonarne, Stacjonarne",
+            "city": "Białystok",
+            "courses": null
+        },
+        {
+            "universityName": "Uniwersytet Wrocławski",
+            "id": "2124e6d2-a717-433a-bca9-84edb710fa1d",
+            "coursesOfStudy": 172,
+            "postgraduate": 0,
+            "level": "I Stopnia, Jednolite magisterskie",
+            "type": "Niestacjonarne, Stacjonarne",
+            "city": "Wrocław",
+            "courses": null
+        },
+        {
+            "universityName": "Uniwersytet WSB Merito we Wrocławiu",
+            "id": "900d977a-749a-4abe-b2d6-629b9a9d662d",
+            "coursesOfStudy": 44,
+            "postgraduate": 0,
+            "level": "I Stopnia, Jednolite magisterskie",
+            "type": "Niestacjonarne, Stacjonarne",
+            "city": "Wrocław",
+            "courses": null
+        },
+        {
+            "universityName": "Uniwersytet WSB Merito w Gdańsku",
+            "id": "47e37910-ea20-4bd7-ace6-8bca222eda97",
+            "coursesOfStudy": 46,
+            "postgraduate": 0,
+            "level": "I Stopnia, Jednolite magisterskie",
+            "type": "Niestacjonarne, Stacjonarne",
+            "city": "Gdańsk",
+            "courses": null
+        },
+        {
+            "universityName": "Uniwersytet WSB Merito w Poznaniu",
+            "id": "97cdb9de-a775-45e3-b675-b7e254aa030b",
+            "coursesOfStudy": 54,
+            "postgraduate": 0,
+            "level": "I Stopnia, Jednolite magisterskie",
+            "type": "Niestacjonarne, Stacjonarne",
+            "city": "Poznań",
+            "courses": null
+        },
+        {
+            "universityName": "Uniwersytet WSB Merito w Toruniu",
+            "id": "ecc0e7e1-642b-48f5-9fa4-89ad306bb0b9",
+            "coursesOfStudy": 46,
+            "postgraduate": 0,
+            "level": "I Stopnia, Jednolite magisterskie",
+            "type": "Niestacjonarne, Stacjonarne",
+            "city": "Toruń",
+            "courses": null
+        },
+        {
+            "universityName": "Uniwersytet Zielonogórski",
+            "id": "717f8b7b-cd5a-4334-a615-cdfbae79dee8",
+            "coursesOfStudy": 109,
+            "postgraduate": 0,
+            "level": "I Stopnia, Jednolite magisterskie",
+            "type": "Niestacjonarne, Stacjonarne",
+            "city": "Zielona Góra",
+            "courses": null
+        },
+        {
+            "universityName": "VIAMODA Szkoła Wyższa z siedzibą w Warszawie",
+            "id": "39ae7d14-e7b9-40a3-bb7c-f653f977554a",
+            "coursesOfStudy": 2,
+            "postgraduate": 0,
+            "level": "I Stopnia",
+            "type": "Niestacjonarne, Stacjonarne",
+            "city": "Warszawa",
+            "courses": null
+        },
+        {
+            "universityName": "Warszawska Akademia Medyczna Nauk Stosowanych",
+            "id": "9fb16949-6aa2-49f2-ad89-bcb5e5b3b15e",
+            "coursesOfStudy": 8,
+            "postgraduate": 0,
+            "level": null,
+            "type": "Niestacjonarne, Stacjonarne",
+            "city": "Warszawa",
+            "courses": null
+        },
+        {
+            "universityName": "Warszawska Szkoła Filmowa z siedzibą w Warszawie",
+            "id": "35140971-a299-4f73-910a-c683d87f7b9f",
+            "coursesOfStudy": 3,
+            "postgraduate": 0,
+            "level": "I Stopnia",
+            "type": "Niestacjonarne, Stacjonarne",
+            "city": "Warszawa",
+            "courses": null
+        },
+        {
+            "universityName": "Warszawska Szkoła Zarządzania - Szkoła Wyższa w Warszawie",
+            "id": "67c17180-6d2f-4c43-9300-e051ba4b8452",
+            "coursesOfStudy": 3,
+            "postgraduate": 0,
+            "level": null,
+            "type": "Niestacjonarne, Stacjonarne",
+            "city": "Warszawa",
+            "courses": null
+        },
+        {
+            "universityName": "Warszawska Uczelnia Medyczna im. Tadeusza Koźluka",
+            "id": "986caf6f-01f3-44a7-b3df-c91a4ded230c",
+            "coursesOfStudy": 15,
+            "postgraduate": 0,
+            "level": null,
+            "type": "Niestacjonarne, Stacjonarne",
+            "city": "Warszawa",
+            "courses": null
+        },
+        {
+            "universityName": "Warszawska Wyższa Szkoła Biznesu z siedzibą w Warszawie",
+            "id": "cfd33e3c-e63d-4d9d-858c-b669d12bc600",
+            "coursesOfStudy": 10,
+            "postgraduate": 0,
+            "level": null,
+            "type": "Niestacjonarne, Stacjonarne",
+            "city": "Warszawa",
+            "courses": null
+        },
+        {
+            "universityName": "Warszawska Wyższa Szkoła Humanistyczna im. Bolesława Prusa (decyzja z dnia 06.07.2006 r.)",
+            "id": "b463c834-9e17-4cbf-ac11-a7603c2b4b59",
+            "coursesOfStudy": 10,
+            "postgraduate": 0,
+            "level": null,
+            "type": "Niestacjonarne, Stacjonarne",
+            "city": "Warszawa",
+            "courses": null
+        },
+        {
+            "universityName": "Warszawska Wyższa Szkoła Informatyki w Warszawie",
+            "id": "76351e5c-620d-4361-bcea-203577b1769c",
+            "coursesOfStudy": 4,
+            "postgraduate": 0,
+            "level": "I Stopnia",
+            "type": "Niestacjonarne, Stacjonarne",
+            "city": "Warszawa",
+            "courses": null
+        },
+        {
+            "universityName": "Warszawska Wyższa Szkoła Nauk Społecznych im. Rafała Lemkina ",
+            "id": "89a58fac-0362-466b-b2ec-a8f893a93e37",
+            "coursesOfStudy": 0,
+            "postgraduate": 0,
+            "level": null,
+            "type": null,
+            "city": "Warszawa",
+            "courses": null
+        },
+        {
+            "universityName": "Warszawski Uniwersytet Medyczny",
+            "id": "7d886827-68cc-4011-b015-e2e772db41a7",
+            "coursesOfStudy": 28,
+            "postgraduate": 0,
+            "level": "I Stopnia, Jednolite magisterskie",
+            "type": "Niestacjonarne, Stacjonarne",
+            "city": "Warszawa",
+            "courses": null
+        },
+        {
+            "universityName": "Wielkopolska Akademia Społeczno - Ekonomiczna w Środzie Wielkopolskiej - Akademia Nauk Stosowanych",
+            "id": "53fc6140-283d-4b43-84d8-b3b1ec201e1b",
+            "coursesOfStudy": 13,
+            "postgraduate": 0,
+            "level": null,
+            "type": "Niestacjonarne, Stacjonarne",
+            "city": "Środa Wielkopolska",
+            "courses": null
+        },
+        {
+            "universityName": "Wojskowa Akademia Techniczna im. Jarosława Dąbrowskiego",
+            "id": "aba8311d-4694-4281-a5d6-be28675124c0",
+            "coursesOfStudy": 49,
+            "postgraduate": 0,
+            "level": "I Stopnia, Jednolite magisterskie",
+            "type": "Niestacjonarne, Stacjonarne",
+            "city": "Warszawa",
+            "courses": null
+        },
+        {
+            "universityName": "Wrocławska Akademia Biznesu w Naukach Stosowanych",
+            "id": "4fe99cb2-74b8-4489-aa72-ec945824d5c8",
+            "coursesOfStudy": 17,
+            "postgraduate": 0,
+            "level": "I Stopnia",
+            "type": "Niestacjonarne, Stacjonarne",
+            "city": "Wrocław",
+            "courses": null
+        },
+        {
+            "universityName": "Wrocławska Wyższa Szkoła Informatyki Stosowanej we Wrocławiu",
+            "id": "b16fda24-730f-4824-9113-d5ffa93d8577",
+            "coursesOfStudy": 5,
+            "postgraduate": 0,
+            "level": "I Stopnia",
+            "type": "Niestacjonarne, Stacjonarne",
+            "city": "Wrocław",
+            "courses": null
+        },
+        {
+            "universityName": "Wschodnioeuropejska Akademia Nauk Stosowanych w Białymstoku",
+            "id": "997a1b58-0fb5-40d4-a484-ecc821116feb",
+            "coursesOfStudy": 7,
+            "postgraduate": 0,
+            "level": "I Stopnia",
+            "type": "Niestacjonarne, Stacjonarne",
+            "city": "Białystok",
+            "courses": null
+        },
+        {
+            "universityName": "Wschód-Zachód Szkoła Wyższa im. Henryka Jóźwiaka",
+            "id": "6fdeb8ea-ca4c-442e-b934-f574bb3725a0",
+            "coursesOfStudy": 0,
+            "postgraduate": 0,
+            "level": null,
+            "type": null,
+            "city": "Łódź",
+            "courses": null
+        },
+        {
+            "universityName": "WSHIU Akademia Nauk Stosowanych",
+            "id": "380cc76b-9863-4620-a701-bc010a085a13",
+            "coursesOfStudy": 27,
+            "postgraduate": 0,
+            "level": "I Stopnia, Jednolite magisterskie",
+            "type": "Niestacjonarne, Stacjonarne",
+            "city": "Poznań",
+            "courses": null
+        },
+        {
+            "universityName": "Wszechnica Polska Akademia Nauk Stosowanych w Warszawie",
+            "id": "2f902a94-01e4-41db-a022-777d523fe0e2",
+            "coursesOfStudy": 13,
+            "postgraduate": 0,
+            "level": "I Stopnia",
+            "type": "Niestacjonarne, Stacjonarne",
+            "city": "Warszawa",
+            "courses": null
+        },
+        {
+            "universityName": "Wszechnica Świętokrzyska w Kielcach",
+            "id": "fcbbc62d-77ba-4e6a-b4aa-6291a4978309",
+            "coursesOfStudy": 0,
+            "postgraduate": 0,
+            "level": null,
+            "type": null,
+            "city": "Kielce",
+            "courses": null
+        },
+        {
+            "universityName": "Wyższa Inżynierska Szkoła Bezpieczeństwa i Organizacji Pracy w Radomiu",
+            "id": "bb343be3-b7cb-430d-aa43-9063c69ea7f6",
+            "coursesOfStudy": 2,
+            "postgraduate": 0,
+            "level": null,
+            "type": "Niestacjonarne",
+            "city": "Radom",
+            "courses": null
+        },
+        {
+            "universityName": "Wyższa Szkoła Administracji i Biznesu im. Eugeniusza Kwiatkowskiego w Gdyni",
+            "id": "04f91dfa-f484-4010-9e35-65855c331e96",
+            "coursesOfStudy": 18,
+            "postgraduate": 0,
+            "level": "I Stopnia, Jednolite magisterskie",
+            "type": "Niestacjonarne, Stacjonarne",
+            "city": "Gdynia",
+            "courses": null
+        },
+        {
+            "universityName": "Wyższa Szkoła Administracji Publicznej w Kielcach",
+            "id": "40c1361b-46d0-4e3d-aca8-654472ddf1e2",
+            "coursesOfStudy": 1,
+            "postgraduate": 0,
+            "level": "I Stopnia",
+            "type": "Niestacjonarne",
+            "city": "Kielce",
+            "courses": null
+        },
+        {
+            "universityName": "Wyższa Szkoła Administracji Publicznej w Ostrołęce",
+            "id": "a2d9362c-2a89-4dda-919c-5431529e5a6b",
+            "coursesOfStudy": 1,
+            "postgraduate": 0,
+            "level": "I Stopnia",
+            "type": "Niestacjonarne",
+            "city": "Ostrołęka",
+            "courses": null
+        },
+        {
+            "universityName": "Wyższa Szkoła Administracji Publicznej w Szczecinie",
+            "id": "5ff81363-ca52-4804-a265-4d02b58e4978",
+            "coursesOfStudy": 3,
+            "postgraduate": 0,
+            "level": null,
+            "type": "Niestacjonarne",
+            "city": "Szczecin",
+            "courses": null
+        },
+        {
+            "universityName": "Wyższa Szkoła Administracji w Bielsku-Białej",
+            "id": "170a4a40-0bec-4e31-9129-ae940bfe2d44",
+            "coursesOfStudy": 6,
+            "postgraduate": 0,
+            "level": null,
+            "type": "Niestacjonarne",
+            "city": "Bielsko-Biała",
+            "courses": null
+        },
+        {
+            "universityName": "Wyższa Szkoła Artystyczna w Warszawie",
+            "id": "cac99e9e-387c-4e42-97fc-4ab9028040d3",
+            "coursesOfStudy": 2,
+            "postgraduate": 0,
+            "level": "I Stopnia",
+            "type": "Niestacjonarne, Stacjonarne",
+            "city": "Warszawa",
+            "courses": null
+        },
+        {
+            "universityName": "Wyższa Szkoła Bezpieczeństwa i Ochrony im. Marszałka Józefa Piłsudskiego z siedzibą w Warszawie",
+            "id": "79f4decd-9a62-4f3b-8c71-5de690957515",
+            "coursesOfStudy": 3,
+            "postgraduate": 0,
+            "level": null,
+            "type": "Niestacjonarne",
+            "city": "Warszawa",
+            "courses": null
+        },
+        {
+            "universityName": "Wyższa Szkoła Bezpieczeństwa Publicznego i Indywidualnego \"Apeiron\" w Krakowie",
+            "id": "1217e3df-51ea-4933-a672-d0c8382833f0",
+            "coursesOfStudy": 6,
+            "postgraduate": 0,
+            "level": null,
+            "type": "Niestacjonarne, Stacjonarne",
+            "city": "Kraków",
+            "courses": null
+        },
+        {
+            "universityName": "Wyższa Szkoła Bezpieczeństwa Wewnętrznego w Łodzi",
+            "id": "fddf4b50-c1e4-4d10-934c-b9a7605e056c",
+            "coursesOfStudy": 0,
+            "postgraduate": 0,
+            "level": null,
+            "type": null,
+            "city": "Łódź",
+            "courses": null
+        },
+        {
+            "universityName": "Wyższa Szkoła Bezpieczeństwa w Poznaniu",
+            "id": "577bac16-9ae1-453d-a372-00b04dc08049",
+            "coursesOfStudy": 15,
+            "postgraduate": 0,
+            "level": "I Stopnia",
+            "type": "Niestacjonarne, Stacjonarne",
+            "city": "Poznań",
+            "courses": null
+        },
+        {
+            "universityName": "Wyższa Szkoła Biznesu i Nauk o Zdrowiu w Łodzi",
+            "id": "56598da7-4b0e-4f08-9a06-6468ad572b0d",
+            "coursesOfStudy": 15,
+            "postgraduate": 0,
+            "level": "I Stopnia, Jednolite magisterskie",
+            "type": "Niestacjonarne, Stacjonarne",
+            "city": "Łódź",
+            "courses": null
+        },
+        {
+            "universityName": "Wyższa Szkoła Biznesu i Zarządzania z siedzibą w Ciechanowie",
+            "id": "b0c43012-d961-4c59-b40a-33daf2d436e8",
+            "coursesOfStudy": 0,
+            "postgraduate": 0,
+            "level": null,
+            "type": null,
+            "city": "Ciechanów",
+            "courses": null
+        },
+        {
+            "universityName": "Wyższa Szkoła Biznesu, Mediów i Reklamy",
+            "id": "96f80d75-cdf3-4dbb-9318-b6f015e6dc5c",
+            "coursesOfStudy": 0,
+            "postgraduate": 0,
+            "level": null,
+            "type": null,
+            "city": "Warszawa",
+            "courses": null
+        },
+        {
+            "universityName": "Wyższa Szkoła Biznesu - National Louis University z siedzibą w Nowym Sączu",
+            "id": "3c05f6fa-33f3-4290-9b50-5fdcaab81fc5",
+            "coursesOfStudy": 8,
+            "postgraduate": 0,
+            "level": "I Stopnia, Jednolite magisterskie",
+            "type": "Niestacjonarne, Stacjonarne",
+            "city": "Nowy Sącz",
+            "courses": null
+        },
+        {
+            "universityName": "Wyższa Szkoła Biznesu w Gorzowie Wlkp.",
+            "id": "998f24f1-4468-4616-9d1e-72688d91c272",
+            "coursesOfStudy": 2,
+            "postgraduate": 0,
+            "level": null,
+            "type": "Niestacjonarne",
+            "city": "Gorzów Wielkopolski",
+            "courses": null
+        },
+        {
+            "universityName": "Wyższa Szkoła COSINUS w Łodzi",
+            "id": "7219fdd6-e967-42ea-8650-f9cfee0719e6",
+            "coursesOfStudy": 1,
+            "postgraduate": 0,
+            "level": "I Stopnia",
+            "type": "Niestacjonarne",
+            "city": "Łódź",
+            "courses": null
+        },
+        {
+            "universityName": "Wyższa Szkoła Demokracji im. ks. Jerzego Popiełuszki w Grudziądzu",
+            "id": "601a40e6-fbae-42b2-9263-c5ee197602c4",
+            "coursesOfStudy": 8,
+            "postgraduate": 0,
+            "level": "I Stopnia",
+            "type": "Niestacjonarne, Stacjonarne",
+            "city": "Grudziądz",
+            "courses": null
+        },
+        {
+            "universityName": "Wyższa Szkoła - Edukacja w Sporcie w Warszawie",
+            "id": "265951d8-4925-40c7-8dbd-e94e3f261102",
+            "coursesOfStudy": 3,
+            "postgraduate": 0,
+            "level": null,
+            "type": "Niestacjonarne, Stacjonarne",
+            "city": "Warszawa",
+            "courses": null
+        },
+        {
+            "universityName": "Wyższa Szkoła Edukacji i Terapii im. prof. Kazimiery Milanowskiej z siedzibą w Poznaniu",
+            "id": "72b3d95a-0e40-4097-9fb6-172026390a85",
+            "coursesOfStudy": 0,
+            "postgraduate": 0,
+            "level": "I Stopnia, Jednolite magisterskie",
+            "type": null,
+            "city": "Poznań",
+            "courses": null
+        },
+        {
+            "universityName": "Wyższa Szkoła Ekologii i Zarządzania w Warszawie",
+            "id": "83a76794-f991-4cfc-b402-c8d437ae921c",
+            "coursesOfStudy": 19,
+            "postgraduate": 0,
+            "level": "I Stopnia",
+            "type": "Niestacjonarne, Stacjonarne",
+            "city": "Warszawa",
+            "courses": null
+        },
+        {
+            "universityName": "Wyższa Szkoła Ekonomiczna w Białymstoku",
+            "id": "1fcec84d-8626-4995-bec4-edba0403cd4b",
+            "coursesOfStudy": 6,
+            "postgraduate": 0,
+            "level": "I Stopnia",
+            "type": "Niestacjonarne, Stacjonarne",
+            "city": "Białystok",
+            "courses": null
+        },
+        {
+            "universityName": "Wyższa Szkoła Ekonomiczna z siedzibą w Stalowej Woli",
+            "id": "916c5a68-758e-4c62-805e-88d65eb28830",
+            "coursesOfStudy": 0,
+            "postgraduate": 0,
+            "level": null,
+            "type": null,
+            "city": "Stalowa Wola",
+            "courses": null
+        },
+        {
+            "universityName": "Wyższa Szkoła Ekonomiczno-Humanistyczna w Bielsku-Białej",
+            "id": "e410aa6a-a35d-49d6-9ed3-0b299bd53306",
+            "coursesOfStudy": 10,
+            "postgraduate": 0,
+            "level": "I Stopnia",
+            "type": "Niestacjonarne, Stacjonarne",
+            "city": "Bielsko-Biała",
+            "courses": null
+        },
+        {
+            "universityName": "Wyższa Szkoła Ekonomii i Informatyki w Krakowie",
+            "id": "e3652365-860a-4281-bacf-07854882126b",
+            "coursesOfStudy": 6,
+            "postgraduate": 0,
+            "level": "I Stopnia",
+            "type": "Niestacjonarne, Stacjonarne",
+            "city": "Kraków",
+            "courses": null
+        },
+        {
+            "universityName": "Wyższa Szkoła Europejska im. Ks. Józefa Tischnera w Krakowie",
+            "id": "0ae1e262-834d-423c-8180-e33f347d04f4",
+            "coursesOfStudy": 12,
+            "postgraduate": 0,
+            "level": null,
+            "type": "Niestacjonarne, Stacjonarne",
+            "city": "Kraków",
+            "courses": null
+        },
+        {
+            "universityName": "Wyższa Szkoła Finansów i Informatyki im. prof. Janusza Chechlińskiego w Łodzi",
+            "id": "fc604f66-bacd-42ab-8f16-3d4a46821a28",
+            "coursesOfStudy": 2,
+            "postgraduate": 0,
+            "level": "I Stopnia",
+            "type": "Niestacjonarne, Stacjonarne",
+            "city": "Łódź",
+            "courses": null
+        },
+        {
+            "universityName": "Wyższa Szkoła Finansów i Prawa w Bielsku-Białej",
+            "id": "5e819b9a-1276-4b3b-8a61-9ff134b1617a",
+            "coursesOfStudy": 11,
+            "postgraduate": 0,
+            "level": "I Stopnia, Jednolite magisterskie",
+            "type": "Niestacjonarne, Stacjonarne",
+            "city": "Bielsko-Biała",
+            "courses": null
+        },
+        {
+            "universityName": "Wyższa Szkoła Fizjoterapii we Wrocławiu",
+            "id": "67285be6-a589-4918-ad96-509a8324015b",
+            "coursesOfStudy": 5,
+            "postgraduate": 0,
+            "level": null,
+            "type": "Niestacjonarne, Stacjonarne",
+            "city": "Wrocław",
+            "courses": null
+        },
+        {
+            "universityName": "Wyższa Szkoła Gospodarki Euroregionalnej im. Alcide De Gasperi w Józefowie",
+            "id": "f0948450-a5e5-47b0-97e2-9786621fb446",
+            "coursesOfStudy": 9,
+            "postgraduate": 0,
+            "level": "I Stopnia, Jednolite magisterskie",
+            "type": "Niestacjonarne, Stacjonarne",
+            "city": "Józefów",
+            "courses": null
+        },
+        {
+            "universityName": "Wyższa Szkoła Gospodarki i Zarządzania",
+            "id": "fb1fd13c-d33b-47b8-abaa-6228cb094597",
+            "coursesOfStudy": 1,
+            "postgraduate": 0,
+            "level": null,
+            "type": "Niestacjonarne",
+            "city": "Mielec",
+            "courses": null
+        },
+        {
+            "universityName": "Wyższa Szkoła Gospodarki w Bydgoszczy",
+            "id": "68d1c3a0-8989-4957-aaf5-a7a8cfd4c8d8",
+            "coursesOfStudy": 12,
+            "postgraduate": 0,
+            "level": "I Stopnia, Jednolite magisterskie",
+            "type": "Niestacjonarne, Stacjonarne",
+            "city": "Bydgoszcz",
+            "courses": null
+        },
+        {
+            "universityName": "Wyższa Szkoła Hotelarstwa i Gastronomii w Poznaniu w restrukturyzacji",
+            "id": "fd5f938a-b5dc-456b-b4c9-97e8780fee17",
+            "coursesOfStudy": 3,
+            "postgraduate": 0,
+            "level": null,
+            "type": "Niestacjonarne, Stacjonarne",
+            "city": "Poznań",
+            "courses": null
+        },
+        {
+            "universityName": "Wyższa Szkoła Humanistyczna im. Króla Stanisława Leszczyńskiego w Lesznie",
+            "id": "934cca2d-382f-4f93-9eec-d14583ad8315",
+            "coursesOfStudy": 0,
+            "postgraduate": 0,
+            "level": null,
+            "type": null,
+            "city": "Leszno",
+            "courses": null
+        },
+        {
+            "universityName": "Wyższa Szkoła Humanistyczna we Wrocławiu",
+            "id": "101f9a9a-f8c0-4e68-808b-8fd996867bf1",
+            "coursesOfStudy": 0,
+            "postgraduate": 0,
+            "level": null,
+            "type": null,
+            "city": "Wrocław",
+            "courses": null
+        },
+        {
+            "universityName": "Wyższa Szkoła Humanistyczno-Ekonomiczna im. J. Zamoyskiego w Zamościu",
+            "id": "17b5e8d1-5f36-466c-ad73-b5a70bc860fe",
+            "coursesOfStudy": 5,
+            "postgraduate": 0,
+            "level": null,
+            "type": "Niestacjonarne, Stacjonarne",
+            "city": "Zamość",
+            "courses": null
+        },
+        {
+            "universityName": "Wyższa Szkoła Humanistyczno-Ekonomiczna w Brzegu",
+            "id": "b21568d5-4ab0-4114-bfda-9645a46655ae",
+            "coursesOfStudy": 2,
+            "postgraduate": 0,
+            "level": null,
+            "type": "Niestacjonarne",
+            "city": "Brzeg",
+            "courses": null
+        },
+        {
+            "universityName": "Wyższa Szkoła Humanistyczno-Przyrodnicza Studium Generale Sandomiriense w Sandomierzu",
+            "id": "c74b1641-8aff-44ba-bf72-28285d8b6ccd",
+            "coursesOfStudy": 2,
+            "postgraduate": 0,
+            "level": null,
+            "type": "Niestacjonarne",
+            "city": "Sandomierz",
+            "courses": null
+        },
+        {
+            "universityName": "Wyższa Szkoła Informatyki i Umiejętności z siedzibą w Łodzi",
+            "id": "72250623-4444-4a8a-b5a3-954d17231523",
+            "coursesOfStudy": 0,
+            "postgraduate": 0,
+            "level": null,
+            "type": null,
+            "city": "Łódź",
+            "courses": null
+        },
+        {
+            "universityName": "Wyższa Szkoła Informatyki i Zarządzania \"COPERNICUS\" we Wrocławiu",
+            "id": "cd499091-058d-46a3-a0f1-32b033adb719",
+            "coursesOfStudy": 0,
+            "postgraduate": 0,
+            "level": null,
+            "type": null,
+            "city": "Wrocław",
+            "courses": null
+        },
+        {
+            "universityName": "Wyższa Szkoła Informatyki i Zarządzania w Bielsku-Białej",
+            "id": "3d9bc282-1a44-4d45-8d90-39e8be2b1f53",
+            "coursesOfStudy": 1,
+            "postgraduate": 0,
+            "level": null,
+            "type": "Niestacjonarne",
+            "city": "Bielsko-Biała",
+            "courses": null
+        },
+        {
+            "universityName": "Wyższa Szkoła Informatyki i Zarządzania z siedzibą w Rzeszowie",
+            "id": "3c5dddb2-86e1-4522-9731-1dfc03922a5d",
+            "coursesOfStudy": 28,
+            "postgraduate": 0,
+            "level": "I Stopnia, Jednolite magisterskie",
+            "type": "Niestacjonarne, Stacjonarne",
+            "city": "Rzeszów",
+            "courses": null
+        },
+        {
+            "universityName": " Wyższa Szkoła Informatyki i Zdrowia",
+            "id": "24294474-8576-4888-80c1-7bc05698687a",
+            "coursesOfStudy": 0,
+            "postgraduate": 0,
+            "level": null,
+            "type": null,
+            "city": "Przemyśl",
+            "courses": null
+        },
+        {
+            "universityName": "Wyższa Szkoła Informatyki Stosowanej i Zarządzania w Warszawie",
+            "id": "f45e3a34-8b62-426d-847a-81d4b32f53fc",
+            "coursesOfStudy": 12,
+            "postgraduate": 0,
+            "level": "I Stopnia",
+            "type": "Niestacjonarne, Stacjonarne",
+            "city": "Warszawa",
+            "courses": null
+        },
+        {
+            "universityName": "Wyższa Szkoła Integracji Europejskiej w Szczecinie",
+            "id": "da737b9f-8a74-4a2e-bade-42ba5349f102",
+            "coursesOfStudy": 1,
+            "postgraduate": 0,
+            "level": null,
+            "type": "Niestacjonarne",
+            "city": "Szczecin",
+            "courses": null
+        },
+        {
+            "universityName": "Wyższa Szkoła Inżynierii Gospodarki w Słupsku",
+            "id": "0908d83d-124f-46a2-ac70-539264113531",
+            "coursesOfStudy": 2,
+            "postgraduate": 0,
+            "level": null,
+            "type": "Niestacjonarne",
+            "city": "Słupsk",
+            "courses": null
+        },
+        {
+            "universityName": "Wyższa Szkoła Inżynierii i Zdrowia w Warszawie",
+            "id": "ee063a34-0f61-415f-bbc8-25713b4317a2",
+            "coursesOfStudy": 14,
+            "postgraduate": 0,
+            "level": "I Stopnia",
+            "type": "Niestacjonarne, Stacjonarne",
+            "city": "Warszawa",
+            "courses": null
+        },
+        {
+            "universityName": "Wyższa Szkoła Języków Obcych im. Samuela Bogumiła Lindego z siedzibą w Poznaniu",
+            "id": "28e43073-26a6-43f9-9548-8875244335f9",
+            "coursesOfStudy": 4,
+            "postgraduate": 0,
+            "level": "I Stopnia",
+            "type": "Niestacjonarne, Stacjonarne",
+            "city": "Poznań",
+            "courses": null
+        },
+        {
+            "universityName": "Wyższa Szkoła Kadr Menedżerskich",
+            "id": "8a198792-235d-424f-8b77-9c19242ec024",
+            "coursesOfStudy": 14,
+            "postgraduate": 0,
+            "level": null,
+            "type": "Niestacjonarne, Stacjonarne",
+            "city": "Konin",
+            "courses": null
+        },
+        {
+            "universityName": "Wyższa Szkoła Komunikacji i Zarządzania",
+            "id": "a5efad6b-8a79-4c06-a4fd-1cd318786f28",
+            "coursesOfStudy": 2,
+            "postgraduate": 0,
+            "level": "I Stopnia",
+            "type": "Niestacjonarne",
+            "city": "Poznań",
+            "courses": null
+        },
+        {
+            "universityName": "Wyższa Szkoła Komunikacji Społecznej w Gdyni",
+            "id": "8195b6fa-6d2e-444a-ba0a-71fc44b964ca",
+            "coursesOfStudy": 1,
+            "postgraduate": 0,
+            "level": null,
+            "type": "Niestacjonarne",
+            "city": "Gdynia",
+            "courses": null
+        },
+        {
+            "universityName": "Wyższa Szkoła Kosmetyki i Nauk o Zdrowiu w Łodzi",
+            "id": "72d81714-3bf8-4c04-914d-87f2b39d0e58",
+            "coursesOfStudy": 0,
+            "postgraduate": 0,
+            "level": null,
+            "type": null,
+            "city": "Łódź",
+            "courses": null
+        },
+        {
+            "universityName": "Wyższa Szkoła Kształcenia Zawodowego",
+            "id": "9e8bebc0-caef-4388-bfb0-85ffa191ff43",
+            "coursesOfStudy": 0,
+            "postgraduate": 0,
+            "level": null,
+            "type": null,
+            "city": "Wrocław",
+            "courses": null
+        },
+        {
+            "universityName": "Wyższa Szkoła Kultury Fizycznej i Turystyki imienia Haliny Konopackiej w Pruszkowie",
+            "id": "3b6428fc-b155-4126-b3ac-594a7427a637",
+            "coursesOfStudy": 7,
+            "postgraduate": 0,
+            "level": "I Stopnia",
+            "type": "Niestacjonarne, Stacjonarne",
+            "city": "Pruszków",
+            "courses": null
+        },
+        {
+            "universityName": "Wyższa Szkoła Lingwistyczna w Częstochowie",
+            "id": "36507e5c-18ab-423f-9f84-10e90a812cb4",
+            "coursesOfStudy": 5,
+            "postgraduate": 0,
+            "level": null,
+            "type": "Niestacjonarne, Stacjonarne",
+            "city": "Częstochowa",
+            "courses": null
+        },
+        {
+            "universityName": "Wyższa Szkoła Logistyki w Poznaniu",
+            "id": "3e407028-7d71-43ae-b68e-dbe1b4b994c8",
+            "coursesOfStudy": 5,
+            "postgraduate": 0,
+            "level": "I Stopnia",
+            "type": "Niestacjonarne, Stacjonarne",
+            "city": "Poznań",
+            "courses": null
+        },
+        {
+            "universityName": "Wyższa Szkoła Medyczna w Kłodzku",
+            "id": "144cbaf9-791b-4ca5-806e-664cf4591ed9",
+            "coursesOfStudy": 0,
+            "postgraduate": 0,
+            "level": "I Stopnia, Jednolite magisterskie",
+            "type": null,
+            "city": "Kłodzko",
+            "courses": null
+        },
+        {
+            "universityName": "Wyższa Szkoła Medyczna w Legnicy z siedzibą w Legnicy",
+            "id": "41e01a7e-4c4e-48a1-9207-3918b0a77670",
+            "coursesOfStudy": 1,
+            "postgraduate": 0,
+            "level": null,
+            "type": "Stacjonarne",
+            "city": "Legnica",
+            "courses": null
+        },
+        {
+            "universityName": "Wyższa Szkoła Medyczna w Sosnowcu",
+            "id": "81d1f19b-d484-48a4-b639-33e06cef4e62",
+            "coursesOfStudy": 5,
+            "postgraduate": 0,
+            "level": null,
+            "type": "Niestacjonarne, Stacjonarne",
+            "city": "Sosnowiec",
+            "courses": null
+        },
+        {
+            "universityName": "Wyższa Szkoła Medyczna z siedzibą w Białymstoku",
+            "id": "00b685e6-37e7-415a-96a6-f1c6b71dc102",
+            "coursesOfStudy": 9,
+            "postgraduate": 0,
+            "level": "I Stopnia, Jednolite magisterskie",
+            "type": "Niestacjonarne, Stacjonarne",
+            "city": "Białystok",
+            "courses": null
+        },
+        {
+            "universityName": "Wyższa Szkoła Nauk o Zdrowiu w Bydgoszczy",
+            "id": "556d66d6-a803-46e8-a31f-d64cc7ed30ec",
+            "coursesOfStudy": 0,
+            "postgraduate": 0,
+            "level": null,
+            "type": null,
+            "city": "Bydgoszcz",
+            "courses": null
+        },
+        {
+            "universityName": "Wyższa Szkoła Nauk Pedagogicznych",
+            "id": "137b6df9-4392-43aa-a69b-d43409464c92",
+            "coursesOfStudy": 6,
+            "postgraduate": 0,
+            "level": null,
+            "type": "Niestacjonarne, Stacjonarne",
+            "city": "Warszawa",
+            "courses": null
+        },
+        {
+            "universityName": "Wyższa Szkoła Nauk Prawnych  i Administracji im. Leona Petrażyckiego z siedzibą w Wołominie",
+            "id": "c025cd19-7f9f-4dec-8be3-cef01681f693",
+            "coursesOfStudy": 0,
+            "postgraduate": 0,
+            "level": null,
+            "type": null,
+            "city": "Wołomin",
+            "courses": null
+        },
+        {
+            "universityName": "Wyższa Szkoła Nauk Stosowanych w Rudzie Śląskiej",
+            "id": "679a16b9-f49a-4722-95e4-f7e4fbc8383d",
+            "coursesOfStudy": 0,
+            "postgraduate": 0,
+            "level": null,
+            "type": null,
+            "city": "Ruda Śląska",
+            "courses": null
+        },
+        {
+            "universityName": "Wyższa Szkoła Pedagogiczno-Techniczna w Koninie",
+            "id": "6d5fec1e-fd21-4d77-88e6-31d88b3a7cfd",
+            "coursesOfStudy": 0,
+            "postgraduate": 0,
+            "level": null,
+            "type": null,
+            "city": "Konin",
+            "courses": null
+        },
+        {
+            "universityName": "Wyższa Szkoła Planowania Strategicznego w Dąbrowie Górniczej",
+            "id": "cfc33417-3bfa-47f8-8347-764549b87dae",
+            "coursesOfStudy": 5,
+            "postgraduate": 0,
+            "level": null,
+            "type": "Niestacjonarne, Stacjonarne",
+            "city": "Dąbrowa Górnicza",
+            "courses": null
+        },
+        {
+            "universityName": "Wyższa Szkoła Prawa i Administracji Rzeszowska Szkoła Wyższa z siedzibą w Rzeszowie",
+            "id": "20799e6f-33a2-4f1e-b207-065e5cdf3c6e",
+            "coursesOfStudy": 12,
+            "postgraduate": 0,
+            "level": null,
+            "type": "Niestacjonarne, Stacjonarne",
+            "city": "Rzeszów",
+            "courses": null
+        },
+        {
+            "universityName": "Wyższa Szkoła Prawa we Wrocławiu",
+            "id": "7803437e-4c23-4e41-b972-75544db82709",
+            "coursesOfStudy": 4,
+            "postgraduate": 0,
+            "level": "I Stopnia, Jednolite magisterskie",
+            "type": "Niestacjonarne, Stacjonarne",
+            "city": "Wrocław",
+            "courses": null
+        },
+        {
+            "universityName": "Wyższa Szkoła Promocji, Mediów i Show Businessu z siedzibą w Warszawie",
+            "id": "a6434a48-fbaa-44ab-8198-0d8559cb8d04",
+            "coursesOfStudy": 0,
+            "postgraduate": 0,
+            "level": null,
+            "type": null,
+            "city": "Warszawa",
+            "courses": null
+        },
+        {
+            "universityName": "Wyższa Szkoła Przedsiębiorczości i Administracji w Lublinie",
+            "id": "4d259ac8-4395-4ea6-a225-2d2367f7a764",
+            "coursesOfStudy": 31,
+            "postgraduate": 0,
+            "level": null,
+            "type": "Niestacjonarne, Stacjonarne",
+            "city": "Lublin",
+            "courses": null
+        },
+        {
+            "universityName": "Wyższa Szkoła Przedsiębiorczości imienia Księcia Kazimierza Kujawskiego z siedzibą w Inowrocławiu",
+            "id": "2af360a6-cd85-4425-9f2c-ae8dd6d5181a",
+            "coursesOfStudy": 0,
+            "postgraduate": 0,
+            "level": null,
+            "type": null,
+            "city": "Inowrocław",
+            "courses": null
+        },
+        {
+            "universityName": "Wyższa Szkoła Rehabilitacji w Warszawie",
+            "id": "5a8a5898-0933-4e71-bf82-4b071803cb2f",
+            "coursesOfStudy": 7,
+            "postgraduate": 0,
+            "level": "I Stopnia, Jednolite magisterskie",
+            "type": "Niestacjonarne, Stacjonarne",
+            "city": "Warszawa",
+            "courses": null
+        },
+        {
+            "universityName": "Wyższa Szkoła Społeczno-Ekonomiczna w Gdańsku z siedzibą w Gdańsku",
+            "id": "44e50741-c3a3-438f-b878-631a7444c7c2",
+            "coursesOfStudy": 4,
+            "postgraduate": 0,
+            "level": null,
+            "type": "Niestacjonarne, Stacjonarne",
+            "city": "Gdańsk",
+            "courses": null
+        },
+        {
+            "universityName": "Wyższa Szkoła Społeczno-Gospodarcza",
+            "id": "e335f092-2660-4227-a4f2-b5fc824fa8c3",
+            "coursesOfStudy": 1,
+            "postgraduate": 0,
+            "level": null,
+            "type": "Niestacjonarne",
+            "city": "Przeworsk",
+            "courses": null
+        },
+        {
+            "universityName": "Wyższa Szkoła Sportu",
+            "id": "21069827-499d-4b7b-b8ac-861d6a81d989",
+            "coursesOfStudy": 0,
+            "postgraduate": 0,
+            "level": null,
+            "type": null,
+            "city": "Wrocław",
+            "courses": null
+        },
+        {
+            "universityName": "Wyższa Szkoła Stosunków Międzynarodowych i Amerykanistyki w Warszawie",
+            "id": "11e716bb-7b40-41c7-aa71-9d864a1ff0a2",
+            "coursesOfStudy": 2,
+            "postgraduate": 0,
+            "level": null,
+            "type": "Niestacjonarne",
+            "city": "Warszawa",
+            "courses": null
+        },
+        {
+            "universityName": "Wyższa Szkoła Sztuki i Projektowania w Łodzi",
+            "id": "3b39405a-b0ef-47b8-b4d8-afc8c5b6bf50",
+            "coursesOfStudy": 9,
+            "postgraduate": 0,
+            "level": "I Stopnia, Jednolite magisterskie",
+            "type": "Niestacjonarne, Stacjonarne",
+            "city": "Łódź",
+            "courses": null
+        },
+        {
+            "universityName": "Wyższa Szkoła Technik Komputerowych i Telekomunikacji w Kielcach",
+            "id": "f131b35d-dff6-4ccc-9060-37068ab397bf",
+            "coursesOfStudy": 1,
+            "postgraduate": 0,
+            "level": null,
+            "type": "Niestacjonarne",
+            "city": "Kielce",
+            "courses": null
+        },
+        {
+            "universityName": "Wyższa Szkoła Technologii Informatycznych w Katowicach",
+            "id": "a97e315c-ecb9-48d4-8b17-139cd00cf1b0",
+            "coursesOfStudy": 5,
+            "postgraduate": 0,
+            "level": "I Stopnia",
+            "type": "Niestacjonarne, Stacjonarne",
+            "city": "Katowice",
+            "courses": null
+        },
+        {
+            "universityName": "Wyższa Szkoła Teologiczno-Humanistyczna im. Michała Beliny-Czechowskiego w Podkowie Leśnej",
+            "id": "319f7f9e-76e6-4375-80af-2146ef9d233d",
+            "coursesOfStudy": 0,
+            "postgraduate": 0,
+            "level": null,
+            "type": null,
+            "city": "Podkowa Leśna",
+            "courses": null
+        },
+        {
+            "universityName": "Wyższa Szkoła Teologiczno–Społeczna w Warszawie",
+            "id": "4aecf29f-7608-4f43-bc94-857164701d2d",
+            "coursesOfStudy": 0,
+            "postgraduate": 0,
+            "level": null,
+            "type": null,
+            "city": "Warszawa",
+            "courses": null
+        },
+        {
+            "universityName": "Wyższa Szkoła Turystyki i Ekologii w Suchej Beskidzkiej",
+            "id": "51e4a538-dc3e-4804-8016-dcb1f9cb5403",
+            "coursesOfStudy": 8,
+            "postgraduate": 0,
+            "level": "I Stopnia",
+            "type": "Niestacjonarne, Stacjonarne",
+            "city": "Sucha Beskidzka",
+            "courses": null
+        },
+        {
+            "universityName": "Wyższa Szkoła Turystyki i Hotelarstwa w Gdańsku",
+            "id": "4766cee7-9db8-487a-9b5c-0bc907959d06",
+            "coursesOfStudy": 4,
+            "postgraduate": 0,
+            "level": null,
+            "type": "Niestacjonarne, Stacjonarne",
+            "city": "Gdańsk",
+            "courses": null
+        },
+        {
+            "universityName": "Wyższa Szkoła Turystyki i Języków Obcych w Warszawie",
+            "id": "6608c591-5c9e-43d2-9728-208712676af2",
+            "coursesOfStudy": 7,
+            "postgraduate": 0,
+            "level": null,
+            "type": "Niestacjonarne, Stacjonarne",
+            "city": "Warszawa",
+            "courses": null
+        },
+        {
+            "universityName": "Wyższa Szkoła Umiejętności Społecznych im. prof. Michała Iwaszkiewicza",
+            "id": "5de5a414-15da-419b-9d20-25386c4e6668",
+            "coursesOfStudy": 11,
+            "postgraduate": 0,
+            "level": null,
+            "type": "Niestacjonarne, Stacjonarne",
+            "city": "Poznań",
+            "courses": null
+        },
+        {
+            "universityName": "Wyższa Szkoła Umiejętności Zawodowych w Pińczowie",
+            "id": "d59cb93d-2828-4aae-a428-ca67b197d496",
+            "coursesOfStudy": 1,
+            "postgraduate": 0,
+            "level": "I Stopnia",
+            "type": "Stacjonarne",
+            "city": "Pińczów",
+            "courses": null
+        },
+        {
+            "universityName": "Wyższa Szkoła Uni-Terra z siedzibą w Poznaniu",
+            "id": "e1acc9a8-8dde-4f56-95a2-47f48ecd38be",
+            "coursesOfStudy": 2,
+            "postgraduate": 0,
+            "level": "I Stopnia",
+            "type": "Niestacjonarne",
+            "city": "Poznań",
+            "courses": null
+        },
+        {
+            "universityName": "Wyższa Szkoła Współpracy Międzynarodowej i Regionalnej im. Zygmunta Glogera z siedzibą w Wołominie",
+            "id": "01cbd4f6-a30e-4fbd-8c99-00edae5e20ce",
+            "coursesOfStudy": 0,
+            "postgraduate": 0,
+            "level": null,
+            "type": null,
+            "city": "Wołomin",
+            "courses": null
+        },
+        {
+            "universityName": "Wyższa Szkoła Zarządzania \"Edukacja\" we Wrocławiu",
+            "id": "86ff091b-80b2-496d-b605-11b62cd31c53",
+            "coursesOfStudy": 5,
+            "postgraduate": 0,
+            "level": "I Stopnia",
+            "type": "Niestacjonarne",
+            "city": "Wrocław",
+            "courses": null
+        },
+        {
+            "universityName": "Wyższa Szkoła Zarządzania i Bankowości w Krakowie",
+            "id": "c59b173f-dc1e-45d4-953b-ac287f9f462f",
+            "coursesOfStudy": 11,
+            "postgraduate": 0,
+            "level": "I Stopnia",
+            "type": "Niestacjonarne, Stacjonarne",
+            "city": "Kraków",
+            "courses": null
+        },
+        {
+            "universityName": "Wyższa Szkoła Zarządzania i Bankowości w Poznaniu",
+            "id": "1adee364-c40c-4907-bf64-3a996722aeaf",
+            "coursesOfStudy": 4,
+            "postgraduate": 0,
+            "level": "I Stopnia",
+            "type": "Niestacjonarne",
+            "city": "Poznań",
+            "courses": null
+        },
+        {
+            "universityName": "Wyższa Szkoła Zarządzania i Przedsiębiorczości z siedzibą w Wałbrzychu",
+            "id": "c3e10b74-9d98-46a4-976a-4cd814b37dcb",
+            "coursesOfStudy": 6,
+            "postgraduate": 0,
+            "level": null,
+            "type": "Niestacjonarne",
+            "city": "Wałbrzych",
+            "courses": null
+        },
+        {
+            "universityName": "Wyższa Szkoła Zarządzania Ochroną Pracy w Katowicach",
+            "id": "ab7d0879-d980-4e0f-ac78-17ee415556c0",
+            "coursesOfStudy": 14,
+            "postgraduate": 0,
+            "level": "I Stopnia",
+            "type": "Niestacjonarne, Stacjonarne",
+            "city": "Katowice",
+            "courses": null
+        },
+        {
+            "universityName": "Wyższa Szkoła Zarządzania Środowiskiem w Tucholi",
+            "id": "2548492e-69a5-40b0-a2d2-b9935fec0ac7",
+            "coursesOfStudy": 3,
+            "postgraduate": 0,
+            "level": "I Stopnia",
+            "type": "Niestacjonarne",
+            "city": "Tuchola",
+            "courses": null
+        },
+        {
+            "universityName": "Wyższa Szkoła Zarządzania w Częstochowie",
+            "id": "0c328e29-8775-4361-82e9-4807b8afdada",
+            "coursesOfStudy": 2,
+            "postgraduate": 0,
+            "level": null,
+            "type": "Niestacjonarne, Stacjonarne",
+            "city": "Częstochowa",
+            "courses": null
+        },
+        {
+            "universityName": "Wyższa Szkoła Zawodowa Łódzkiej Korporacji Oświatowej w Łodzi",
+            "id": "eb172801-41df-437e-a49a-318a914d0ef2",
+            "coursesOfStudy": 0,
+            "postgraduate": 0,
+            "level": null,
+            "type": null,
+            "city": "Łódź",
+            "courses": null
+        },
+        {
+            "universityName": "Wyższa Szkoła Zawodowa Ochrony Zdrowia TWP w Łomży z siedzibą w Łomży",
+            "id": "bd6cd845-3f7b-4048-9130-10e207c37a5a",
+            "coursesOfStudy": 1,
+            "postgraduate": 0,
+            "level": null,
+            "type": "Niestacjonarne",
+            "city": "Łomża",
+            "courses": null
+        },
+        {
+            "universityName": "Wyższa Szkoła Zawodowa w Gorzowie Wielkopolskim",
+            "id": "918b27f7-787e-47e1-b102-2556702871b4",
+            "coursesOfStudy": 1,
+            "postgraduate": 0,
+            "level": null,
+            "type": "Niestacjonarne",
+            "city": "Gorzów Wielkopolski",
+            "courses": null
+        },
+        {
+            "universityName": "Wyższa Szkoła Zdrowia, Urody i Edukacji w Poznaniu",
+            "id": "bdc1496e-6893-46d2-9c7c-aae16736c49d",
+            "coursesOfStudy": 5,
+            "postgraduate": 0,
+            "level": "I Stopnia",
+            "type": "Niestacjonarne, Stacjonarne",
+            "city": "Poznań",
+            "courses": null
+        },
+        {
+            "universityName": "Wyższa Szkoła Zdrowia w Gdańsku",
+            "id": "a29a02e7-e750-465c-b925-26dd8dffb03f",
+            "coursesOfStudy": 8,
+            "postgraduate": 0,
+            "level": "I Stopnia, Jednolite magisterskie",
+            "type": "Niestacjonarne, Stacjonarne",
+            "city": "Gdańsk",
+            "courses": null
+        },
+        {
+            "universityName": "Wyższe Seminarium Duchowne Diecezji Pelplińskiej",
+            "id": "a3e9ea32-d000-47c3-a97b-956c903ac4d7",
+            "coursesOfStudy": 0,
+            "postgraduate": 0,
+            "level": null,
+            "type": null,
+            "city": "Pelplin",
+            "courses": null
+        },
+        {
+            "universityName": "Wyższe Seminarium Duchowne Kościoła Polskokatolickiego w Warszawie",
+            "id": "25aafc77-2627-48e3-a571-8ab459ebf596",
+            "coursesOfStudy": 0,
+            "postgraduate": 0,
+            "level": null,
+            "type": null,
+            "city": "Warszawa",
+            "courses": null
+        },
+        {
+            "universityName": "Wyższe Seminarium Duchowne Towarzystwa Salezjańskiego w Lądzie",
+            "id": "ebd9f691-1e0c-4ebd-8caa-e3dea0271a8b",
+            "coursesOfStudy": 0,
+            "postgraduate": 0,
+            "level": null,
+            "type": null,
+            "city": "Ląd",
+            "courses": null
+        },
+        {
+            "universityName": "Wyższe Seminarium Duchowne w Przemyślu",
+            "id": "da4dfb50-4b7e-4fc5-a519-bcd6a50f1080",
+            "coursesOfStudy": 0,
+            "postgraduate": 0,
+            "level": null,
+            "type": null,
+            "city": "Przemyśl",
+            "courses": null
+        },
+        {
+            "universityName": "Wyższe Seminarium Duchowne w Rzeszowie",
+            "id": "8f397075-6c82-4e7d-91eb-165f852a697b",
+            "coursesOfStudy": 0,
+            "postgraduate": 0,
+            "level": null,
+            "type": null,
+            "city": "Rzeszów",
+            "courses": null
+        },
+        {
+            "universityName": "Wyższe Seminarium Teologiczne imienia Jana Łaskiego w Warszawie",
+            "id": "44bb8fe2-6b6e-4244-aa94-f699cdb54464",
+            "coursesOfStudy": 0,
+            "postgraduate": 0,
+            "level": null,
+            "type": null,
+            "city": "Warszawa",
+            "courses": null
+        },
+        {
+            "universityName": "Wyższy Instytut Teologiczny w Częstochowie",
+            "id": "16aee23e-2e14-4f19-9cd5-ecba5b96dfe3",
+            "coursesOfStudy": 0,
+            "postgraduate": 0,
+            "level": null,
+            "type": null,
+            "city": "Częstochowa",
+            "courses": null
+        },
+        {
+            "universityName": "Zachodniopomorska Szkoła Biznesu - Akademia Nauk Stosowanych",
+            "id": "1ee35a5d-c458-4b50-bd98-3cd10b031744",
+            "coursesOfStudy": 8,
+            "postgraduate": 0,
+            "level": "I Stopnia",
+            "type": "Niestacjonarne, Stacjonarne",
+            "city": "Szczecin",
+            "courses": null
+        },
+        {
+            "universityName": "Zachodniopomorski Uniwersytet Technologiczny w Szczecinie",
+            "id": "cbb942c6-1d86-46e5-9ed8-b5e06f440d82",
+            "coursesOfStudy": 81,
+            "postgraduate": 0,
+            "level": "I Stopnia",
+            "type": "Niestacjonarne, Stacjonarne",
+            "city": "Szczecin",
+            "courses": null
+        }
+    ]
+}

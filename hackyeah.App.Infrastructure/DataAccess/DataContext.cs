@@ -15,7 +15,7 @@ public class DataContext : DbContext, IUnitOfWork
     private DbSet<DegreeCourse> _directions { get; set; }
     public IInstitutionRepository<UniversityData> UniversityData => new InstitutionRepository<UniversityData>(_universityData);
     public ICityRepository Cities => new CityRepository(_cities);
-    public IBaseRepository<DegreeCourse> DegreeCourses => new BaseRepository<DegreeCourse>(_directions);
+    public IDegreeCourseRepository DegreeCourses => new DegreeCourseRepository(_directions);
 
     public DataContext(DbContextOptions<DataContext> options) : base(options)
     {

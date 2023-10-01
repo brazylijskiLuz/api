@@ -26,8 +26,8 @@ public class UniversityController : BaseApiController
     [Route("by-id")]
     public Task<IActionResult> GetById(Guid id) => Endpoint(new GetById.Command(id));
 
-    //[HttpGet]
-    //[Route("by-city")]
-    //public Task<IActionResult> GetByCity(Guid cityId, int page = 0) => Endpoint(new GetByCity.Command(cityId, page));
+    [HttpGet]
+    [Route("degree-course")]
+    public Task<IActionResult> GetByDegreeCourse(string name, int page = 0) => Endpoint(new GetByDegreeCourse.Command(name, page));
 }
 

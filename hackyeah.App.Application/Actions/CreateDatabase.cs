@@ -6,6 +6,7 @@ using hackyeah.App.Domain.Enums;
 using hackyeah.App.Domain.ValueObjects;
 using MediatR;
 using Newtonsoft.Json;
+using Newtonsoft.Json.Linq;
 
 namespace hackyeah.App.Application.Actions;
 
@@ -26,25 +27,41 @@ public static class CreateDatabase
         {
             //read file
             int j = 0;
-            var data = await File.ReadAllLinesAsync("db.csv", Encoding.UTF8, cancellationToken);
-            foreach (var i in data)
+            int it = 0;
+            dynamic data = JsonConvert.DeserializeObject(await File.ReadAllTextAsync("db.csv", Encoding.UTF8, cancellationToken));
+            foreach (var i in data["list"] as JArray)
             {
-                var y = i.Split(',', StringSplitOptions.TrimEntries);
-                var x = new DegreeCourse()
+                string name = i.Value<string>("universityName");
+                var u = await _unitOfWork.UniversityData.GetByFilterAsync(c =>
+                    c.InstitutionName == name, 0, 1, cancellationToken);
+                
+                if (u.Count == 0)
+                    continue;
+                var university = u.FirstOrDefault();
+                var apiId = i.Value<string>("id");
+                HttpClient client = new HttpClient();
+                var res = await client.GetAsync($"https://aplikacje.edukacja.gov.pl/api/internal-data-hub/public/opi/university/{apiId}/course", cancellationToken);
+                
+                dynamic courses = JsonConvert.DeserializeObject(await res.Content.ReadAsStringAsync(cancellationToken));
+                foreach (var a in courses["list"] as JArray)
                 {
-                    Name = y[1].ToString(),
-                    UniversityId = Guid.Parse(y[5].ToString()),
-                    Description = y[2].ToString(),
-                    Rate = Convert.ToInt32(y[3]),
-                    RateCount = Convert.ToInt32(y[4]),
-                    ModeOfStudy = (ModeOfStudy)int.Parse(y[6]),
-                    Price = Convert.ToInt32(y[7])
-                };
-                j++;
-                Console.WriteLine(j);
-                await _unitOfWork.DegreeCourses.AddAsync(x, cancellationToken);
+                    var x = new DegreeCourse()
+                    {
+                        Name = a.Value<string>("name"),
+                        UniversityId = university.Id,
+                        Description = "",
+                        Rate = 0,
+                        RateCount = 0,
+                        ModeOfStudy = a.Value<string>("formLabel") == "Niestacjonarne" ? ModeOfStudy.Remote : ModeOfStudy.Stationary,
+                        Price = 0,
+                        Id = Guid.NewGuid()
+                    };
+                    j++;
+                    Console.WriteLine(j);
+                    await _unitOfWork.DegreeCourses.AddAsync(x, cancellationToken);
+                }
             }
-
+            Console.WriteLine("abc " + it);
             await _unitOfWork.SaveChangesAsync(cancellationToken);
             return Unit.Value;
         }
