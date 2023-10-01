@@ -105,4 +105,7 @@ public class InstitutionRepository<T> : BaseRepository<T>, IInstitutionRepositor
         _entities
             .Include(c => c.DegreeCourse)
             .Where(c => string.Equals(c.Address.City, city, StringComparison.CurrentCultureIgnoreCase)).ToListAsync<T>(cancellationToken: cancellationToken);
+
+    public Task<T?> GetByIdAsync(Guid? id, CancellationToken cancellationToken = default) => 
+        _entities.Include(c => c.DegreeCourse).FirstOrDefaultAsync(c => c.Id == id , cancellationToken);
 }

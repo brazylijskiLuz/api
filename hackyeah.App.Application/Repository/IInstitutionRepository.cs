@@ -13,4 +13,6 @@ public interface IInstitutionRepository<T> : IBaseRepository<T> where T : Entity
         string requestCity,
         CancellationToken cancellationToken);
     Task<List<T>> GetByCityAsync(string city, int page, int pageSize, CancellationToken cancellationToken);
+    Task<T?> GetByIdAsync(Guid? id, CancellationToken cancellationToken = default);
+
 }
