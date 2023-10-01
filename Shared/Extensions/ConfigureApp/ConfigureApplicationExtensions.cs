@@ -32,8 +32,11 @@ public static class ConfigureApplicationExtensions
         app.UseMiddleware<ExceptionMiddleware>();
         app.UseMiddleware<UserProviderMiddleware>();
 
+        app.UseCors(c => c.AllowAnyOrigin().AllowAnyHeader().AllowAnyMethod());
+        
         app.UseEndpoints(endpoints =>
         {
+            
             endpoints.MapControllers();
             endpoints.MapSwagger();
             endpoints.MapGet("/",
