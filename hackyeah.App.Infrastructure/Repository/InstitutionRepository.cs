@@ -22,8 +22,9 @@ public class InstitutionRepository<T> : BaseRepository<T>, IInstitutionRepositor
 
 
 
-    public Task<List<T>> GetByQueryAsync(string query, int page, List<InstitutionType> institutionTypes, 
-        int minPrice, int maxPrice, int pageSize,ModeOfStudy mode, CancellationToken cancellationToken)
+    public Task<List<T>> GetByQueryAsync(string query, int page, List<InstitutionType> institutionTypes,
+        int minPrice, int maxPrice, int pageSize, ModeOfStudy mode, string city,
+        CancellationToken cancellationToken)
     {
         if (maxPrice == 0)
         {
@@ -89,7 +90,7 @@ public class InstitutionRepository<T> : BaseRepository<T>, IInstitutionRepositor
             i++;        
         }
 
-        sql += $") OFFSET  {page * pageSize} limit {pageSize}";
+        sql += $") AND Lower(\"Address_City\") LIKE '%{city.ToLower()}%' OFFSET  {page * pageSize} limit {pageSize}";
 
         Console.WriteLine(sql);
         return _entities.FromSqlRaw(sql)
