@@ -20,7 +20,7 @@ public static class GetById
         }
 
         public Task<UniversityData> Handle(Command request, CancellationToken cancellationToken) =>
-            _unitOfWork.UniversityData.GetByIdAsync(request.Id, cancellationToken).AsTask();
+            _unitOfWork.UniversityData.GetByIdAsync(request.Id, cancellationToken);
 
         public sealed class Validator : AbstractValidator<Command>
         {
