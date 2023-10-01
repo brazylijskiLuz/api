@@ -100,7 +100,6 @@ public class InstitutionRepository<T> : BaseRepository<T>, IInstitutionRepositor
                 .DegreeCourse
                 .Where(c => 
                     (c.Price >= minPrice && c.Price <= maxPrice) && c.ModeOfStudy == mode || mode == ModeOfStudy.All))
-            .Where(c => c.DegreeCourse.Any(x => requestDegreeCourses.Contains(x.Id)))
         .ToListAsync<T>(cancellationToken: cancellationToken);
     }
 
