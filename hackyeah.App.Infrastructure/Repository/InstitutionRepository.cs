@@ -1,3 +1,4 @@
+using System.Diagnostics;
 using System.Linq.Expressions;
 using hackyeah.App.Application.Repository;
 using hackyeah.App.Domain.Entities;
@@ -97,18 +98,23 @@ public class InstitutionRepository<T> : BaseRepository<T>, IInstitutionRepositor
             .Include(c => c
                 .DegreeCourse
                 .Where(c => 
-                    (c.Price >= minPrice && c.Price <= maxPrice) &&
-                    (c.ModeOfStudy == ModeOfStudy.All ? 
-                        
-                            (c.ModeOfStudy == mode) :
-                            c.ModeOfStudy == ModeOfStudy.Remote || c.ModeOfStudy == ModeOfStudy.Stationary
-                        )
-                ))
-            .ToListAsync<T>(cancellationToken: cancellationToken);
+                    (c.Price >= minPrice && c.Price <= maxPrice) && c.ModeOfStudy == mode || mode == ModeOfStudy.All))
+        .ToListAsync<T>(cancellationToken: cancellationToken);
     }
 
     public Task<List<T>> GetByCityAsync(string city, int page, int pageSize, CancellationToken cancellationToken) => 
         _entities
             .Include(c => c.DegreeCourse)
             .Where(c => string.Equals(c.Address.City, city, StringComparison.CurrentCultureIgnoreCase)).ToListAsync<T>(cancellationToken: cancellationToken);
+
+    private static bool CheckModeOfStudy(ModeOfStudy mode, DegreeCourse c)
+    {
+        return mode switch
+        {
+            ModeOfStudy.All => true,
+            ModeOfStudy.Stationary => c.ModeOfStudy == ModeOfStudy.Stationary,
+            ModeOfStudy.Remote => c.ModeOfStudy == ModeOfStudy.Remote,
+            _ => false
+        };
+    }
 }
