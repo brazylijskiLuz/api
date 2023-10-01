@@ -90,7 +90,7 @@ public class InstitutionRepository<T> : BaseRepository<T>, IInstitutionRepositor
             i++;        
         }
 
-        sql += $") AND Lower(\"Address_City\") LIKE '%{city.ToLower()}%' OFFSET  {page * pageSize} limit {pageSize}";
+        sql += $") AND Lower(\"Address_City\") LIKE '%{city.ToLower()}%' order by \"Rate\" DESC OFFSET  {page * pageSize} limit {pageSize} ";
 
         Console.WriteLine(sql);
         return _entities.FromSqlRaw(sql)
@@ -99,8 +99,9 @@ public class InstitutionRepository<T> : BaseRepository<T>, IInstitutionRepositor
                 .Where(c => 
                     (c.Price >= minPrice && c.Price <= maxPrice) &&
                     (c.ModeOfStudy == ModeOfStudy.All ? 
-                        c.ModeOfStudy == ModeOfStudy.Remote || c.ModeOfStudy == ModeOfStudy.Stationary :
-                            (c.ModeOfStudy == mode)
+                        
+                            (c.ModeOfStudy == mode) :
+                            c.ModeOfStudy == ModeOfStudy.Remote || c.ModeOfStudy == ModeOfStudy.Stationary
                         )
                 ))
             .ToListAsync<T>(cancellationToken: cancellationToken);

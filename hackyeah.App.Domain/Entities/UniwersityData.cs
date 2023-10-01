@@ -18,6 +18,7 @@ public class UniversityData : Entity
     public int Rate { get; set; }
     public int RateCount { get; set; }
     public string Description { get; set; }
+    public string ImageUrl { get; set; }
     public InstitutionType Type { get; set; }
     public ICollection<DegreeCourse> DegreeCourse { get; set; }
 }
